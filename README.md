@@ -1,4 +1,4 @@
-# nscardprice
+# NSCardPriceCLI
 
 Go 编写的 Nintendo Switch 卡带回收价查询 CLI。读取 `data/games.json` 中的游戏与商家商品 ID，查询**老猎人、火枪手、不二家、杭州西子**四家回收商的回收价/售价，以 JSON 输出，方便终端使用或供 agent/脚本消费。
 
