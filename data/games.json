@@ -1,0 +1,835 @@
+[
+  {
+    "slug": "zelda-breath-of-the-wild",
+    "name": "塞尔达传说 旷野之息",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "154"
+      },
+      "huoqiangshou": {
+        "game_id": "641"
+      },
+      "buerjia": {
+        "game_id": "3"
+      },
+      "hangzhouxizi": {
+        "game_id": "50",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "786"
+      }
+    }
+  },
+  {
+    "slug": "zelda-tears-of-the-kingdom",
+    "name": "塞尔达传说 王国之泪",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3282"
+      },
+      "huoqiangshou": {
+        "game_id": "2475"
+      },
+      "buerjia": {
+        "game_id": "2"
+      },
+      "hangzhouxizi": {
+        "game_id": "13",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "822"
+      }
+    },
+    "search_keyword": "王国之泪"
+  },
+  {
+    "slug": "zelda-breath-of-the-wild-bundle",
+    "name": "塞尔达传说 旷野之息 DLC同捆",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3132"
+      },
+      "huoqiangshou": {
+        "game_id": "2297"
+      },
+      "buerjia": {
+        "game_id": "19"
+      },
+      "hangzhouxizi": {
+        "game_id": "50",
+        "sku_id": "787",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      }
+    }
+  },
+  {
+    "slug": "zelda-echoes-of-wisdom",
+    "name": "塞尔达传说 智慧的再现",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3477"
+      },
+      "huoqiangshou": {
+        "game_id": "3045"
+      },
+      "buerjia": {
+        "game_id": "48"
+      },
+      "hangzhouxizi": {
+        "game_id": "748",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "897"
+      }
+    }
+  },
+  {
+    "slug": "fitness-boxing-3",
+    "name": "有氧拳击 3",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3548"
+      },
+      "huoqiangshou": {
+        "game_id": "3057"
+      },
+      "buerjia": {
+        "game_id": "159"
+      },
+      "hangzhouxizi": {
+        "game_id": "763",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "914"
+      }
+    }
+  },
+  {
+    "slug": "super-mario-party-jamboree",
+    "name": "马里奥派对 空前盛会",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3481"
+      },
+      "huoqiangshou": {
+        "game_id": "3047"
+      },
+      "buerjia": {
+        "game_id": "23"
+      },
+      "hangzhouxizi": {
+        "game_id": "753",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "902"
+      }
+    }
+  },
+  {
+    "slug": "super-mario-party",
+    "name": "超级马里奥派对",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "333"
+      },
+      "huoqiangshou": {
+        "game_id": "1270"
+      },
+      "buerjia": {
+        "game_id": "6"
+      },
+      "hangzhouxizi": {
+        "game_id": "158",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "221"
+      }
+    },
+    "search_keyword": "马里奥 派对"
+  },
+  {
+    "slug": "super-mario-odyssey",
+    "name": "超级马力欧 奥德赛",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "192"
+      },
+      "huoqiangshou": {
+        "game_id": "1263"
+      },
+      "buerjia": {
+        "game_id": "4"
+      },
+      "hangzhouxizi": {
+        "game_id": "51",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "778"
+      }
+    }
+  },
+  {
+    "slug": "super-mario-bros-wonder",
+    "name": "超级马里奥兄弟 惊奇",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3312"
+      },
+      "huoqiangshou": {
+        "game_id": "2951"
+      },
+      "buerjia": {
+        "game_id": "27"
+      },
+      "hangzhouxizi": {
+        "game_id": "697",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "818"
+      }
+    }
+  },
+  {
+    "slug": "mario-kart-8-deluxe",
+    "name": "马里奥赛车 8 豪华版",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "153"
+      },
+      "huoqiangshou": {
+        "game_id": "1269"
+      },
+      "buerjia": {
+        "game_id": "5"
+      },
+      "hangzhouxizi": {
+        "game_id": "107",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "148"
+      }
+    }
+  },
+  {
+    "slug": "mario-river",
+    "name": "马里奥银河1+2",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3694"
+      },
+      "huoqiangshou": {
+        "game_id": "3504"
+      },
+      "buerjia": {
+        "game_id": "1048"
+      },
+      "hangzhouxizi": {
+        "game_id": "883",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "1056"
+      }
+    }
+  },
+  {
+    "slug": "luigis-mansion-3",
+    "name": "路易吉鬼屋 3",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "477"
+      },
+      "huoqiangshou": {
+        "game_id": "1268"
+      },
+      "buerjia": {
+        "game_id": "22"
+      },
+      "hangzhouxizi": {
+        "game_id": "61",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "845"
+      }
+    }
+  },
+  {
+    "slug": "kirby-and-the-forgotten-land",
+    "name": "星之卡比 探索发现",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3174"
+      },
+      "huoqiangshou": {
+        "game_id": "2310"
+      },
+      "buerjia": {
+        "game_id": "31"
+      },
+      "hangzhouxizi": {
+        "game_id": "71",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "106"
+      }
+    }
+  },
+  {
+    "slug": "pokemon-legends-z-a",
+    "name": "宝可梦传说 Z-A",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3637"
+      },
+      "huoqiangshou": {
+        "game_id": "3490"
+      },
+      "buerjia": {
+        "game_id": "1027"
+      },
+      "hangzhouxizi": {
+        "game_id": "841",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "1003"
+      }
+    }
+  },
+  {
+    "slug": "splatoon-3",
+    "name": "斯普拉遁 3",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3009"
+      },
+      "huoqiangshou": {
+        "game_id": "1770"
+      },
+      "buerjia": {
+        "game_id": "47"
+      },
+      "hangzhouxizi": {
+        "game_id": "108",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "149"
+      }
+    }
+  },
+  {
+    "slug": "it-takes-two",
+    "name": "双人成行",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3252"
+      },
+      "huoqiangshou": {
+        "game_id": "2449"
+      },
+      "buerjia": {
+        "game_id": "20"
+      },
+      "hangzhouxizi": {
+        "game_id": "31",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "55"
+      }
+    }
+  },
+  {
+    "slug": "dave-the-diver",
+    "name": "潜水员戴夫",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3432"
+      },
+      "huoqiangshou": {
+        "game_id": "3017"
+      },
+      "buerjia": {
+        "game_id": "53"
+      },
+      "hangzhouxizi": {
+        "game_id": "737",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "884"
+      }
+    }
+  },
+  {
+    "slug": "tomodachi-life-living-the-dream",
+    "name": "朋友聚会",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3740"
+      },
+      "huoqiangshou": {
+        "game_id": "3593"
+      },
+      "buerjia": {
+        "game_id": "1087"
+      },
+      "hangzhouxizi": {
+        "game_id": "876",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "1049"
+      }
+    }
+  },
+  {
+    "slug": "pikimin-4",
+    "name": "皮克敏4",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3313"
+      },
+      "huoqiangshou": {
+        "game_id": "2954"
+      },
+      "buerjia": {
+        "game_id": "79"
+      },
+      "hangzhouxizi": {
+        "game_id": "510",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "610"
+      }
+    },
+    "search_keyword": "皮克敏"
+  },
+  {
+    "slug": "animal-corssing",
+    "name": "捡树枝",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3160"
+      },
+      "huoqiangshou": {
+        "game_id": "1776"
+      },
+      "buerjia": {
+        "game_id": ""
+      },
+      "hangzhouxizi": {
+        "game_id": ""
+      }
+    },
+    "search_keyword": "动物森友会"
+  },
+  {
+    "slug": "xenoblade1",
+    "name": "异度之刃1",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "641"
+      },
+      "huoqiangshou": {
+        "game_id": "1267"
+      },
+      "buerjia": {
+        "game_id": "57"
+      },
+      "hangzhouxizi": {
+        "game_id": "299",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "383"
+      }
+    }
+  },
+  {
+    "slug": "xenoblade2",
+    "name": "异度之刃2",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "213"
+      },
+      "huoqiangshou": {
+        "game_id": "1273"
+      },
+      "buerjia": {
+        "game_id": "58"
+      },
+      "hangzhouxizi": {
+        "game_id": "297",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "381"
+      }
+    }
+  },
+  {
+    "slug": "xenoblade3",
+    "name": "异度之刃3",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3216"
+      },
+      "huoqiangshou": {
+        "game_id": "2370"
+      },
+      "buerjia": {
+        "game_id": "60"
+      },
+      "hangzhouxizi": {
+        "game_id": "102",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "143"
+      }
+    }
+  },
+  {
+    "slug": "overcooked-all",
+    "name": "胡闹厨房 全都好吃",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "2806"
+      },
+      "huoqiangshou": {
+        "game_id": "1769"
+      },
+      "buerjia": {
+        "game_id": "66"
+      },
+      "hangzhouxizi": {
+        "game_id": "251",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      }
+    }
+  },
+  {
+    "slug": "nzcp123",
+    "name": "逆转裁判123",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "400"
+      },
+      "huoqiangshou": {
+        "game_id": "1310"
+      },
+      "buerjia": {
+        "game_id": "69"
+      },
+      "hangzhouxizi": {
+        "game_id": "516"
+      }
+    }
+  },
+  {
+    "slug": "super-mario-party-jamboree-tv-ns2",
+    "name": "NS2 空前盛会 TV",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3621"
+      },
+      "huoqiangshou": {
+        "game_id": "3215"
+      },
+      "buerjia": {
+        "game_id": "466"
+      },
+      "hangzhouxizi": {
+        "game_id": "813",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "974"
+      }
+    }
+  },
+  {
+    "slug": "zelda-tears-of-the-kingdom-ns2",
+    "name": "NS2 王国之泪",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3590"
+      },
+      "huoqiangshou": {
+        "game_id": "3194"
+      },
+      "buerjia": {
+        "game_id": "456"
+      },
+      "hangzhouxizi": {
+        "game_id": "795",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "956"
+      }
+    }
+  },
+  {
+    "slug": "zelda-breath-of-the-wild-ns2",
+    "name": "NS2 旷野之息",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3591"
+      },
+      "huoqiangshou": {
+        "game_id": "3195"
+      },
+      "buerjia": {
+        "game_id": "455"
+      },
+      "hangzhouxizi": {
+        "game_id": "796",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "957"
+      }
+    }
+  },
+  {
+    "slug": "donkey-kong-bananza",
+    "name": "NS2 大金刚 蕉力全开",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3612"
+      },
+      "huoqiangshou": {
+        "game_id": "3211"
+      },
+      "buerjia": {
+        "game_id": "465"
+      },
+      "hangzhouxizi": {
+        "game_id": "812",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "973"
+      }
+    }
+  },
+  {
+    "slug": "mario-kart-world",
+    "name": "NS2 马车世界",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3602"
+      },
+      "huoqiangshou": {
+        "game_id": "3198"
+      },
+      "buerjia": {
+        "game_id": "457"
+      },
+      "hangzhouxizi": {
+        "game_id": "797",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "958"
+      }
+    }
+  },
+  {
+    "slug": "cyberpunk-2077-ns2",
+    "name": "NS2 赛博朋克 2077",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3601"
+      },
+      "huoqiangshou": {
+        "game_id": "3197"
+      },
+      "buerjia": {
+        "game_id": "458"
+      },
+      "hangzhouxizi": {
+        "game_id": "798",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "32"
+      }
+    }
+  },
+  {
+    "slug": "kirby-star-world-ns2",
+    "name": "NS2 卡比星耀世界",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3640"
+      },
+      "huoqiangshou": {
+        "game_id": "3519"
+      },
+      "buerjia": {
+        "game_id": "1011"
+      },
+      "hangzhouxizi": {
+        "game_id": "826",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "988"
+      }
+    }
+  },
+  {
+    "slug": "pokemon-pokopia",
+    "name": "NS2 Pokopia",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3723"
+      },
+      "huoqiangshou": {
+        "game_id": "3577"
+      },
+      "buerjia": {
+        "game_id": "1070"
+      },
+      "hangzhouxizi": {
+        "game_id": "865",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "1033"
+      }
+    }
+  },
+  {
+    "slug": "hyrule-warriors-age-of-imprisonment",
+    "name": "NS2 塞尔达无双 封印战记",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3695"
+      },
+      "huoqiangshou": {
+        "game_id": "3508"
+      },
+      "buerjia": {
+        "game_id": "1054"
+      },
+      "hangzhouxizi": {
+        "game_id": "844",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "1008"
+      }
+    }
+  },
+  {
+    "slug": "kirby-air-riders",
+    "name": "NS2 卡比的御天飞行",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3679"
+      },
+      "huoqiangshou": {
+        "game_id": "3519"
+      },
+      "buerjia": {
+        "game_id": "1066"
+      },
+      "hangzhouxizi": {
+        "game_id": "849",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "1013"
+      }
+    }
+  },
+  {
+    "slug": "sanguowushuangqiyuan",
+    "name": "NS2 三国无双起源",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3704"
+      },
+      "huoqiangshou": {
+        "game_id": "3551"
+      },
+      "buerjia": {
+        "game_id": "1056"
+      },
+      "hangzhouxizi": {
+        "game_id": "861",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "1029"
+      }
+    },
+    "search_keyword": "三国无双"
+  },
+  {
+    "slug": "animal-corssing-2",
+    "name": "NS2 捡树枝",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3714"
+      },
+      "huoqiangshou": {
+        "game_id": "3552"
+      },
+      "buerjia": {
+        "game_id": ""
+      },
+      "hangzhouxizi": {
+        "game_id": ""
+      }
+    }
+  },
+  {
+    "slug": "yaoxitujian",
+    "name": "NS2 耀西图鉴",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3750"
+      },
+      "huoqiangshou": {
+        "game_id": "3602"
+      },
+      "buerjia": {
+        "game_id": "1102"
+      },
+      "hangzhouxizi": {
+        "game_id": "895",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      }
+    }
+  }
+]
