@@ -15,6 +15,7 @@ var synonyms = [][2]string{
 	{"塞尔达传说2", "塞尔达王国之泪"},
 	{"咚奇刚", "大金刚"},
 	{"驭天飞行", "御天飞行"},
+	{"异度神剑", "异度之刃"},
 	{"朋友聚会", "朋友收集"},
 }
 
@@ -27,8 +28,8 @@ var noise = []string{
 // matchRules maps a slug to groups of aliases. Groups are ANDed together, the
 // terms inside a group are ORed.
 var matchRules = map[string][][]string{
-	"zelda-breath-of-the-wild":            {{"旷野之息", "荒野之息"}},
-	"zelda-tears-of-the-kingdom":          {{"王国之泪"}},
+	"zelda-breath-of-the-wild":            {{"旷野之息", "荒野之息", "野炊", "旷野"}},
+	"zelda-tears-of-the-kingdom":          {{"王国之泪", "王泪"}},
 	"super-mario-party-jamboree":          {{"空前盛会"}, {"马里奥", "马力欧"}},
 	"zelda-breath-of-the-wild-bundle":     {{"旷野之息", "荒野之息", "野炊"}, {"同捆", "dlc", "+dlc", "扩充票", "扩充版", "全dlc"}},
 	"zelda-echoes-of-wisdom":              {{"智慧的再现", "智慧再现"}},
@@ -36,7 +37,7 @@ var matchRules = map[string][][]string{
 	"super-mario-odyssey":                 {{"奥德赛"}},
 	"kirby-and-the-forgotten-land":        {{"探索发现"}, {"星之卡比", "卡比"}},
 	"pokemon-legends-z-a":                 {{"z-a", "za"}, {"宝可梦", "口袋妖怪"}},
-	"splatoon-3":                          {{"喷射战士3", "斯普拉遁", "斯普拉顿"}},
+	"splatoon-3":                          {{"喷射战士3", "斯普拉遁", "斯普拉顿", "喷3"}},
 	"super-mario-bros-wonder":             {{"惊奇"}, {"马里奥", "马力欧"}},
 	"mario-kart-8-deluxe":                 {{"赛车8", "马车8", "马8"}},
 	"luigis-mansion-3":                    {{"鬼屋3", "洋馆3"}},
@@ -50,7 +51,7 @@ var matchRules = map[string][][]string{
 	"mario-kart-world":                    {{"赛车世界", "马车世界", "马车9"}},
 	"cyberpunk-2077-ns2":                  {{"赛博朋克2077", "赛博朋克 2077"}},
 	"kirby-star-world-ns2":                {{"星耀世界"}, {"星之卡比", "卡比"}},
-	"pokemon-pokopia":                     {{"pokopia"}},
+	"pokemon-pokopia":                     {{"pokopia", "宝森", "宝可森"}},
 	"hyrule-warriors-age-of-imprisonment": {{"封印战记"}, {"塞尔达无双"}},
 	"kirby-air-riders":                    {{"驭天飞行", "御天飞行"}},
 	"xenoblade1":                          {{"异度之刃", "异度神剑", "xenoblade"}, {"决定版", "终极版", "definitive"}},

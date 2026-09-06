@@ -111,6 +111,98 @@ func TestCLIQuerySlugAsKeyword(t *testing.T) {
 	}
 }
 
+// TestCLIQuerySlugExact checks `query --slug` resolves the single game whose
+// slug equals the argument, regardless of case.
+func TestCLIQuerySlugExact(t *testing.T) {
+	stdout, _, err := runCLI("--games", gamesPath(), "--dry-run", "query", "--slug", "ZELDA-BREATH-OF-THE-WILD")
+	if err != nil {
+		t.Fatalf("query --slug error: %v", err)
+	}
+
+	var gr collector.GameResult
+	if err := json.Unmarshal([]byte(stdout), &gr); err != nil {
+		t.Fatalf("invalid JSON output: %v\n%s", err, stdout)
+	}
+	if gr.Slug != "zelda-breath-of-the-wild" {
+		t.Errorf("slug = %q, want zelda-breath-of-the-wild", gr.Slug)
+	}
+	if len(gr.Results) != 4 {
+		t.Errorf("got %d merchant results, want 4", len(gr.Results))
+	}
+}
+
+// TestCLIQuerySlugNotFound checks an unknown slug fails with a usage error.
+func TestCLIQuerySlugNotFound(t *testing.T) {
+	_, _, err := runCLI("--games", gamesPath(), "--dry-run", "query", "--slug", "zelda-nope")
+	ee, ok := cli.AsExitError(err)
+	if !ok {
+		t.Fatalf("expected ExitError, got %v", err)
+	}
+	if ee.Code != 2 || !strings.Contains(ee.Msg, "未找到匹配") {
+		t.Errorf("exit = (%d, %q), want (2, ...未找到匹配...)", ee.Code, ee.Msg)
+	}
+}
+
+// TestCLIQuerySlugCustom checks `query --custom --slug` resolves inside the
+// custom library only.
+func TestCLIQuerySlugCustom(t *testing.T) {
+	dir := t.TempDir()
+	custom := filepath.Join(dir, "custom.json")
+	body := `[{"slug":"custom-kart","name":"NS 定制卡丁车","enabled":true,
+		"merchant_ids":{"buerjia":{"game_id":"5"}}}]`
+	if err := os.WriteFile(custom, []byte(body), 0o644); err != nil {
+		t.Fatal(err)
+	}
+
+	stdout, _, err := runCLI("--games", gamesPath(), "--custom-file", custom, "--dry-run", "query", "--custom", "--slug", "custom-kart")
+	if err != nil {
+		t.Fatalf("query --custom --slug error: %v", err)
+	}
+	var gr collector.GameResult
+	if err := json.Unmarshal([]byte(stdout), &gr); err != nil {
+		t.Fatalf("invalid JSON output: %v\n%s", err, stdout)
+	}
+	if gr.Slug != "custom-kart" {
+		t.Errorf("slug = %q, want custom-kart", gr.Slug)
+	}
+}
+
+// TestCLIQuerySlugAllConflict checks --slug and --all are mutually exclusive.
+func TestCLIQuerySlugAllConflict(t *testing.T) {
+	_, _, err := runCLI("--games", gamesPath(), "--dry-run", "query", "--slug", "x", "--all")
+	ee, ok := cli.AsExitError(err)
+	if !ok {
+		t.Fatalf("expected ExitError, got %v", err)
+	}
+	if ee.Code != 2 || !strings.Contains(ee.Msg, "不能同时使用") {
+		t.Errorf("exit = (%d, %q), want (2, ...不能同时使用...)", ee.Code, ee.Msg)
+	}
+}
+
+// TestCLIQuerySlugMulConflict checks --slug and --mul are mutually exclusive.
+func TestCLIQuerySlugMulConflict(t *testing.T) {
+	_, _, err := runCLI("--games", gamesPath(), "--dry-run", "query", "--slug", "x", "--mul", "旷野")
+	ee, ok := cli.AsExitError(err)
+	if !ok {
+		t.Fatalf("expected ExitError, got %v", err)
+	}
+	if ee.Code != 2 || !strings.Contains(ee.Msg, "不能同时使用") {
+		t.Errorf("exit = (%d, %q), want (2, ...不能同时使用...)", ee.Code, ee.Msg)
+	}
+}
+
+// TestCLIQuerySlugNoArgs checks `query --slug` without a slug fails.
+func TestCLIQuerySlugNoArgs(t *testing.T) {
+	_, _, err := runCLI("--games", gamesPath(), "--dry-run", "query", "--slug")
+	ee, ok := cli.AsExitError(err)
+	if !ok {
+		t.Fatalf("expected ExitError, got %v", err)
+	}
+	if ee.Code != 2 || !strings.Contains(ee.Msg, "需要恰好 1 个 slug") {
+		t.Errorf("exit = (%d, %q), want (2, ...需要恰好 1 个 slug...)", ee.Code, ee.Msg)
+	}
+}
+
 // TestCLIQueryKeyword checks a Chinese keyword resolves via fuzzy matching.
 func TestCLIQueryKeyword(t *testing.T) {
 	stdout, _, err := runCLI("--games", gamesPath(), "--dry-run", "query", "双人成行")

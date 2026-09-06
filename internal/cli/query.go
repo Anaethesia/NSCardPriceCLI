@@ -22,12 +22,26 @@ import (
 const maxQueryKeywords = 5
 
 func newQueryCmd(opts *config.Options) *cobra.Command {
-	var all, custom, mul bool
+	var all, custom, mul, slug bool
 	cmd := &cobra.Command{
 		Use:   "query [关键词...]",
 		Short: "查询卡带回收价",
 		Args: func(cmd *cobra.Command, args []string) error {
+			slugMode, _ := cmd.Flags().GetBool("slug")
 			multi, _ := cmd.Flags().GetBool("mul")
+			allMode, _ := cmd.Flags().GetBool("all")
+			if slugMode {
+				if allMode {
+					return exitError(2, "--all 与 --slug 不能同时使用")
+				}
+				if multi {
+					return exitError(2, "--slug 与 --mul 不能同时使用")
+				}
+				if len(args) != 1 {
+					return exitError(2, "query --slug 需要恰好 1 个 slug 参数")
+				}
+				return nil
+			}
 			if !multi && len(args) > 1 {
 				return exitError(2, fmt.Sprintf("query 最多接受 1 个关键词（用 --mul 可同时查询最多 %d 个）", maxQueryKeywords))
 			}
@@ -40,16 +54,33 @@ func newQueryCmd(opts *config.Options) *cobra.Command {
 			if all && mul {
 				return exitError(2, "--all 与 --mul 不能同时使用")
 			}
-			return runQuery(opts, args, all, custom, mul, cmd.OutOrStdout())
+			if all && slug {
+				return exitError(2, "--all 与 --slug 不能同时使用")
+			}
+			if slug && mul {
+				return exitError(2, "--slug 与 --mul 不能同时使用")
+			}
+			return runQuery(opts, args, all, custom, mul, slug, cmd.OutOrStdout())
 		},
 	}
 	cmd.Flags().BoolVar(&all, "all", false, "查询全部启用游戏")
 	cmd.Flags().BoolVarP(&custom, "custom", "c", false, "仅在 data/custom.json 自定义库中查询")
 	cmd.Flags().BoolVar(&mul, "mul", false, "多关键词查询（空格分隔，最多 5 个）")
+	cmd.Flags().BoolVar(&slug, "slug", false, "按 slug 精确匹配（不区分大小写）")
 	return cmd
 }
 
-func runQuery(opts *config.Options, args []string, all, custom, mul bool, out io.Writer) error {
+// resolveQueryGames resolves the user input against base games. With --slug it
+// does an exact (case-insensitive) slug match; otherwise it falls back to
+// keyword/multi-keyword fuzzy matching.
+func resolveQueryGames(base []game.Game, args []string, slug, mul bool) ([]game.Game, error) {
+	if slug {
+		return match.ExactSlug(base, strings.ToLower(strings.TrimSpace(args[0]))), nil
+	}
+	return queryGames(base, args, mul)
+}
+
+func runQuery(opts *config.Options, args []string, all, custom, mul, slug bool, out io.Writer) error {
 	a, err := app.New(*opts)
 	if err != nil {
 		return exitError(2, err.Error())
@@ -67,7 +98,7 @@ func runQuery(opts *config.Options, args []string, all, custom, mul bool, out io
 			return exitError(2, fmt.Sprintf("%s 为空（没有可查询的自定义条目）", opts.CustomFile))
 		}
 		if !all {
-			games, err = queryGames(games, args, mul)
+			games, err = resolveQueryGames(games, args, slug, mul)
 			if err != nil {
 				return err
 			}
@@ -78,7 +109,7 @@ func runQuery(opts *config.Options, args []string, all, custom, mul bool, out io
 	case all:
 		games = a.Repo.Enabled()
 	default:
-		games, err = queryGames(a.Repo.Enabled(), args, mul)
+		games, err = resolveQueryGames(a.Repo.Enabled(), args, slug, mul)
 		if err != nil {
 			return err
 		}
