@@ -6,6 +6,7 @@ Go 编写的 Nintendo Switch 卡带回收价查询 CLI。读取 `data/games.json
 
 - 查询任天堂 Switch 卡带回收价/售价，覆盖四家回收商
 - 按游戏中文名/关键词模糊匹配，常用简称与别名自动识别
+- 支持按 slug 精确查询（`query --slug`，不区分大小写）
 - 多关键词同时查询（最多 5 个），一次拿到多个游戏的价格
 - 支持独立的自定义游戏库，与内置清单互不影响
 - 一条命令同步四家商家的 NS/NS2 卡带目录，自动过滤其他平台条目
@@ -19,6 +20,8 @@ Go 编写的 Nintendo Switch 卡带回收价查询 CLI。读取 `data/games.json
 
 ```bash
 nscardprice query 塞尔达              # 关键词查询全部 4 家
+nscardprice query --slug zelda-breath-of-the-wild  # 按 slug 精确查询（不区分大小写）
+nscardprice query --custom --slug mk8-custom       # 在自定义库中按 slug 查询
 nscardprice query --mul 旷野 马8 双人成行  # 多关键词同时查询（最多 5 个）
 nscardprice query --custom 马车8             # 仅在 data/custom.json 自定义库中查询
 nscardprice query --custom --all             # 查询自定义库全部条目

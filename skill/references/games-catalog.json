@@ -1,0 +1,1022 @@
+[
+  {
+    "slug": "animal-corssing",
+    "name": "捡树枝",
+    "platform": "Nintendo Switch",
+    "search_keyword": "动物森友会"
+  },
+  {
+    "slug": "animal-corssing-2",
+    "name": "NS2 捡树枝",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "arms",
+    "name": "NS ARMS 强力拳击",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "assassins-creed-ezio-collection",
+    "name": "NS 刺客信条 艾吉奥合集",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "assassins-creed-shadows",
+    "name": "NS2 刺客信条影 暗影者（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "assassins-creed-the-rebel-collection",
+    "name": "NS 刺客信条 逆命合集",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "atelier-ryza",
+    "name": "NS 莱莎的炼金工房1",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "atelier-ryza-2",
+    "name": "NS 莱莎的炼金工房2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "attack-on-titan-2",
+    "name": "NS 进击的巨人2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "attack-on-titan-2-final-battle",
+    "name": "NS 进击的巨人2 最终战",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "bayonetta",
+    "name": "NS 猎天使魔女1",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "bayonetta-2",
+    "name": "NS 猎天使魔女2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "bayonetta-3",
+    "name": "NS 猎天使魔女3",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "bloodstained-ritual-of-the-night",
+    "name": "NS 血污 夜之仪式",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "borderlands-3-ultimate-edition",
+    "name": "NS 无主之地3终极版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "brain-training-switch",
+    "name": "NS 灵活脑学校 一起伸展大脑",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "bravely-default-2",
+    "name": "NS 勇气默示录2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "captain-tsubasa-rise-of-new-champions",
+    "name": "NS 足球小将 队长小翼",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "catherine-full-body",
+    "name": "NS 凯瑟琳 浓郁口感",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "chaoli-bingtuan-qitan",
+    "name": "NS2 超力兵团奇谭（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "civilization-7",
+    "name": "NS 文明帝国7",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "clubhouse-games-51-worldwide-classics",
+    "name": "NS 世界游戏大全51 合集",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "contra-rogue-corps",
+    "name": "NS 魂斗罗  流氓军团",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "crayon-shin-chan-coal-town",
+    "name": "NS 小新煤炭镇的小白",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "cuphead",
+    "name": "NS 茶杯头",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "cyberpunk-2077-ns2",
+    "name": "NS2 赛博朋克 2077",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "darksiders-2-deathinitive-edition",
+    "name": "NS 暗黑血统2 终极版 含DLC",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "dave-the-diver",
+    "name": "潜水员戴夫",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "dead-cells-return-to-castlevania",
+    "name": "NS 死亡细胞 重返恶魔城",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "detective-pikachu",
+    "name": "NS 名侦探皮卡丘",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "diablo-3-eternal-collection",
+    "name": "NS 暗黑破坏神3",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "disco-elysium",
+    "name": "NS 极乐迪斯科",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "donkey-kong-bananza",
+    "name": "NS2 大金刚 蕉力全开",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "doraemon-story-of-seasons",
+    "name": "NS 哆啦A梦 大雄的牧场物语",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "dragon-ball-fighterz",
+    "name": "NS 龙珠斗士Z",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "dragon-ball-sparking-zero",
+    "name": "NS2 七龙珠 电光炸裂（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "dragon-ball-z-kakarot",
+    "name": "NS 七龙珠 卡卡罗特+新觉醒篇",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "dragon-quest-xi-s",
+    "name": "NS 勇者斗恶龙11S",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "dying-light",
+    "name": "NS 消逝的光芒",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "dynasty-warriors-8-xtreme-legends-definitive-edition",
+    "name": "NS 真三国无双7 猛将传DX",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "everybody-1-2-switch",
+    "name": "NS 大家一起 1-2 Switch",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "fairy-tail",
+    "name": "NS 妖精的尾巴 魔导少年",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "fatal-frame-maiden-of-black-water",
+    "name": "NS 零 濡鸦之巫女",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "fifa-20",
+    "name": "NS FIFA2020 足球",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "fifa-22",
+    "name": "NS FIFA2022 足球",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "final-fantasy-vii-rebirth",
+    "name": "NS2 最终幻想7 重生（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "fire-emblem-three-houses",
+    "name": "NS 火焰纹章 风花雪月",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "fire-emblem-warriors",
+    "name": "NS 火焰纹章无双 火纹无双",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "fire-emblem-warriors-three-hopes",
+    "name": "NS 火焰纹章 风花雪月无双",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "fist-forged-in-shadow-torch",
+    "name": "NS 暗影火炬城",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "fitness-boxing",
+    "name": "NS 有氧拳击1",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "fitness-boxing-2",
+    "name": "NS 有氧拳击2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "fitness-boxing-3",
+    "name": "有氧拳击 3",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "hades-2",
+    "name": "NS2 哈迪斯2",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "hitman-collection",
+    "name": "NS2 杀手合集（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "hollow-knight",
+    "name": "NS 空洞骑士",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "huangdao-qiuji",
+    "name": "NS2 荒岛求生记（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "human-fall-flat",
+    "name": "NS 人类一败涂地",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "hyrule-warriors-age-of-imprisonment",
+    "name": "NS2 塞尔达无双 封印战记",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "hyrule-warriors-definitive-edition",
+    "name": "NS 塞尔达无双 海拉鲁全明星",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "it-takes-two",
+    "name": "双人成行",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "just-dance-2018",
+    "name": "NS 舞力全开2018",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "just-dance-2019",
+    "name": "NS 舞力全开2019",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "just-dance-2020",
+    "name": "NS 舞力全开2020",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "just-dance-2021",
+    "name": "NS 舞力全开2021",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "just-dance-2022",
+    "name": "NS 舞力全开2022",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "kirby-air-riders",
+    "name": "NS2 卡比的御天飞行",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "kirby-and-the-forgotten-land",
+    "name": "星之卡比 探索发现",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "kirby-star-allies",
+    "name": "NS 星之卡比",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "kirby-star-world-ns2",
+    "name": "NS2 卡比星耀世界",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "lego-city-undercover",
+    "name": "NS 乐高小城",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "lego-marvel-super-heroes-2",
+    "name": "NS 乐高漫威超级英雄2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "lego-star-wars-the-skywalker-saga",
+    "name": "NS 乐高星球大战 天行者传奇",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "little-nightmares-2",
+    "name": "NS 小小梦魇2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "little-nightmares-3",
+    "name": "NS 小小梦魇3",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "little-nightmares-3-ns2",
+    "name": "NS2 小小梦魇3（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "little-nightmares-complete-edition",
+    "name": "NS 小小梦魇1 完整版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "luigis-mansion-2-hd",
+    "name": "NS 路易鬼屋2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "luigis-mansion-3",
+    "name": "路易吉鬼屋 3",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "mario-kart-8-deluxe",
+    "name": "马里奥赛车 8 豪华版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "mario-kart-world",
+    "name": "NS2 马车世界",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "mario-party-superstars",
+    "name": "NS 马里奥派对 超级巨星",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "mario-river",
+    "name": "马里奥银河1+2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "mario-sonic-at-the-olympic-games-tokyo-2020",
+    "name": "NS 马里奥与索尼克 东京奥运会",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "mario-tennis-aces",
+    "name": "NS 马里奥网球 ACE",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "metroid-dread",
+    "name": "NS 银河战士 密特罗德生存恐惧",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "minecraft-bedrock-edition",
+    "name": "NS 我的世界 基岩版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "minecraft-dungeons-ultimate-edition",
+    "name": "NS我的世界 地下城终极版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "monster-hunter-rise",
+    "name": "NS  怪物猎人 崛起 rise",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "monster-hunter-stories-2-wings-of-ruin",
+    "name": "NS 怪物猎人 物语2 破灭之翼",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "mortal-kombat-11",
+    "name": "NS 真人快打11",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "moving-out",
+    "name": "NS 胡闹搬家 Moving Out",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "moving-out-2",
+    "name": "NS 胡闹搬家2 Moving Out2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "my-time-at-portia",
+    "name": "NS 波西亚时光",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "need-for-speed-hot-pursuit-remastered",
+    "name": "NS 极品飞车14",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "new-super-mario-bros-u-deluxe",
+    "name": "NS 马里奥兄弟U DX豪华版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "nier-automata",
+    "name": "NS 尼尔机械纪元",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "nzcp123",
+    "name": "逆转裁判123",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "octopath-traveler",
+    "name": "NS 八方旅人",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "octopath-traveler-0",
+    "name": "NS 八方旅人0",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "octopath-traveler-0-ns2",
+    "name": "NS2 八方旅人0（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "octopath-traveler-2",
+    "name": "NS 八方旅人2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "one-piece-pirate-warriors-4",
+    "name": "NS 海贼无双4",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "ori-and-the-will-of-the-wisps",
+    "name": "NS 奥日2 精灵与萤火意志",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "ori-the-collection",
+    "name": "NS 奥日1+2合集",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "overcooked-all",
+    "name": "胡闹厨房 全都好吃",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "paper-mario-the-origami-king",
+    "name": "NS 纸片马里奥",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "paper-mario-the-thousand-year-door",
+    "name": "NS 纸片马里奥千年之门",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "patapon-1-2",
+    "name": "NS 啪嗒砰1+2合集",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "persona-3-reload",
+    "name": "NS2 女神异闻录3重置版（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "pikimin-4",
+    "name": "皮克敏4",
+    "platform": "Nintendo Switch",
+    "search_keyword": "皮克敏"
+  },
+  {
+    "slug": "pikmin-1-2",
+    "name": "NS 皮克敏1+2 合集",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "pikmin-3-deluxe",
+    "name": "NS 皮克敏3 豪华版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "plants-vs-zombies-battle-for-neighborville",
+    "name": "NS 植物大战僵尸 花园战争3",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "pokemon-brilliant-diamond",
+    "name": "NS 宝可梦 明亮珍珠",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "pokemon-legends-arceus",
+    "name": "NS 宝可梦传说 阿尔宙斯",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "pokemon-legends-z-a",
+    "name": "宝可梦传说 Z-A",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "pokemon-legends-z-a-ns2",
+    "name": "NS2 宝可梦传说 Z-A",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "pokemon-lets-go-eevee",
+    "name": "NS 宝可梦 伊布",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "pokemon-lets-go-pikachu",
+    "name": "NS 宝可梦 皮卡丘",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "pokemon-pokopia",
+    "name": "NS2 Pokopia",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "pokemon-scarlet",
+    "name": "NS 宝可梦 朱",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "pokemon-sword",
+    "name": "NS 宝可梦 剑",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "prince-of-persia-the-lost-crown",
+    "name": "NS 波斯王子",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "princess-peach-showtime",
+    "name": "NS 碧姬公主",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "puyo-puyo-2s",
+    "name": "NS2 魔法气泡2S（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "rabbids-party-of-legends",
+    "name": "NS 疯狂兔子 奇遇派对",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "red-dead-redemption",
+    "name": "NS 荒野大镖客1",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "rhythm-heaven",
+    "name": "NS 节奏天国",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "rune-factory-guardians-of-azuma",
+    "name": "NS2 符文工房 龙之天地",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "sakuna-of-rice-and-ruin",
+    "name": "NS 天穗的稻田姬",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "sanguowushuangqiyuan",
+    "name": "NS2 三国无双起源",
+    "platform": "Nintendo Switch 2",
+    "search_keyword": "三国无双"
+  },
+  {
+    "slug": "sd-gundam-g-generation-cross-rays",
+    "name": "NS SD高达G世纪 火线纵横",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "shengling-chongsu",
+    "name": "NS2 生灵重塑（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "shin-megami-tensei-v",
+    "name": "NS 真女神转生5",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "shin-megami-tensei-v-vengeance",
+    "name": "NS 真女神转生5复仇",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "sid-meiers-civilization-vi",
+    "name": "NS 文明帝国6 文明6",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "sniper-elite-3-ultimate-edition",
+    "name": "NS 狙击精英3 终极版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "sniper-elite-4",
+    "name": "NS 狙击精英4",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "snipperclips-plus",
+    "name": "NS 剪纸人 加强版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "sonic-colors-ultimate",
+    "name": "NS 索尼克 缤纷色彩 终极版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "splatoon-3",
+    "name": "斯普拉遁 3",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "spongebob-squarepants-the-tidal-giant",
+    "name": "NS2 海绵宝宝 潮汐巨神(钥匙卡)",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "stardew-valley",
+    "name": "NS 星露谷物语",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "story-of-seasons-pioneers-of-olive-town",
+    "name": "NS 牧场物语 橄榄镇与希望大地",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "street-fighter-30th-anniversary-collection",
+    "name": "NS 超级街霸 30周年合集",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "street-fighter-6",
+    "name": "NS2 街霸6 快打旋风（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "streets-of-rage-4-anniversary-edition",
+    "name": "NS 怒之铁拳4 年度版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "suikoden-i-ii-hd-remaster",
+    "name": "NS2 幻想水浒传1+2（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "super-bomberman-r",
+    "name": "NS 超级炸弹人R",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "super-bomberman-r-2",
+    "name": "NS 超级炸弹人R2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "super-mario-bros-wonder",
+    "name": "超级马里奥兄弟 惊奇",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "super-mario-bros-wonder-ns2",
+    "name": "NS2 马里奥兄弟惊奇",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "super-mario-odyssey",
+    "name": "超级马力欧 奥德赛",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "super-mario-party",
+    "name": "超级马里奥派对",
+    "platform": "Nintendo Switch",
+    "search_keyword": "马里奥 派对"
+  },
+  {
+    "slug": "super-mario-party-jamboree",
+    "name": "马里奥派对 空前盛会",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "super-mario-party-jamboree-tv-ns2",
+    "name": "NS2 空前盛会 TV",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "super-robot-wars-30",
+    "name": "NS 超级机器人大战30",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "super-robot-wars-t",
+    "name": "NS 超级机器人大战T",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "super-robot-wars-v",
+    "name": "NS 超级机器人大战V",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "super-robot-wars-x",
+    "name": "NS 超级机器人大战X",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "super-smash-bros-ultimate",
+    "name": "NS 任天堂全明星大乱斗",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "taiko-no-tatsujin-drum-n-fun",
+    "name": "NS 太鼓达人",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "taiko-no-tatsujin-rhythm-festival",
+    "name": "NS 太鼓达人 咚咚雷音祭",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "taiko-no-tatsujin-rhythmic-adventure-pack",
+    "name": "NS 太鼓达人 二合一",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "the-elder-scrolls-v-skyrim",
+    "name": "NS 上古卷轴5 完整版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "the-legend-of-heroes-trails-into-reverie",
+    "name": "NS 英雄传说 创之轨迹",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "the-legend-of-zelda-links-awakening",
+    "name": "NS 塞尔达传说 织梦岛",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "the-legend-of-zelda-skyward-sword",
+    "name": "NS 塞尔达传说 天空之剑",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "the-witcher-3-wild-hunt-complete-edition",
+    "name": "NS 巫师3狂猎 年度版带全dlc",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "thirteen-sentinels-aegis-rim",
+    "name": "NS 十三机兵防卫圈",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "tmnt-shredders-revenge",
+    "name": "NS 忍者神龟 施莱德的复仇",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "tomodachi-life-living-the-dream",
+    "name": "朋友聚会",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "triangle-strategy",
+    "name": "NS 三角战略",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "two-point-hospital",
+    "name": "NS 双点医院 普通版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "two-point-hospital-jumbo-edition",
+    "name": "NS 双点医院 年度版带DLC",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "two-point-museum",
+    "name": "NS2 双点博物馆（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "unicorn-overlord",
+    "name": "NS 圣兽之王",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "unravel-two",
+    "name": "NS 毛线小精灵2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "wario-works-get-it-together",
+    "name": "NS 瓦里奥制造 分享同乐",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "wario-works-move-it",
+    "name": "NS 超级舞动 新瓦里奥制造",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "warriors-orochi-3",
+    "name": "NS 无双大蛇3",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "warriors-orochi-3-ultimate",
+    "name": "NS 无双大蛇3 终极版",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "wild-hearts-s",
+    "name": "NS2 狂野之心S（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "wolfenstein-2-the-new-colossus",
+    "name": "NS 重返德军总部2 新巨像",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "wrc-8",
+    "name": "NS WRC8 世界拉力锦标赛8",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "wrc-9",
+    "name": "NS  WRC9 世界拉力锦标赛9 中文",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "xenoblade-chronicles-x",
+    "name": "NS 异度之刃X",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "xenoblade1",
+    "name": "异度之刃1",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "xenoblade2",
+    "name": "异度之刃2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "xenoblade2-torna",
+    "name": "NS 异度之刃2 黄金之国",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "xenoblade3",
+    "name": "异度之刃3",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "xushi-wanxiang-shizhi-cunzai",
+    "name": "NS2 虚实万象 识质存在（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "yaoxitujian",
+    "name": "NS2 耀西图鉴",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "yoshis-crafted-world",
+    "name": "NS 耀西的手工世界",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "ys-x-nordics",
+    "name": "NS2 伊苏10 诺曼荣光（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "zelda-breath-of-the-wild",
+    "name": "塞尔达传说 旷野之息",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "zelda-breath-of-the-wild-bundle",
+    "name": "塞尔达传说 旷野之息 DLC同捆",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "zelda-breath-of-the-wild-ns2",
+    "name": "NS2 旷野之息",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "zelda-echoes-of-wisdom",
+    "name": "塞尔达传说 智慧的再现",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "zelda-tears-of-the-kingdom",
+    "name": "塞尔达传说 王国之泪",
+    "platform": "Nintendo Switch",
+    "search_keyword": "王国之泪"
+  },
+  {
+    "slug": "zelda-tears-of-the-kingdom-ns2",
+    "name": "NS2 王国之泪",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "zumba-burn-it-up",
+    "name": "NS 尊巴健身",
+    "platform": "Nintendo Switch"
+  }
+]
