@@ -49,7 +49,12 @@ func New(o Options) *Client {
 	if o.Backoff <= 0 {
 		o.Backoff = time.Second
 	}
-	transport := &http.Transport{}
+	transport := &http.Transport{
+		// Honor HTTP(S)_PROXY from the environment (e.g. sandbox egress proxy);
+		// without this the client dials directly and can hang/time out where
+		// direct external access is blocked.
+		Proxy: http.ProxyFromEnvironment,
+	}
 	if o.Insecure {
 		transport.TLSClientConfig = &tls.Config{InsecureSkipVerify: true} //nolint:gosec // user opted in via --insecure
 	}
