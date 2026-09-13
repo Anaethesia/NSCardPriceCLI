@@ -49,7 +49,9 @@ func New(o Options) *Client {
 	if o.Backoff <= 0 {
 		o.Backoff = time.Second
 	}
-	transport := &http.Transport{}
+	transport := &http.Transport{
+		Proxy: http.ProxyFromEnvironment,
+	}
 	if o.Insecure {
 		transport.TLSClientConfig = &tls.Config{InsecureSkipVerify: true} //nolint:gosec // user opted in via --insecure
 	}
