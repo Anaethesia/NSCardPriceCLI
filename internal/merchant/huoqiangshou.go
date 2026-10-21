@@ -5,7 +5,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"strings"
-	"time"
 
 	"nscardprice/internal/game"
 	"nscardprice/internal/httpx"
@@ -110,12 +109,8 @@ func otherShopReduce(apprize any) (float64, bool) {
 func (m *huoqiangshou) Catalog(ctx context.Context, limit int) ([]CatalogItem, error) {
 	const pageSize = 30
 	fetchPage := func(page int) ([]CatalogItem, error) {
-		// 火枪手 throttles rapid pagination with empty 2xx bodies; pacing the
-		// requests avoids the point where pages start coming back empty.
-		select {
-		case <-time.After(1000 * time.Millisecond):
-		case <-ctx.Done():
-			return nil, ctx.Err()
+		if err := waitCatalogPage(ctx); err != nil {
+			return nil, err
 		}
 		form := map[string][]string{
 			"pageNumber":     {stringify(page)},

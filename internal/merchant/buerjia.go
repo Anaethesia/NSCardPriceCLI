@@ -82,6 +82,9 @@ func (m *buerjia) Fetch(ctx context.Context, entry game.MerchantEntry) (Result, 
 func (m *buerjia) Catalog(ctx context.Context, limit int) ([]CatalogItem, error) {
 	const pageSize = 30
 	fetchPage := func(page int) ([]CatalogItem, error) {
+		if err := waitCatalogPage(ctx); err != nil {
+			return nil, err
+		}
 		body, err := m.client.PostJSON(ctx, buerjiaListURL, buerjiaHeaders(), map[string]any{
 			"search": "", "page": page, "pageNum": page, "pageSize": pageSize, "limit": pageSize,
 		})

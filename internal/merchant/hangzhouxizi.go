@@ -197,6 +197,9 @@ func firstMoneyAny(v any, keys ...string) (float64, bool) {
 func (m *hangzhouxizi) Catalog(ctx context.Context, limit int) ([]CatalogItem, error) {
 	const pageSize = 30
 	fetchPage := func(page int) ([]CatalogItem, error) {
+		if err := waitCatalogPage(ctx); err != nil {
+			return nil, err
+		}
 		body, err := m.client.PostJSON(ctx, xiziListURL, xiziHeaders(), map[string]any{
 			"name": "", "keyword": "", "page": page, "pageNum": page, "pageSize": pageSize,
 		})

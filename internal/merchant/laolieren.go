@@ -64,6 +64,9 @@ func (m *laolieren) Fetch(ctx context.Context, entry game.MerchantEntry) (Result
 // Catalog pages through 老猎人's full product list.
 func (m *laolieren) Catalog(ctx context.Context, limit int) ([]CatalogItem, error) {
 	fetchPage := func(page int) ([]CatalogItem, error) {
+		if err := waitCatalogPage(ctx); err != nil {
+			return nil, err
+		}
 		body, err := m.client.PostJSON(ctx, laolierenListURL,
 			map[string]string{"content-type": "application/json"},
 			map[string]any{

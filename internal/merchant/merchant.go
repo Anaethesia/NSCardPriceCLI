@@ -11,6 +11,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"time"
 
 	"nscardprice/internal/game"
 	"nscardprice/internal/httpx"
@@ -185,6 +186,21 @@ func firstRows(payload any, paths ...string) []any {
 		}
 	}
 	return nil
+}
+
+// catalogPageInterval paces catalog pagination. All four merchant list APIs
+// throttle rapid requests by returning empty 2xx bodies, so every page waits
+// before being fetched.
+const catalogPageInterval = time.Second
+
+// waitCatalogPage blocks for the catalog page interval or until ctx is done.
+func waitCatalogPage(ctx context.Context) error {
+	select {
+	case <-time.After(catalogPageInterval):
+		return nil
+	case <-ctx.Done():
+		return ctx.Err()
+	}
 }
 
 // collectCatalog drives pagination for a merchant. fetch(page) returns the
