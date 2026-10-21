@@ -205,7 +205,7 @@ func TestCLIQuerySlugNoArgs(t *testing.T) {
 
 // TestCLIQueryKeyword checks a Chinese keyword resolves via fuzzy matching.
 func TestCLIQueryKeyword(t *testing.T) {
-	stdout, _, err := runCLI("--games", gamesPath(), "--dry-run", "query", "双人成行")
+	stdout, _, err := runCLI("--games", gamesPath(), "--dry-run", "query", "马力欧 奥德赛")
 	if err != nil {
 		t.Fatalf("query error: %v", err)
 	}
@@ -214,14 +214,14 @@ func TestCLIQueryKeyword(t *testing.T) {
 	if err := json.Unmarshal([]byte(stdout), &gr); err != nil {
 		t.Fatalf("invalid JSON output: %v\n%s", err, stdout)
 	}
-	if gr.Slug != "it-takes-two" {
-		t.Errorf("slug = %q, want it-takes-two", gr.Slug)
+	if gr.Slug != "super-mario-odyssey" {
+		t.Errorf("slug = %q, want super-mario-odyssey", gr.Slug)
 	}
 }
 
 // TestCLIQueryMerchantFilter checks -m restricts results to one merchant.
 func TestCLIQueryMerchantFilter(t *testing.T) {
-	stdout, _, err := runCLI("--games", gamesPath(), "--dry-run", "-m", "buerjia", "query", "双人成行")
+	stdout, _, err := runCLI("--games", gamesPath(), "--dry-run", "-m", "buerjia", "query", "马力欧 奥德赛")
 	if err != nil {
 		t.Fatalf("query error: %v", err)
 	}
@@ -280,7 +280,7 @@ func TestCLIQueryMulti(t *testing.T) {
 	if err := json.Unmarshal([]byte(stdout), &results); err != nil {
 		t.Fatalf("invalid JSON output: %v\n%s", err, stdout)
 	}
-	want := []string{"it-takes-two", "mario-kart-8-deluxe"}
+	want := []string{"it-takes-two", "it-takes-two-ns2", "mario-kart-8-deluxe"}
 	if len(results) != len(want) {
 		t.Fatalf("got %d games, want %d", len(results), len(want))
 	}
