@@ -40,3 +40,40 @@ func TestRateGapPacing(t *testing.T) {
 		t.Errorf("elapsed %v < min pacing %v, requests sent too bursty", time.Since(start), want)
 	}
 }
+
+// TestTransportConfig guards the HTTP transport setup: it must keep the
+// environment proxy support of http.DefaultTransport, and --insecure must only
+// affect this client, not the process-wide default transport.
+func TestTransportConfig(t *testing.T) {
+	defaultTransport := http.DefaultTransport.(*http.Transport)
+	tlsBefore := defaultTransport.TLSClientConfig
+
+	tests := []struct {
+		name         string
+		insecure     bool
+		wantInsecure bool
+	}{
+		{name: "default keeps environment proxy support", insecure: false, wantInsecure: false},
+		{name: "insecure disables TLS verification", insecure: true, wantInsecure: true},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			c := New(Options{Insecure: tt.insecure})
+			tr, ok := c.hc.Transport.(*http.Transport)
+			if !ok {
+				t.Fatalf("transport type = %T, want *http.Transport", c.hc.Transport)
+			}
+			if tr.Proxy == nil {
+				t.Fatal("transport.Proxy is nil; HTTP_PROXY/HTTPS_PROXY would be ignored")
+			}
+			gotInsecure := tr.TLSClientConfig != nil && tr.TLSClientConfig.InsecureSkipVerify
+			if gotInsecure != tt.wantInsecure {
+				t.Fatalf("InsecureSkipVerify = %v, want %v", gotInsecure, tt.wantInsecure)
+			}
+			if after := http.DefaultTransport.(*http.Transport).TLSClientConfig; after != tlsBefore {
+				t.Fatal("New mutated http.DefaultTransport TLS config")
+			}
+		})
+	}
+}

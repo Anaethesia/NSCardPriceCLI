@@ -49,9 +49,14 @@ func New(o Options) *Client {
 	if o.Backoff <= 0 {
 		o.Backoff = time.Second
 	}
-	transport := &http.Transport{}
+	// Clone the standard transport so Proxy (HTTP_PROXY/HTTPS_PROXY/NO_PROXY),
+	// dial timeouts, connection pooling and HTTP/2 defaults are preserved.
+	transport := http.DefaultTransport.(*http.Transport).Clone()
 	if o.Insecure {
-		transport.TLSClientConfig = &tls.Config{InsecureSkipVerify: true} //nolint:gosec // user opted in via --insecure
+		if transport.TLSClientConfig == nil {
+			transport.TLSClientConfig = &tls.Config{}
+		}
+		transport.TLSClientConfig.InsecureSkipVerify = true //nolint:gosec // user opted in via --insecure
 	}
 	return &Client{
 		opts: o,
