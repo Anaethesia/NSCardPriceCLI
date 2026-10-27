@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """Render a Switch cartridge recycle-price comparison table as a PNG.
 
-Data comes from data/custom.json (first N entries) via the nscardprice CLI.
-Rendering is plain HTML + headless Chrome, so no third-party Python packages
-are required (no PIL / matplotlib / cairosvg).
+Data comes from data/custom.json: the first N entries by default, or only the
+cartridges the user names. Rendering is plain HTML + headless Chrome, so no
+third-party Python packages are required (no PIL / matplotlib / cairosvg).
 
 Usage:
-    python3 render_chart.py --limit 20
-    python3 render_chart.py --limit 20 --out reports/card-price-chart.png
+    python3 render_chart.py --limit 30
+    python3 render_chart.py --names "捡树枝,双人成行"
+    python3 render_chart.py --limit 30 --out reports/card-price-chart.png
     python3 render_chart.py --input-json /tmp/query.json
 """
 
@@ -15,12 +16,14 @@ import argparse
 import html
 import json
 import os
+import re
 import shutil
 import signal
 import subprocess
 import sys
 import tempfile
 import time
+import unicodedata
 from pathlib import Path
 
 # Fixed column order: (merchant key, display name).
@@ -46,6 +49,8 @@ CARD_PB = 26
 PAGE_BOTTOM = 40
 WIDTH = 1680
 NAME_COL_W = 500
+DEFAULT_LIMIT = 30
+MAX_GAMES = 30
 
 CHROME_CANDIDATES = [
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
@@ -76,12 +81,101 @@ def repo_root():
     return here.parents[3]
 
 
-def load_games(custom_file, limit):
+def load_custom_games(custom_file):
     data = json.loads(Path(custom_file).read_text(encoding="utf-8"))
     if not isinstance(data, list):
         raise SystemExit("custom.json 必须是数组: %s" % custom_file)
-    games = [g for g in data if g.get("enabled", True)]
-    return games[:limit]
+    return [g for g in data if g.get("enabled", True)]
+
+
+def norm(text):
+    value = unicodedata.normalize("NFKC", str(text or "")).lower()
+    return re.sub(r"\s+", "", value)
+
+
+def split_names(raw):
+    return [part.strip() for part in re.split(r"[,，、;；]+", raw or "") if part.strip()]
+
+
+def cli_matches(cli, custom_file, name, timeout):
+    """Resolve one cartridge name with the CLI matcher; dry-run never hits the network."""
+    cmd = [
+        cli,
+        "query",
+        "--custom",
+        name,
+        "--custom-file",
+        str(custom_file),
+        "--log-dir",
+        "",
+        "--dry-run",
+    ]
+    try:
+        proc = subprocess.run(
+            cmd,
+            cwd=str(repo_root()),
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            timeout=timeout,
+        )
+    except (OSError, subprocess.TimeoutExpired):
+        return None
+    if proc.returncode != 0:
+        return None
+    try:
+        return normalize(json.loads(proc.stdout.decode("utf-8")))
+    except ValueError:
+        return None
+
+
+def local_matches(games, name):
+    query = norm(name)
+    if not query:
+        return []
+    for field in ("slug", "name", "search_keyword"):
+        exact = [g for g in games if norm(g.get(field)) == query]
+        if exact:
+            return exact
+    return [
+        g
+        for g in games
+        if query in norm(g.get("name")) or query in norm(g.get("search_keyword"))
+    ]
+
+
+def resolve_named_games(names, games, cli, custom_file, timeout):
+    """Map user-supplied names to custom.json entries, preserving the given order."""
+    by_slug = {g.get("slug"): g for g in games}
+    resolved = []
+    seen = set()
+    for name in names:
+        hits = cli_matches(cli, custom_file, name, timeout) if cli else None
+        if not hits:
+            hits = local_matches(games, name)
+        if not hits:
+            raise SystemExit("没有找到卡带「%s」：请换一个更准确的名称，或直接给 slug" % name)
+        if len(hits) > 1:
+            exact = [
+                g
+                for g in hits
+                if norm(g.get("name")) == norm(name) or norm(g.get("slug")) == norm(name)
+            ]
+            if len(exact) == 1:
+                hits = exact
+            else:
+                labels = "、".join("%s (%s)" % (g.get("name"), g.get("slug")) for g in hits)
+                raise SystemExit(
+                    "卡带名「%s」匹配到多款，请让用户确认或用 slug 指定：%s" % (name, labels)
+                )
+        slug = hits[0].get("slug")
+        game = by_slug.get(slug)
+        if game is None:
+            raise SystemExit("slug %s 不在 custom.json 中（可能已停用）" % slug)
+        if slug in seen:
+            continue
+        seen.add(slug)
+        resolved.append(game)
+    return resolved
 
 
 def resolve_cli(explicit):
@@ -506,7 +600,12 @@ def screenshot(chrome, html_path, out_path, height):
 
 def main():
     parser = argparse.ArgumentParser(description="生成 Switch 卡带回收价对比表 PNG")
-    parser.add_argument("--limit", type=int, default=20, help="取 custom.json 前 N 条（默认 20）")
+    parser.add_argument(
+        "--limit", type=int, default=DEFAULT_LIMIT, help="默认取 custom.json 前 N 条（默认 30）"
+    )
+    parser.add_argument(
+        "--names", default=None, help="用户点名的卡带，逗号/顿号分隔（优先生效，忽略 --limit）"
+    )
     parser.add_argument("--custom-file", default=None, help="custom.json 路径（默认 <repo>/data/custom.json）")
     parser.add_argument("--cli", default=None, help="nscardprice 可执行文件路径")
     parser.add_argument("--input-json", default=None, help="跳过查询，复用已有的 query 输出 JSON")
@@ -518,9 +617,25 @@ def main():
 
     root = repo_root()
     custom_file = args.custom_file or str(root / "data" / "custom.json")
-    games = load_games(custom_file, args.limit)
+    games = load_custom_games(custom_file)
     if not games:
         raise SystemExit("custom.json 没有可用条目: %s" % custom_file)
+
+    names = split_names(args.names)
+    if names:
+        if len(names) > MAX_GAMES:
+            raise SystemExit("一次最多点名 %d 款卡带，当前 %d 款" % (MAX_GAMES, len(names)))
+        try:
+            cli_for_names = resolve_cli(args.cli)
+        except SystemExit:
+            cli_for_names = None
+        games = resolve_named_games(
+            names, games, cli_for_names, custom_file, min(args.timeout, 60)
+        )
+    else:
+        if args.limit < 1:
+            raise SystemExit("--limit 必须 >= 1")
+        games = games[: args.limit]
 
     if args.input_json:
         payload = normalize(json.loads(Path(args.input_json).read_text(encoding="utf-8")))

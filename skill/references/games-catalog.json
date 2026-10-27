@@ -1,5 +1,10 @@
 [
   {
+    "slug": "adventurer-elliot-millennium-tale-ns2",
+    "name": "NS2 冒险家艾略特的千年奇谭",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "animal-corssing",
     "name": "捡树枝",
     "platform": "Nintendo Switch",
@@ -51,6 +56,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "attack-on-titan-3-ns2",
+    "name": "NS2 进击的巨人3",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "bayonetta",
     "name": "NS 猎天使魔女1",
     "platform": "Nintendo Switch"
@@ -63,6 +73,11 @@
   {
     "slug": "bayonetta-3",
     "name": "NS 猎天使魔女3",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "belmonts-curse",
+    "name": "NS 贝尔蒙特的诅咒",
     "platform": "Nintendo Switch"
   },
   {
@@ -83,6 +98,11 @@
   {
     "slug": "bravely-default-2",
     "name": "NS 勇气默示录2",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "captain-tsubasa-2",
+    "name": "NS 队长小翼2",
     "platform": "Nintendo Switch"
   },
   {
@@ -121,6 +141,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "crisis-core-final-fantasy-vii-ns2",
+    "name": "NS2 核心危机",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "cuphead",
     "name": "NS 茶杯头",
     "platform": "Nintendo Switch"
@@ -128,6 +153,11 @@
   {
     "slug": "cyberpunk-2077-ns2",
     "name": "NS2 赛博朋克 2077",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "danganronpa-2x2-ns2",
+    "name": "NS2 超级枪弹辩驳2×2",
     "platform": "Nintendo Switch 2"
   },
   {
@@ -141,9 +171,19 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "dave-the-diver-ns2",
+    "name": "NS2 潜水员戴夫",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "dead-cells-return-to-castlevania",
     "name": "NS 死亡细胞 重返恶魔城",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "demon-slayer-2-ns2",
+    "name": "NS2 鬼灭之刃2",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "detective-pikachu",
@@ -151,8 +191,18 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "devil-may-cry-5-ns2",
+    "name": "NS2 鬼泣5",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "diablo-3-eternal-collection",
     "name": "NS 暗黑破坏神3",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "digimon-story-time-stranger",
+    "name": "NS 数码宝贝物语 时空异客",
     "platform": "Nintendo Switch"
   },
   {
@@ -191,6 +241,16 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "dragon-quest-xi-s-ns2",
+    "name": "NS2 勇者斗恶龙11S",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "dragons-dogma-2-ns2",
+    "name": "NS2 龙之信条2",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "dying-light",
     "name": "NS 消逝的光芒",
     "platform": "Nintendo Switch"
@@ -199,6 +259,21 @@
     "slug": "dynasty-warriors-8-xtreme-legends-definitive-edition",
     "name": "NS 真三国无双7 猛将传DX",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "ea-fc27-ns2",
+    "name": "NS2 EA FC27",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "efootball-kick-off-ns2",
+    "name": "NS2 实况足球 Kick-Off!",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "elden-ring-ns2",
+    "name": "NS2 艾尔登法环",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "everybody-1-2-switch",
@@ -216,6 +291,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "fc27",
+    "name": "NS FC27",
+    "platform": "Nintendo Switch"
+  },
+  {
     "slug": "fifa-20",
     "name": "NS FIFA2020 足球",
     "platform": "Nintendo Switch"
@@ -226,14 +306,45 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "final-fantasy-gongming",
+    "name": "NS 最终幻想 共鸣",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "final-fantasy-gongming-ns2",
+    "name": "NS2 最终幻想 共鸣",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "final-fantasy-tactics",
+    "name": "NS 最终幻想 战略版",
+    "platform": "Nintendo Switch"
+  },
+  {
     "slug": "final-fantasy-vii-rebirth",
     "name": "NS2 最终幻想7 重生（钥匙卡）",
     "platform": "Nintendo Switch 2"
   },
   {
+    "slug": "final-fantasy-x-x-2-hd-ns2",
+    "name": "NS2 最终幻想10/10-2",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "fire-emblem-engage",
+    "name": "NS 火焰纹章 Engage",
+    "platform": "Nintendo Switch",
+    "search_keyword": "engage"
+  },
+  {
     "slug": "fire-emblem-three-houses",
     "name": "NS 火焰纹章 风花雪月",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "fire-emblem-wanziqianhong-ns2",
+    "name": "NS2 火焰纹章 万紫千红",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "fire-emblem-warriors",
@@ -266,6 +377,21 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "fitness-boxing-3-ns2",
+    "name": "NS2 有氧拳击3",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "granblue-fantasy-endless-dusk-ns2",
+    "name": "NS2 碧蓝幻想 无尽黄昏",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "guidao-shuangzixing-ns2",
+    "name": "NS2 轨道双子星",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "hades-2",
     "name": "NS2 哈迪斯2",
     "platform": "Nintendo Switch 2"
@@ -279,6 +405,16 @@
     "slug": "hollow-knight",
     "name": "NS 空洞骑士",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "hollow-knight-ns2",
+    "name": "NS2 空洞骑士",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "hollow-knight-silksong-ns2",
+    "name": "NS2 空洞骑士 丝之歌",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "huangdao-qiuji",
@@ -301,9 +437,19 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "inazuma-eleven-victory-road-ns2",
+    "name": "NS2 闪电十一人 英雄们的胜利之路",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "it-takes-two",
     "name": "双人成行",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "it-takes-two-ns2",
+    "name": "NS2 双人成行",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "just-dance-2018",
@@ -351,6 +497,11 @@
     "platform": "Nintendo Switch 2"
   },
   {
+    "slug": "lego-batman-legacy-of-the-dark-knight-ns2",
+    "name": "NS2 乐高蝙蝠侠 黑暗骑士之遗",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "lego-city-undercover",
     "name": "NS 乐高小城",
     "platform": "Nintendo Switch"
@@ -366,9 +517,24 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "lianyu-yuekuangbing",
+    "name": "NS 恋狱 月狂病",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "lies-of-p-ns2",
+    "name": "NS2 匹诺曹的谎言",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "little-nightmares-2",
     "name": "NS 小小梦魇2",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "little-nightmares-2-ns2",
+    "name": "NS2 小小梦魇2",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "little-nightmares-3",
@@ -426,14 +592,44 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "marvels-guardians-of-the-galaxy-ns2",
+    "name": "NS2 漫威银河护卫队",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "mengjiangzhuan-2-ns2",
+    "name": "NS2 猛将传2",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "metaphor-refantazio-ns2",
+    "name": "NS2 暗喻幻想",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "metroid-dread",
     "name": "NS 银河战士 密特罗德生存恐惧",
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "metroid-prime-4-beyond-ns2",
+    "name": "NS2 密特罗德 绝境嗜生",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "minecraft-bedrock-edition",
     "name": "NS 我的世界 基岩版",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "minecraft-bedrock-edition-ns2",
+    "name": "NS2 我的世界 基岩版",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "minecraft-dungeons-2-ns2",
+    "name": "NS2 我的世界 地下城2",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "minecraft-dungeons-ultimate-edition",
@@ -451,6 +647,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "monster-hunter-wilds-ns2",
+    "name": "NS2 怪物猎人 荒野",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "mortal-kombat-11",
     "name": "NS 真人快打11",
     "platform": "Nintendo Switch"
@@ -466,9 +667,25 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "muramasa-the-demon-blade-ns2",
+    "name": "NS2 胧村正怪奇谭",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "my-time-at-portia",
     "name": "NS 波西亚时光",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "naruto-ultimate-ninja-storm-connections",
+    "name": "NS 火影忍者 究极风暴羁绊",
+    "platform": "Nintendo Switch",
+    "search_keyword": "火影忍者终极风暴羁绊"
+  },
+  {
+    "slug": "nba-2k27-ns2",
+    "name": "NS2 NBA 2K27",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "need-for-speed-hot-pursuit-remastered",
@@ -484,6 +701,11 @@
     "slug": "nier-automata",
     "name": "NS 尼尔机械纪元",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "nobunagas-ambition-shinsei-ns2",
+    "name": "NS2 信长之野望 新生",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "nzcp123",
@@ -506,14 +728,29 @@
     "platform": "Nintendo Switch 2"
   },
   {
+    "slug": "octopath-traveler-1-2-collection-ns2",
+    "name": "NS2 八方旅人1+2合集",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "octopath-traveler-2",
     "name": "NS 八方旅人2",
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "one-piece-ocean-feast-ns2",
+    "name": "NS2 海贼王 海洋盛宴",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "one-piece-pirate-warriors-4",
     "name": "NS 海贼无双4",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "onimusha-way-of-the-sword-ns2",
+    "name": "NS2 鬼武者 剑之道",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "ori-and-the-will-of-the-wisps",
@@ -551,6 +788,12 @@
     "platform": "Nintendo Switch 2"
   },
   {
+    "slug": "persona-5-royal",
+    "name": "NS 女神异闻录5 皇家版",
+    "platform": "Nintendo Switch",
+    "search_keyword": "p5r"
+  },
+  {
     "slug": "pikimin-4",
     "name": "皮克敏4",
     "platform": "Nintendo Switch",
@@ -565,6 +808,11 @@
     "slug": "pikmin-3-deluxe",
     "name": "NS 皮克敏3 豪华版",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "pikmin-4-everybody-challenge-ns2",
+    "name": "NS2 皮克敏4+大家來挑戰",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "plants-vs-zombies-battle-for-neighborville",
@@ -587,6 +835,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "pokemon-legends-z-a-expansion-ns2",
+    "name": "NS2 宝可梦传说 Z-A+扩充票",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "pokemon-legends-z-a-ns2",
     "name": "NS2 宝可梦传说 Z-A",
     "platform": "Nintendo Switch 2"
@@ -607,6 +860,11 @@
     "platform": "Nintendo Switch 2"
   },
   {
+    "slug": "pokemon-pokopia-expansion-ns2",
+    "name": "NS2 Pokopia+扩充票",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "pokemon-scarlet",
     "name": "NS 宝可梦 朱",
     "platform": "Nintendo Switch"
@@ -615,6 +873,12 @@
     "slug": "pokemon-sword",
     "name": "NS 宝可梦 剑",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "pokemon-violet-dlc",
+    "name": "NS 宝可梦 紫+DLC同捆",
+    "platform": "Nintendo Switch",
+    "search_keyword": "宝可梦紫dlc"
   },
   {
     "slug": "prince-of-persia-the-lost-crown",
@@ -627,6 +891,16 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "professor-layton-steam-new-world",
+    "name": "NS 雷顿教授与蒸汽新世界",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "professor-layton-steam-new-world-ns2",
+    "name": "NS2 雷顿教授与蒸汽新世界",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "puyo-puyo-2s",
     "name": "NS2 魔法气泡2S（钥匙卡）",
     "platform": "Nintendo Switch 2"
@@ -637,6 +911,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "rayman-legends-retold-ns2",
+    "name": "NS2 雷曼 传奇再叙",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "red-dead-redemption",
     "name": "NS 荒野大镖客1",
     "platform": "Nintendo Switch"
@@ -644,6 +923,11 @@
   {
     "slug": "rhythm-heaven",
     "name": "NS 节奏天国",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "rune-factory-3",
+    "name": "NS 符文工房3",
     "platform": "Nintendo Switch"
   },
   {
@@ -703,6 +987,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "snowrunner-ns2",
+    "name": "NS2 雪地奔驰",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "sonic-colors-ultimate",
     "name": "NS 索尼克 缤纷色彩 终极版",
     "platform": "Nintendo Switch"
@@ -713,14 +1002,49 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "splatoon-raiders-ns2",
+    "name": "NS2 喷射战士 涂击队",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "split-fiction-ns2",
+    "name": "NS2 双影奇境",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "spongebob-squarepants-the-tidal-giant",
     "name": "NS2 海绵宝宝 潮汐巨神(钥匙卡)",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "sports-resort-ns2",
+    "name": "NS2 运动度假胜地 Sports Resort",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "star-fox-ns2",
+    "name": "NS2 星际火狐",
     "platform": "Nintendo Switch 2"
   },
   {
     "slug": "stardew-valley",
     "name": "NS 星露谷物语",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "steins-gate-reboot",
+    "name": "NS 命运石之门 重启",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "steins-gate-reboot-ns2",
+    "name": "NS2 命运石之门 重启",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "stellar-blade-ns2",
+    "name": "NS2 星刃",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "story-of-seasons-pioneers-of-olive-town",
@@ -814,6 +1138,12 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "switch-sports",
+    "name": "NS Nintendo Switch Sports",
+    "platform": "Nintendo Switch",
+    "search_keyword": "sports"
+  },
+  {
     "slug": "taiko-no-tatsujin-drum-n-fun",
     "name": "NS 太鼓达人",
     "platform": "Nintendo Switch"
@@ -829,9 +1159,24 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "tales-of-arise-dawn-of-the-new-day-ns2",
+    "name": "NS2 破晓传奇 黎明新程",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "the-elder-scrolls-iv-oblivion-remastered-ns2",
+    "name": "NS2 上古卷轴4 湮灭重制版",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "the-elder-scrolls-v-skyrim",
     "name": "NS 上古卷轴5 完整版",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "the-legend-of-heroes-trails-in-the-sky-2nd-ns2",
+    "name": "NS2 空之轨迹 the 2nd",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "the-legend-of-heroes-trails-into-reverie",
@@ -842,6 +1187,11 @@
     "slug": "the-legend-of-zelda-links-awakening",
     "name": "NS 塞尔达传说 织梦岛",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "the-legend-of-zelda-ocarina-of-time-ns2",
+    "name": "NS2 塞尔达传说 时之笛",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "the-legend-of-zelda-skyward-sword",
@@ -899,6 +1249,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "warhammer-40k-rogue-trader-ns2",
+    "name": "NS2 战锤40K 行商浪人",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "wario-works-get-it-together",
     "name": "NS 瓦里奥制造 分享同乐",
     "platform": "Nintendo Switch"
@@ -921,6 +1276,16 @@
   {
     "slug": "wild-hearts-s",
     "name": "NS2 狂野之心S（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "witch-trial",
+    "name": "NS 魔女审判",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "wo-long-fallen-dynasty-ns2",
+    "name": "NS2 卧龙 苍天陨落",
     "platform": "Nintendo Switch 2"
   },
   {
@@ -949,9 +1314,19 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "xenoblade1-definitive-edition-ns2",
+    "name": "NS2 异度之刃1 决定版",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "slug": "xenoblade2",
     "name": "异度之刃2",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "xenoblade2-ns2",
+    "name": "NS2 异度之刃2",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "xenoblade2-torna",
@@ -962,6 +1337,11 @@
     "slug": "xenoblade3",
     "name": "异度之刃3",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "xenoblade3-ns2",
+    "name": "NS2 异度之刃3",
+    "platform": "Nintendo Switch 2"
   },
   {
     "slug": "xushi-wanxiang-shizhi-cunzai",
@@ -981,6 +1361,16 @@
   {
     "slug": "ys-x-nordics",
     "name": "NS2 伊苏10 诺曼荣光（钥匙卡）",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "yuran-shenghuo-zhi-ting",
+    "name": "NS 悠然生活之庭 静谧田园",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "yuran-shenghuo-zhi-ting-ns2",
+    "name": "NS2 悠然生活之庭 静谧田园",
     "platform": "Nintendo Switch 2"
   },
   {
@@ -1012,6 +1402,21 @@
   {
     "slug": "zelda-tears-of-the-kingdom-ns2",
     "name": "NS2 王国之泪",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "slug": "zhihuijia",
+    "name": "NS 指挥家",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "zhongtian-jiaotuan",
+    "name": "NS 终天教团",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "zhongtian-jiaotuan-ns2",
+    "name": "NS2 终天教团",
     "platform": "Nintendo Switch 2"
   },
   {

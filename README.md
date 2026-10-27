@@ -1,46 +1,48 @@
+English | [简体中文](README.zh-CN.md)
+
 # NSCardPriceCLI
 
-Go 编写的 Nintendo Switch 卡带回收价查询 CLI。读取 `data/games.json` 中的游戏与商家商品 ID，查询**老猎人、火枪手、不二家、杭州西子、海螺、蘑菇时间**六家回收商的回收价/售价，以 JSON 输出，方便终端使用或供 agent/脚本消费。
+A Go CLI for querying Nintendo Switch cartridge recycle prices. It reads games and merchant item IDs from `data/games.json`, queries **laolieren (老猎人), huoqiangshou (火枪手), buerjia (不二家), hangzhouxizi (杭州西子), hailuo (海螺), and mogushijian (蘑菇时间)** for recycle/sell prices, and outputs JSON that is easy to consume from a terminal, agent, or script.
 
-## 功能
+## Features
 
-- 查询任天堂 Switch 卡带回收价/售价，覆盖六家回收商
-- 按游戏中文名/关键词模糊匹配，常用简称与别名自动识别
-- 支持按 slug 精确查询（`query --slug`，不区分大小写）
-- 多关键词同时查询（最多 5 个），一次拿到多个游戏的价格
-- 支持独立的自定义游戏库，与内置清单互不影响
-- 一条命令同步六家商家的 NS/NS2 卡带目录，自动过滤其他平台条目
-- 差异化解析各家接口：回收价、售价、暂不收购（unavailable）状态
-- 并发查询，单家失败不影响其余商家
-- 内置 0.2s 请求间隔制动，防止高频查询触发商家风控
-- 纯 JSON 输出到 stdout，日志与错误走 stderr
-- 退出码语义清晰：0 成功（含部分商家失败、unavailable/skipped），1 所有商家均失败，2 用法错误
+- Query Nintendo Switch cartridge recycle/sell prices across six recyclers
+- Fuzzy matching by Chinese game name/keyword; common abbreviations and aliases are recognized automatically
+- Exact slug lookup (`query --slug`, case-insensitive)
+- Query multiple keywords at once (up to 5) and get several games in one call
+- Independent custom game library that does not affect the built-in catalog
+- Sync the NS/NS2 cartridge catalogs of all six merchants with one command, filtering out other platforms
+- Per-merchant response parsing: recycle price, sell price, and unavailable status
+- Concurrent queries; a failure at one merchant does not affect the others
+- Built-in 0.2s request pacing to avoid triggering merchant rate limits
+- Pure JSON on stdout; logs and errors on stderr
+- Clear exit codes: 0 = success (including partial merchant failures or unavailable/skipped results), 1 = all merchants failed, 2 = usage error
 
-## 命令
+## Commands
 
 ```bash
-nscardprice query 塞尔达              # 关键词查询全部 6 家
-nscardprice query --slug zelda-breath-of-the-wild  # 按 slug 精确查询（不区分大小写）
-nscardprice query --custom --slug mk8-custom       # 在自定义库中按 slug 查询
-nscardprice query --mul 旷野 马8 双人成行  # 多关键词同时查询（最多 5 个）
-nscardprice query --custom 马车8             # 仅在 data/custom.json 自定义库中查询
-nscardprice query --custom --all             # 查询自定义库全部条目
-nscardprice --merchant buerjia query 旷野    # 仅查指定商家（可重复）
-nscardprice query -m 老猎人,不二家 旷野      # 逗号分隔多家
-nscardprice query --all                      # 查询全部游戏
-nscardprice list laolieren 10                # 列出老猎人卡带目录前 10 条 (name+game_id)
-nscardprice list buerjia --all --out data/lists   # 拉全量并落盘到 data/lists/
-nscardprice sync                             # 同步 6 家 NS/NS2 目录到 data/lists
-nscardprice sync -m huoqiangshou             # 只同步指定商家
-nscardprice merchants                        # 列出 6 家商家 key
-nscardprice --version                        # 版本号
+nscardprice query 塞尔达              # keyword query across all 6 merchants
+nscardprice query --slug zelda-breath-of-the-wild  # exact slug lookup (case-insensitive)
+nscardprice query --custom --slug mk8-custom       # exact slug lookup in the custom library
+nscardprice query --mul 旷野 马8 双人成行  # query multiple keywords (up to 5)
+nscardprice query --custom 马车8             # query only the data/custom.json library
+nscardprice query --custom --all             # query every entry in the custom library
+nscardprice --merchant buerjia query 旷野    # query a single merchant (repeatable)
+nscardprice query -m 老猎人,不二家 旷野      # comma-separated merchant list
+nscardprice query --all                      # query all games
+nscardprice list laolieren 10                # list the first 10 entries of the laolieren catalog (name + game_id)
+nscardprice list buerjia --all --out data/lists   # fetch the full catalog and save it to data/lists/
+nscardprice sync                             # sync all six NS/NS2 catalogs to data/lists
+nscardprice sync -m huoqiangshou             # sync only the specified merchant
+nscardprice merchants                        # list the six merchant keys
+nscardprice --version                        # print the version
 ```
 
-常用全局 flag：`--games <path>`（默认 `data/games.json`）、`--custom-file <path>`（默认 `data/custom.json`）、`--timeout`（默认 10s）、`--retries`（默认 2）、`--concurrency`（默认 8）、`--insecure`、`--dry-run`、`--verbose`。
+Common global flags: `--games <path>` (default `data/games.json`), `--custom-file <path>` (default `data/custom.json`), `--timeout` (default 10s), `--retries` (default 2), `--concurrency` (default 8), `--insecure`, `--dry-run`, `--verbose`.
 
-### data/custom.json 自定义库
+### data/custom.json custom library
 
-独立于 `data/games.json`，适合放常查但不想混入主库的卡带（结构一致，`enabled` 缺省视为 true）。用 `query --custom` 只在此库内匹配查价：
+Independent of `data/games.json`, this library is for cartridges you query often but do not want to mix into the main catalog (same structure; a missing `enabled` field is treated as true). Use `query --custom` to match and query only within this library:
 
 ```json
 [
@@ -58,55 +60,55 @@ nscardprice --version                        # 版本号
 ]
 ```
 
-示例输出（单游戏）：
+Example output (single game):
 
 ```json
 {"fetched_at":"...","slug":"...","name":"塞尔达传说 王国之泪",
  "results":[{"merchant":"laolieren","status":"ok","recycle_price":170,"sell_price":200,"currency":"CNY",...}]}
 ```
 
-## 架构
+## Architecture
 
 ```
-cmd/nscardprice/    入口
-internal/app/       依赖装配
-internal/config/    运行选项与默认值
-internal/game/      领域模型（零依赖）
-internal/gamesrepo/ 游戏清单仓库（JSON 实现）
-internal/merchant/  商家抽象 + 6 家实现
-internal/httpx/     带重试/退避/TLS 的 HTTP 封装
-internal/parse/     JSON 解析工具
-internal/collector/ 并发编排与结果聚合
-internal/cli/       cobra 命令
-test/               真实接口集成测试（build tag 隔离，默认不跑）
-data/games.json     游戏与商家商品 ID 清单
-data/custom.json    自定义查询库（query --custom 使用）
-data/lists/         各商家全量目录（list 全量 / sync 仅保留 NS/NS2 落盘）
-logs/               错误/运行日志（nscardprice.log，追加写）
+cmd/nscardprice/    entry point
+internal/app/       dependency wiring
+internal/config/    runtime options and defaults
+internal/game/      domain models (zero dependencies)
+internal/gamesrepo/ game catalog repository (JSON implementation)
+internal/merchant/  merchant abstraction + six implementations
+internal/httpx/     HTTP wrapper with retry/backoff/TLS support
+internal/parse/     JSON parsing helpers
+internal/collector/ concurrent orchestration and result aggregation
+internal/cli/       cobra commands
+test/               live-API integration tests (build-tag isolated, not run by default)
+data/games.json     game and merchant item ID catalog
+data/custom.json    custom query library (used by query --custom)
+data/lists/         full merchant catalogs (list --all / sync keeps only NS/NS2)
+logs/               error/runtime logs (nscardprice.log, append-only)
 ```
 
-扩展方式：新增商家在 `internal/merchant` 加实现并注册；换数据源实现 `gamesrepo.Repository` 接口。
+Extension: add a merchant implementation in `internal/merchant` and register it; replace the data source by implementing the `gamesrepo.Repository` interface.
 
-## 构建
+## Build
 
-安装到 PATH（推荐，之后直接用 `nscardprice`）：
+Install to PATH (recommended; afterwards use `nscardprice` directly):
 
 ```bash
-go install ./cmd/nscardprice     # 装入 ~/go/bin（已在 PATH 则直接生效）
+go install ./cmd/nscardprice     # installs to ~/go/bin (takes effect if already on PATH)
 nscardprice --help
 ```
 
-或仅生成本地二进制并直接运行：
+Or build a local binary and run it directly:
 
 ```bash
-make build                       # 生成 bin/nscardprice
+make build                       # produces bin/nscardprice
 ./bin/nscardprice list
 ```
 
-## 真实接口测试
+## Live API integration tests
 
 ```bash
 NSCARD_INTEGRATION=1 go test -tags integration ./test/ -v
 ```
 
-测试对每请求间隔 3s，防止触发第三方接口限流；平时 `go test ./...` 不受影响。
+The tests pause 3s between requests to avoid triggering third-party rate limits; `go test ./...` is unaffected.

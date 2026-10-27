@@ -7,3 +7,6 @@ logs/
 
 # 生成的图表
 reports/
+
+# 本地知识库
+knowledge/

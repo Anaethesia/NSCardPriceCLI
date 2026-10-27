@@ -1,6 +1,6 @@
 ---
 name: card-price-charts
-description: 把 data/custom.json 的卡带生成「卡带 × 6 家回收商」回收价对比表 PNG，并按行橘色高亮最高价。当用户要卡带价格对比图、回收价一览表、价格矩阵图片或问哪家回收最高时使用。不用于单款卡带查价。
+description: 把 data/custom.json 的卡带生成「卡带 × 6 家回收商」回收价对比表 PNG，并按行橘色高亮最高价。默认取 data/custom.json 前 30 条；用户点名卡带时只生成指定卡带（1~30 款）。当用户要卡带价格对比图、回收价一览表、价格矩阵图片或问哪家回收最高时使用。不用于单款卡带查价。
 ---
 
 # 卡带回收价对比图
@@ -30,12 +30,20 @@ nscardprice merchants                      # 应输出 6 家商家
 
 - 只交付 **PNG**。HTML 只是渲染中间产物，放在临时目录，不要当交付物。
 - 默认路径：`<repo>/reports/card-price-chart.png`（`reports/` 已 gitignore）。
-- 图片文件名用英文小写短横线，例如 `card-price-chart.png`、`card-price-chart-20.png`。
+- 图片文件名用英文小写短横线，例如 `card-price-chart.png`、`card-price-chart-30.png`。
+
+## 选哪些卡带
+
+- **用户没说卡带名（默认）**：取 `data/custom.json` 中 `enabled` 非 false 的条目，按**文件顺序**取前 **30** 条。
+- **用户点名卡带**：支持 1~30 款，只画点名的卡带，行顺序 = 用户给出的顺序；用户没给顺序时按 custom.json 顺序。
+- 名字解析：优先用 `nscardprice query --custom --dry-run <名字>`（不联网，秒回）拿到 `slug`，或查 `references/games-catalog.json` 按 `name`/`search_keyword` 定位。`NS2`、`同捆`、`DLC` 等版本差异必须让用户确认。
+- 一个名字命中多款（如「旷野之息」= 基础版 / DLC同捆 / NS2 版）时，把候选列出来让用户选，**不要自行猜测或合并**。
+- 点名模式只画点名的卡带，**不要**再追加默认前 30 条。
 
 ## 数据契约
 
-- 数据源：`data/custom.json`，按**文件顺序**取前 N 条（默认 20，当前上限 30）。
-- 行顺序 = custom.json 顺序，**不要按价格重排**。
+- 数据源：`data/custom.json`；默认按**文件顺序**取前 30 条，点名时只取点名条目（上限 30）。
+- 行顺序 = custom.json 顺序（点名时 = 用户顺序），**不要按价格重排**。
 - 列顺序固定，不能改：
 
 | 列 | 商家 key | 表头 |
@@ -52,7 +60,9 @@ nscardprice merchants                      # 应输出 6 家商家
 
 ## 取数
 
-先截取前 N 条到临时文件，再查，避免跑全量 278 条（不在仓库内时先 `cd "$NSCARD_HOME"`）：
+先截取需要的条目到临时文件，再查，避免跑全量 278 条（不在仓库内时先 `cd "$NSCARD_HOME"`）。
+
+默认前 30 条：
 
 ```bash
 python3 - <<'PY'
@@ -60,14 +70,34 @@ import json
 src = "data/custom.json"
 dst = "/tmp/card-price-subset.json"
 games = [g for g in json.load(open(src, encoding="utf-8")) if g.get("enabled", True)]
-json.dump(games[:20], open(dst, "w", encoding="utf-8"), ensure_ascii=False)
+json.dump(games[:30], open(dst, "w", encoding="utf-8"), ensure_ascii=False)
 PY
 
 nscardprice query --custom --all \
   --custom-file /tmp/card-price-subset.json --log-dir ""
 ```
 
-- 20 条 × 6 家约 30 秒，属正常；不要为此加缓存。
+用户点名卡带时，先把每个名字解析成唯一 `slug`，再按用户顺序截取：
+
+```bash
+python3 - <<'PY'
+import json
+src = "data/custom.json"
+dst = "/tmp/card-price-subset.json"
+slugs = ["animal-corssing", "it-takes-two"]   # 按用户顺序替换
+games = [g for g in json.load(open(src, encoding="utf-8")) if g.get("enabled", True)]
+by_slug = {g["slug"]: g for g in games}
+missing = [s for s in slugs if s not in by_slug]
+if missing:
+    raise SystemExit("custom.json 中缺少 slug: %s" % missing)
+json.dump([by_slug[s] for s in slugs], open(dst, "w", encoding="utf-8"), ensure_ascii=False)
+PY
+
+nscardprice query --custom --all \
+  --custom-file /tmp/card-price-subset.json --log-dir ""
+```
+
+- 30 条 × 6 家约 45 秒，属正常；点名款数少时更快。不要为此加缓存。
 - 部分商家失败是常态：退出码 `0` 即使夹带 `error` 也继续渲染，逐条读 `status` 即可。
 - 只有退出码 `2`（用法错误/未找到）、退出码 `1`（所有商家均失败）或 stdout 不是合法 JSON 才终止。
 - 不要因为某家 `error` / `unavailable` / `skipped` 就退出，也不要重试整张表。
@@ -131,20 +161,23 @@ nscardprice query --custom --all \
 ## 路径 B：脚本兜底
 
 ```bash
-python3 skill/cardPriceCharts/scripts/render_chart.py --limit 20
+python3 skill/cardPriceCharts/scripts/render_chart.py --limit 30
+# 用户点名卡带（逗号/顿号分隔，按给出顺序出图）
+python3 skill/cardPriceCharts/scripts/render_chart.py --names "捡树枝,双人成行"
 # 指定输出
-python3 skill/cardPriceCharts/scripts/render_chart.py --limit 20 --out reports/card-price-chart-20.png
+python3 skill/cardPriceCharts/scripts/render_chart.py --limit 30 --out reports/card-price-chart-30.png
 # 复用已抓好的 JSON，不再请求商家
 python3 skill/cardPriceCharts/scripts/render_chart.py --input-json /tmp/query.json
 ```
 
-参数：`--limit`（默认 20）、`--custom-file`、`--cli`、`--input-json`、`--out`、`--html-out`、`--chrome`、`--timeout`。
+参数：`--limit`（默认 30）、`--names`（点名卡带，优先生效）、`--custom-file`、`--cli`、`--input-json`、`--out`、`--html-out`、`--chrome`、`--timeout`。
+`--names` 先用 CLI 的模糊匹配解析（`--dry-run`，不联网），解析失败时回退到本地名称匹配；名字命中多款会直接报候选，不会自动挑一个。
 脚本只用 Python 3 标准库 + 本机 Chrome，不依赖 PIL / matplotlib / cairosvg；stdout 输出一行 JSON 摘要（行数、高亮数、各状态计数、图片路径）。
 
 ## 校验清单
 
 - [ ] PNG 宽度 3360px（2x），高度足够，最后一行完整、底部无截断、无多余说明文字。
-- [ ] 行数 = N，列数 = 7；行顺序与 custom.json 一致。
+- [ ] 行数 = N，列数 = 7；默认模式行顺序与 custom.json 前 N 条一致，点名模式与用户给的顺序一致。
 - [ ] 表头 6 家名称和顺序正确（老猎人 / 海螺 / 不二家 / 杭州西子 / 火枪手 / 蘑菇时间）。
 - [ ] 每条有正价格的行恰好高亮一个或多个橘格，且橘格数值 = 该行最大 `recycle_price`。
 - [ ] 橘格是整格填充、白字，没有只高亮数字或加边框。
