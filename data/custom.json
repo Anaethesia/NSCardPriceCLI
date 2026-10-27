@@ -168,7 +168,7 @@
   },
   {
     "slug": "mario-kart-8-deluxe",
-    "name": "马里奥赛车 8 豪华版",
+    "name": "马里奥赛车8",
     "platform": "Nintendo Switch",
     "enabled": true,
     "merchant_ids": {
@@ -790,6 +790,34 @@
       },
       "mogushijian": {
         "game_id": "2013"
+      }
+    }
+  },
+  {
+    "slug": "pokemon-pokopia",
+    "name": "NS2 Pokopia",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3723"
+      },
+      "huoqiangshou": {
+        "game_id": "3577"
+      },
+      "buerjia": {
+        "game_id": "1070"
+      },
+      "hangzhouxizi": {
+        "game_id": "865",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "1033"
+      },
+      "hailuo": {
+        "game_id": "2223"
+      },
+      "mogushijian": {
+        "game_id": "2879"
       }
     }
   },
@@ -4394,28 +4422,6 @@
       },
       "hailuo": {
         "game_id": "2070"
-      }
-    }
-  },
-  {
-    "slug": "pokemon-pokopia",
-    "name": "NS2 Pokopia",
-    "platform": "Nintendo Switch 2",
-    "enabled": true,
-    "merchant_ids": {
-      "laolieren": {
-        "game_id": "3723"
-      },
-      "huoqiangshou": {
-        "game_id": "3577"
-      },
-      "buerjia": {
-        "game_id": "1070"
-      },
-      "hangzhouxizi": {
-        "game_id": "865",
-        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
-        "sku_id": "1033"
       }
     }
   },

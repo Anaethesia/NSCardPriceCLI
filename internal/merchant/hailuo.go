@@ -86,9 +86,24 @@ func (m *hailuo) Fetch(ctx context.Context, entry game.MerchantEntry) (Result, e
 	if !sellOK || !diffOK {
 		return res, fmt.Errorf("海螺 missing data.storeInfo.price or data.storeInfo.out_diff for game_id=%s", entry.GameID)
 	}
-	res.RecyclePrice = f64ptr(sell - diff)
+	recycle, ok := hailuoRecyclePrice(sell, diff)
+	if !ok {
+		res.Status = StatusUnavailable
+		res.Note = "海螺 recycle_price<=0"
+		return res, nil
+	}
+	res.RecyclePrice = f64ptr(recycle)
 	res.Note = "recycle_price=data.storeInfo.price-data.storeInfo.out_diff"
 	return res, nil
+}
+
+// hailuoRecyclePrice derives the recycle price from the sell price and the
+// merchant's deduction. A non-positive result means 海螺 does not actually take
+// the item, so callers must report it as unavailable rather than a negative or
+// zero price.
+func hailuoRecyclePrice(sell, diff float64) (float64, bool) {
+	price := sell - diff
+	return price, price > 0
 }
 
 // hailuoPlatform maps 海螺's category ids to platforms. 1 is Switch, 41 is
