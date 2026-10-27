@@ -145,12 +145,26 @@ func runQuery(opts *config.Options, args []string, all, custom, mul, slug bool, 
 	}
 	logging.Infof("query keyword=%q games=%d errors=%d", keyword, len(results), errCount)
 
-	for _, r := range results {
-		if r.HasErrors() {
-			return exitError(1, "")
-		}
+	if queryShouldExit(results) {
+		return exitError(1, "")
 	}
 	return nil
+}
+
+// queryShouldExit reports whether the query produced no usable result at all.
+// Merchant-level failures are tolerated as long as at least one merchant
+// answered, so callers can still consume partial data.
+func queryShouldExit(results []collector.GameResult) bool {
+	total, failed := 0, 0
+	for _, g := range results {
+		for _, r := range g.Results {
+			total++
+			if r.Status == merchant.StatusError {
+				failed++
+			}
+		}
+	}
+	return total > 0 && failed == total
 }
 
 // queryGames resolves one keyword, or with --mul up to maxQueryKeywords

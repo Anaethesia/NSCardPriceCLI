@@ -117,6 +117,7 @@ func (r Registry) Catalog(key string) (Cataloger, bool) {
 // ResolveKey resolves a user-supplied merchant key or Chinese name to a
 // registry key.
 func (r Registry) ResolveKey(input string) (string, bool) {
+	input = strings.TrimSpace(input)
 	if _, ok := r[input]; ok {
 		return input, true
 	}

@@ -39,7 +39,7 @@ func NewCommand() *cobra.Command {
 	pf.StringVar(&opts.GamesFile, "games", config.DefaultGamesFile, "games.json 路径")
 	pf.StringVar(&opts.CustomFile, "custom-file", config.DefaultCustomFile, "custom.json 路径")
 	pf.StringVar(&opts.LogDir, "log-dir", config.DefaultLogDir, "日志目录（空字符串=不写日志文件）")
-	pf.StringArrayVarP(&opts.Merchants, "merchant", "m", nil, "仅查询指定商家（可重复，key 或中文名）")
+	pf.StringSliceVarP(&opts.Merchants, "merchant", "m", nil, "指定商家，可重复或逗号分隔（key 或中文名）")
 	pf.DurationVar(&opts.Timeout, "timeout", config.DefaultTimeout, "单请求超时")
 	pf.IntVar(&opts.Retries, "retries", config.DefaultRetries, "每请求重试次数")
 	pf.DurationVar(&opts.Backoff, "backoff", config.DefaultBackoff, "重试退避间隔")

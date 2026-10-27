@@ -4,3 +4,6 @@ bin/
 # 运行日志
 logs/
 *.log
+
+# 生成的图表
+reports/
