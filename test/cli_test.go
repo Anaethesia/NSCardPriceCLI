@@ -38,7 +38,7 @@ func runCLI(args ...string) (string, string, error) {
 	return out.String(), errBuf.String(), err
 }
 
-// TestCLIMerchants checks `merchants` prints the four supported storefronts.
+// TestCLIMerchants checks `merchants` prints the six supported storefronts.
 func TestCLIMerchants(t *testing.T) {
 	stdout, _, err := runCLI("--games", gamesPath(), "merchants")
 	if err != nil {
@@ -58,6 +58,8 @@ func TestCLIMerchants(t *testing.T) {
 		"huoqiangshou": "火枪手",
 		"buerjia":      "不二家",
 		"hangzhouxizi": "杭州西子",
+		"hailuo":       "海螺",
+		"mogushijian":  "蘑菇时间",
 	}
 	if len(got) != len(want) {
 		t.Fatalf("got %d merchants, want %d", len(got), len(want))
@@ -105,8 +107,8 @@ func TestCLIQuerySlugAsKeyword(t *testing.T) {
 		if results[i].Slug != w {
 			t.Errorf("games[%d].slug = %q, want %q", i, results[i].Slug, w)
 		}
-		if len(results[i].Results) != 4 {
-			t.Errorf("games[%d] has %d merchant results, want 4", i, len(results[i].Results))
+		if len(results[i].Results) != 6 {
+			t.Errorf("games[%d] has %d merchant results, want 6", i, len(results[i].Results))
 		}
 	}
 }
@@ -126,8 +128,8 @@ func TestCLIQuerySlugExact(t *testing.T) {
 	if gr.Slug != "zelda-breath-of-the-wild" {
 		t.Errorf("slug = %q, want zelda-breath-of-the-wild", gr.Slug)
 	}
-	if len(gr.Results) != 4 {
-		t.Errorf("got %d merchant results, want 4", len(gr.Results))
+	if len(gr.Results) != 6 {
+		t.Errorf("got %d merchant results, want 6", len(gr.Results))
 	}
 }
 
@@ -420,8 +422,8 @@ func TestCLICustomQuery(t *testing.T) {
 	if gr.Slug != "custom-kart" {
 		t.Errorf("slug = %q, want custom-kart", gr.Slug)
 	}
-	if len(gr.Results) != 4 {
-		t.Fatalf("got %d results, want 4 (buerjia + 3 skipped)", len(gr.Results))
+	if len(gr.Results) != 6 {
+		t.Fatalf("got %d results, want 6 (buerjia + 5 skipped)", len(gr.Results))
 	}
 	for _, r := range gr.Results {
 		if r.Merchant == "buerjia" && r.Status != merchant.StatusOK {
@@ -448,7 +450,7 @@ func TestCLICustomEmpty(t *testing.T) {
 	}
 }
 
-// TestCLISyncDryRun checks `sync --dry-run` reports all four merchants via a
+// TestCLISyncDryRun checks `sync --dry-run` reports all six merchants via a
 // JSON summary without hitting the network.
 func TestCLISyncDryRun(t *testing.T) {
 	stdout, _, err := runCLI("--games", gamesPath(), "--dry-run", "sync")
@@ -463,7 +465,7 @@ func TestCLISyncDryRun(t *testing.T) {
 	if err := json.Unmarshal([]byte(stdout), &s); err != nil {
 		t.Fatalf("invalid JSON output: %v\n%s", err, stdout)
 	}
-	want := []string{"buerjia", "hangzhouxizi", "huoqiangshou", "laolieren"}
+	want := []string{"buerjia", "hailuo", "hangzhouxizi", "huoqiangshou", "laolieren", "mogushijian"}
 	if len(s.Merchants) != len(want) {
 		t.Fatalf("got %d merchants, want %d", len(s.Merchants), len(want))
 	}

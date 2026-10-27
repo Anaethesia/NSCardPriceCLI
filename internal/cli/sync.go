@@ -34,7 +34,7 @@ type SyncSummary struct {
 func newSyncCmd(opts *config.Options) *cobra.Command {
 	cmd := &cobra.Command{
 		Use:   "sync",
-		Short: "同步 4 家商家 NS/NS2 卡带目录到 data/lists",
+		Short: "同步商家 NS/NS2 卡带目录到 data/lists",
 		Args:  cobra.NoArgs,
 		RunE: func(cmd *cobra.Command, args []string) error {
 			return runSync(opts, cmd.OutOrStdout(), cmd.ErrOrStderr())

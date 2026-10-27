@@ -4,9 +4,9 @@
 
 | 用途 | URL |
 |---|---|
-| 查询单张卡带价格（详情） | `https://api.huoqiangshou.cn/seller/sellerProduct/getProductDetail` |
-| 查询单张卡带价格（回收问卷扣减） | `https://api.huoqiangshou.cn/seller/sellerProduct/getProductApprizeQuestion` |
-| 所有卡带名称 / game id 列表 | `https://api.huoqiangshou.cn/seller/category/getProductInfoPage` |
+| 查询单张卡带价格（详情） | `https://api.xiamenhuoqiangshou.com/seller/sellerProduct/getProductDetail` |
+| 查询单张卡带价格（回收问卷扣减） | `https://api.xiamenhuoqiangshou.com/seller/sellerProduct/getProductApprizeQuestion` |
+| 所有卡带名称 / game id 列表 | `https://api.xiamenhuoqiangshou.com/seller/category/getProductInfoPage` |
 
 ## 公共请求头
 
@@ -29,14 +29,14 @@ accept: */*
 ### 示例 curl
 
 ```bash
-curl -s -X POST 'https://api.huoqiangshou.cn/seller/sellerProduct/getProductDetail' \
+curl -s -X POST 'https://api.xiamenhuoqiangshou.com/seller/sellerProduct/getProductDetail' \
   -H 'terminal: WECHAT' \
   -H 'xweb_xhr: 1' \
   -H 'referer: https://servicewechat.com/wx0f883cb942dd9691/630/page-frame.html' \
   -H 'accept: */*' \
   -d 'productId=12345&lottoProduct=false'
 
-curl -s -X POST 'https://api.huoqiangshou.cn/seller/sellerProduct/getProductApprizeQuestion' \
+curl -s -X POST 'https://api.xiamenhuoqiangshou.com/seller/sellerProduct/getProductApprizeQuestion' \
   -H 'terminal: WECHAT' \
   -H 'xweb_xhr: 1' \
   -H 'referer: https://servicewechat.com/wx0f883cb942dd9691/630/page-frame.html' \
@@ -46,7 +46,7 @@ curl -s -X POST 'https://api.huoqiangshou.cn/seller/sellerProduct/getProductAppr
 
 ## 2. 卡带列表（game id 全量）
 
-- URL: `https://api.huoqiangshou.cn/seller/category/getProductInfoPage`
+- URL: `https://api.xiamenhuoqiangshou.com/seller/category/getProductInfoPage`
 - 方法: POST（form 表单），每页 30 条，`productType=CARD`
 - 关键响应字段: 每条记录的 `id`/`productId`（game id）、`productName`/`name`（卡带名称）
 - 注意: 翻页过快会返回 200 空 body（限流），分页请求需保持约 250ms~1s 间隔
@@ -54,7 +54,7 @@ curl -s -X POST 'https://api.huoqiangshou.cn/seller/sellerProduct/getProductAppr
 ### 示例 curl
 
 ```bash
-curl -s -X POST 'https://api.huoqiangshou.cn/seller/category/getProductInfoPage' \
+curl -s -X POST 'https://api.xiamenhuoqiangshou.com/seller/category/getProductInfoPage' \
   -H 'terminal: WECHAT' \
   -H 'xweb_xhr: 1' \
   -H 'referer: https://servicewechat.com/wx0f883cb942dd9691/630/page-frame.html' \

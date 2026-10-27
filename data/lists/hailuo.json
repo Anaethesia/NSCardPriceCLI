@@ -1,0 +1,4802 @@
+[
+  {
+    "name": "NS 双人成行",
+    "game_id": "1019",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 塞尔达传说2 王国之泪",
+    "game_id": "1022",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级马里奥 奥德赛",
+    "game_id": "1026",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级马里奥派对 空前盛会",
+    "game_id": "1025",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 运动 Sport",
+    "game_id": "1028",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 鬼屋3",
+    "game_id": "1023",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 大金刚  蕉力全开",
+    "game_id": "1646",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 马车8",
+    "game_id": "1030",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马里奥兄弟 惊奇",
+    "game_id": "1033",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 健身环大冒险 无纸盒",
+    "game_id": "1021",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 星之卡比 探索发现",
+    "game_id": "1029",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 口袋妖怪 宝可梦Z-A",
+    "game_id": "1211",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马里奥派对",
+    "game_id": "1038",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 朋友收集 梦想生活",
+    "game_id": "2290",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 宝可梦朱紫 （紫标准版）",
+    "game_id": "2065",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 宝可梦朱紫（紫同捆） 紫同捆 dlc",
+    "game_id": "2067",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 宝可梦朱紫（朱标准版）",
+    "game_id": "2064",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 宝可梦朱紫 （朱同捆）",
+    "game_id": "2066",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 舞力全开22",
+    "game_id": "1032",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 塞尔达 荒野之息",
+    "game_id": "2060",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 塞尔达传说（同捆版）塞尔达同捆 dlc",
+    "game_id": "2061",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 塞尔达 荒野之息",
+    "game_id": "1647",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 宝可梦 Pokemon Pokopia",
+    "game_id": "2223",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 塞尔达 王国之泪",
+    "game_id": "1649",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 煮糊了1+2+DLC",
+    "game_id": "1036",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 阿尔宙斯",
+    "game_id": "1046",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 女神异闻录5P5R",
+    "game_id": "1077",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 马里奥赛车世界 马车9",
+    "game_id": "1650",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 有氧拳击3",
+    "game_id": "1035",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 潜水员戴夫",
+    "game_id": "1039",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 口袋妖怪 宝可梦Z-A",
+    "game_id": "1655",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 空前盛会 TV",
+    "game_id": "1653",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 任天堂全明星大乱斗",
+    "game_id": "1044",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 赛博朋克2077终极版",
+    "game_id": "1648",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 怪物猎人 崛起",
+    "game_id": "1116",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级舞动",
+    "game_id": "1034",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 风花雪月",
+    "game_id": "1085",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 塞尔达 智慧的再现",
+    "game_id": "1051",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 喷射战士3 标准版",
+    "game_id": "2062",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 喷射战士3 同捆版",
+    "game_id": "2063",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 星露谷物语",
+    "game_id": "1040",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 星之卡比",
+    "game_id": "1663",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 奇遇派对",
+    "game_id": "1064",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 灵活脑学校",
+    "game_id": "1411",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 星之卡比 重返梦幻岛",
+    "game_id": "1045",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 我的世界 基岩版",
+    "game_id": "1057",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 煤炭镇的小白",
+    "game_id": "1042",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马里奥兄弟U",
+    "game_id": "1065",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 八方旅人2",
+    "game_id": "1505",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 逆转裁判123合集",
+    "game_id": "1056",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 塞尔达无双 封印战记",
+    "game_id": "2088",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 3D库巴之怒世界",
+    "game_id": "1055",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 有氧拳击2",
+    "game_id": "1080",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 大镖客1",
+    "game_id": "1054",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 异度神剑3 异度之刃3",
+    "game_id": "1095",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 宝可梦剑盾 （剑标准版）",
+    "game_id": "2068",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 宝可梦剑盾 【盾同捆】",
+    "game_id": "2069",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 宝可梦剑盾 【剑同捆】",
+    "game_id": "2074",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 宝可梦剑盾 （盾标准版）",
+    "game_id": "2075",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马里奥 超级巨星",
+    "game_id": "1043",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 圣兽之王",
+    "game_id": "1048",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "Switch游戏 NS 精灵宝可梦朱紫 朱紫 官方特典 V卡牌皮卡丘比卡超",
+    "game_id": "2201",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 舞力全开20",
+    "game_id": "1324",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 塞尔达无双",
+    "game_id": "1050",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级马里奥银河 1+2 合集",
+    "game_id": "2078",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 火焰纹章 契约",
+    "game_id": "1548",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 哈利波特 霍格华兹的传承 霍格沃兹遗产",
+    "game_id": "1060",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 1-2 Switch 1+2",
+    "game_id": "1047",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 宝可梦珍珠",
+    "game_id": "2073",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS宝可梦钻石",
+    "game_id": "2072",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 十三机兵",
+    "game_id": "1075",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 异度之刃2",
+    "game_id": "1089",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 皮克敏4",
+    "game_id": "1097",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 勇者斗恶龙7 Reimagined DQ7",
+    "game_id": "2226",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 哈迪斯",
+    "game_id": "1385",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 煮糊了2",
+    "game_id": "1234",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 猎天使魔女3",
+    "game_id": "1086",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 黑帝斯2 哈迪斯2 Hades 2",
+    "game_id": "2082",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 喷射战士 涂击队",
+    "game_id": "2408",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 群星联盟",
+    "game_id": "1053",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 毛线小精灵2",
+    "game_id": "1072",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 节奏天国 奇迹之星",
+    "game_id": "2391",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 空之轨迹 ",
+    "game_id": "1960",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 巫师3年度版",
+    "game_id": "1125",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 八方旅人",
+    "game_id": "1556",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 毛线耀西",
+    "game_id": "1109",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 舞力全开2021",
+    "game_id": "1302",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 马里奥网球Fever 狂热",
+    "game_id": "2225",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 创世小玩家2",
+    "game_id": "1078",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 狙击精英4",
+    "game_id": "1123",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 真三国无双 起源",
+    "game_id": "2157",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 茶杯头",
+    "game_id": "1394",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 怪物猎人物语3 命运双龙",
+    "game_id": "2217",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 异度神剑X",
+    "game_id": "1082",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 纸片马里奥",
+    "game_id": "1079",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 密特罗德",
+    "game_id": "1067",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 风之市集",
+    "game_id": "1664",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 世界大全51合集",
+    "game_id": "1164",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马车8同捆",
+    "game_id": "1111",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 异度之刃 决定版",
+    "game_id": "1432",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 星魂之链",
+    "game_id": "1171",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 奥日1+2",
+    "game_id": "1119",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 鬼屋2HD",
+    "game_id": "1058",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 波斯王子",
+    "game_id": "1356",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 马里奥兄弟惊奇 同游铃铃公园",
+    "game_id": "2297",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 马里奥网球ACE",
+    "game_id": "1066",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 小小梦魇2",
+    "game_id": "1469",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 勇者斗恶龙11s",
+    "game_id": "1323",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马里奥 东京奥运会",
+    "game_id": "1185",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 三角战略",
+    "game_id": "1127",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 最终幻想7 FF7",
+    "game_id": "2224",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 FC26 足球2026",
+    "game_id": "1786",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 暗黑破坏神3",
+    "game_id": "1310",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 猎天使魔女2",
+    "game_id": "1137",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 文明6",
+    "game_id": "1517",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 植物大战僵尸3",
+    "game_id": "1509",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 尼尔",
+    "game_id": "1138",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 塞尔达传说 时之笛 重制版（订购2026.11.05）",
+    "game_id": "2591",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 奇幻生活ｉ",
+    "game_id": "1088",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 八方旅人0 歧路旅人0",
+    "game_id": "1927",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 啪嗒砰1+2",
+    "game_id": "1698",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 太鼓达人",
+    "game_id": "1093",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 刺客信条 黑旗",
+    "game_id": "1146",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 火影忍者 羁绊",
+    "game_id": "1114",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 哈利波特 霍格华兹的传承 霍格沃兹遗产",
+    "game_id": "1651",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 REANIMAL 生灵重塑",
+    "game_id": "2221",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 街霸6",
+    "game_id": "1654",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 老头环 艾尔登法环 褪色者版",
+    "game_id": "2453",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 牧场物语 风之市集",
+    "game_id": "1168",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 塞尔达 天空之剑",
+    "game_id": "1572",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 摇摇乐派对",
+    "game_id": "1403",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 海绵宝宝 大闹蟹堡王",
+    "game_id": "1576",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 耀西与不可思议的图鉴",
+    "game_id": "2316",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 小小噩梦1",
+    "game_id": "1176",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 碧姬公主",
+    "game_id": "1536",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 NBA 2K26",
+    "game_id": "1721",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 逆转裁判456合集",
+    "game_id": "1120",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 火焰纹章 万紫千红",
+    "game_id": "2464",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 宝可梦皮卡丘",
+    "game_id": "2070",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 刺客信条 影 暗影者",
+    "game_id": "2184",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 宝可梦伊布",
+    "game_id": "2071",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 极品飞车14",
+    "game_id": "1493",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 真三国无双7",
+    "game_id": "1112",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 逆转检察官1+2",
+    "game_id": "1071",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 上古卷轴5",
+    "game_id": "1490",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 我的世界地下城 年度版",
+    "game_id": "2135",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 空洞骑士",
+    "game_id": "1596",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 奇幻生活",
+    "game_id": "1697",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 我的世界地下城 普通版",
+    "game_id": "2134",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 黑暗之魂1",
+    "game_id": "1068",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS NBA2K26",
+    "game_id": "1702",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 轨道双子星",
+    "game_id": "2470",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 消逝的光芒白金版",
+    "game_id": "1431",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 纸片马里奥RPG 千年之门",
+    "game_id": "1634",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 伸缩拳击",
+    "game_id": "1471",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 夺宝奇兵",
+    "game_id": "2292",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 双点博物馆 探险者版",
+    "game_id": "2159",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 瓦里奥制造",
+    "game_id": "1601",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 菇头队长",
+    "game_id": "1616",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 星之卡比 卡比的驭天飞行者",
+    "game_id": "2019",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 密特罗德 究极4 穿越未知 银河战士",
+    "game_id": "2083",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 织梦岛",
+    "game_id": "1144",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 怪物猎人物语2",
+    "game_id": "1597",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 鬼灭之刃2",
+    "game_id": "1896",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 虚实万象 实质存在",
+    "game_id": "2248",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 八方旅人0 歧路旅人0",
+    "game_id": "1928",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS FC26 足球2026",
+    "game_id": "1783",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 最终幻想7 核心危机",
+    "game_id": "1094",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS FC25",
+    "game_id": "1052",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 密特罗德 究极",
+    "game_id": "1348",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 小小梦魇3",
+    "game_id": "1100",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 弹丸论破三部曲",
+    "game_id": "1228",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS FIFA23",
+    "game_id": "1569",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 稻姬",
+    "game_id": "1115",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 机战Y 超级机器人大战Y",
+    "game_id": "1910",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS JUMP全明星大乱斗",
+    "game_id": "1090",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 双点医院年度版",
+    "game_id": "1453",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 卡普空大作9 安魂曲（特）",
+    "game_id": "2231",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 马里奥VS大金刚 咚奇刚",
+    "game_id": "1378",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 龙之天地",
+    "game_id": "1652",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 七龙珠Z卡卡罗特",
+    "game_id": "1098",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 三国无双8",
+    "game_id": "1467",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 勇者斗恶龙1+2",
+    "game_id": "1798",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 零 濡鸦之巫女",
+    "game_id": "1496",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 死亡细胞",
+    "game_id": "1462",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 脑力锻炼",
+    "game_id": "1221",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 牧场物语 橄榄镇",
+    "game_id": "1139",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 女神异闻录3 reload P3R",
+    "game_id": "1908",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 马里奥RPG 兄弟齐航",
+    "game_id": "1375",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 空之轨迹 the 2nd",
+    "game_id": "2447",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 冒险家艾略特的千年物语",
+    "game_id": "2383",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 你裁我剪",
+    "game_id": "1539",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 小小梦魇3",
+    "game_id": "1668",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 蜡笔小新",
+    "game_id": "1417",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "任天堂switch 会员兑换卡（港服）",
+    "game_id": "1922",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 迷途猫",
+    "game_id": "1444",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 杀手123 合集",
+    "game_id": "1662",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 马里奥足球",
+    "game_id": "1631",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 海绵宝宝 潮汐巨神 Titans of the Tide",
+    "game_id": "2199",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 三国志8",
+    "game_id": "1335",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 碧蓝幻想Relink 无尽黄昏",
+    "game_id": "2386",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 超级马里奥兄弟RPG",
+    "game_id": "1358",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 萌猫公园 PICO PARK 1+2 多人聚会 中文",
+    "game_id": "1974",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 最终幻想7 重生",
+    "game_id": "2379",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 伊苏X 伊苏10 诺曼荣光 北境历险",
+    "game_id": "1926",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 皇牌空战7",
+    "game_id": "1096",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS NBA2K22",
+    "game_id": "1429",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 真女神转生5",
+    "game_id": "1240",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 异度之刃X",
+    "game_id": "2269",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 刺客信条 艾吉奥合集",
+    "game_id": "1346",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 鬼武者 剑之道",
+    "game_id": "2465",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS FIFA22",
+    "game_id": "1216",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 莱莎2",
+    "game_id": "1609",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马里奥兄弟U 【国行专用】",
+    "game_id": "1405",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 勇气默示录2",
+    "game_id": "1330",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 雪地奔驰",
+    "game_id": "1641",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 胡闹搬家2",
+    "game_id": "1365",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 勇气默示录",
+    "game_id": "1659",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 数码宝贝物语 时空异客",
+    "game_id": "2380",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 实况足球 eFootball Kick-Off",
+    "game_id": "2359",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 异度之刃2 黄金国度",
+    "game_id": "1102",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 真女神转生V",
+    "game_id": "1113",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 零 红蝶",
+    "game_id": "2222",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 莱莎3",
+    "game_id": "1141",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 无主之地3 终极版",
+    "game_id": "1110",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 乐高地平线大冒险",
+    "game_id": "1423",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS NBA2K25",
+    "game_id": "1041",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "现货任天堂原装Switch2 Pro控制器 NS2专业手柄 joy-con2左右手柄",
+    "game_id": "2156",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 机甲战魔",
+    "game_id": "1666",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 热血三国志 全员集合",
+    "game_id": "1497",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 太鼓达人 咚咚雷音祭",
+    "game_id": "1463",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 勇者斗恶龙7",
+    "game_id": "2261",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 七龙珠 电光炸裂 Zero",
+    "game_id": "1906",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 蜡笔小新2合1 套装合集",
+    "game_id": "1954",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 异度之刃",
+    "game_id": "2471",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 怪物猎人GU中文欧美版",
+    "game_id": "2143",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 尊巴健身",
+    "game_id": "1260",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 勇者斗恶龙3 HD-2D",
+    "game_id": "1061",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 大头盔英雄 big helmet",
+    "game_id": "2176",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 怪物猎人XX日语日版",
+    "game_id": "2144",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 文明帝国7",
+    "game_id": "1482",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 勇者斗恶龙1+2",
+    "game_id": "1797",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 9R.I.P 9RIP 乙女游戏 中文二手 现货",
+    "game_id": "1923",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 有氧拳击3",
+    "game_id": "2448",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 狂野之心S",
+    "game_id": "1657",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 歧路旅人1+2合辑 八方旅人1\u00262合集",
+    "game_id": "2172",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 无名鹅作剧",
+    "game_id": "1622",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 火影忍者 博人",
+    "game_id": "1081",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 机战30周年",
+    "game_id": "1628",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级鸡马",
+    "game_id": "1439",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 卡普空大作7（特）",
+    "game_id": "2235",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 孤岛危机1 重制版",
+    "game_id": "1281",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 绝对魔权",
+    "game_id": "2085",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 师父",
+    "game_id": "1124",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 人类一败涂地",
+    "game_id": "1581",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 高达 激斗同盟",
+    "game_id": "1229",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 金垦小镇",
+    "game_id": "2202",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 卡普空大作8 村庄（特）",
+    "game_id": "2234",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS JOJO的奇妙冒险",
+    "game_id": "1122",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 宝可梦Z-A DLC 超次元爆涌 扩充票【数字版兑换码】",
+    "game_id": "2264",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 猎天使魔女1",
+    "game_id": "1565",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 猎厨狂欢SEDAP! 绝品 亚洲料理冒险 中文",
+    "game_id": "1958",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 魂斗罗",
+    "game_id": "1307",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 七龙珠 电光炸裂 Zero",
+    "game_id": "1907",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 如龙0（特）",
+    "game_id": "1671",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 最终幻想 共鸣",
+    "game_id": "2542",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 祇 女神之路",
+    "game_id": "1656",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 虔诚之花的晚钟",
+    "game_id": "1705",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 动物迷城",
+    "game_id": "2296",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 喷射战士2 英文",
+    "game_id": "2131",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 喷射战士2 日文",
+    "game_id": "2132",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 喷射战士2 日文同捆",
+    "game_id": "2130",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 胡闹厨房1+2合集",
+    "game_id": "1322",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 女神异闻录5 乱战 魅影攻手 P5S 中文二手",
+    "game_id": "1944",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 破晓传奇 黎明新程",
+    "game_id": "2439",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 风花雪月无双",
+    "game_id": "1608",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 大家 1-2",
+    "game_id": "1133",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 死亡细胞重返恶魔城",
+    "game_id": "1099",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 刀剑神域 碎梦边境",
+    "game_id": "2164",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 时间旅者 重生曙光",
+    "game_id": "2116",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 荒岛求生记",
+    "game_id": "1669",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 奇异人生 双重曝光",
+    "game_id": "2163",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 牧场物语 矿石镇",
+    "game_id": "1470",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 美丽人生",
+    "game_id": "1212",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 毁灭战士",
+    "game_id": "1258",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 运动 度假胜地",
+    "game_id": "2474",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 三位一体5",
+    "game_id": "1287",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 春逝百年抄",
+    "game_id": "1414",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 勇者斗恶龙怪物仙境3",
+    "game_id": "1399",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 龙之天地",
+    "game_id": "1149",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 幽灵诡计 亡灵",
+    "game_id": "1570",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 伊苏X",
+    "game_id": "1537",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马里奥网球 【国行专用】",
+    "game_id": "1588",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 上古卷轴4 湮灭重制版",
+    "game_id": "2533",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 星球大战亡命之徒 黄金版",
+    "game_id": "2158",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 龙之信条2 黑暗再临",
+    "game_id": "2617",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 超力兵团奇谭",
+    "game_id": "1667",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 收获之星",
+    "game_id": "1449",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 圣塔神记",
+    "game_id": "1117",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 我的朋友 小猪佩奇",
+    "game_id": "1499",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 动物迷城",
+    "game_id": "2288",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 汪汪队立大功3 冒险城市在召唤",
+    "game_id": "2138",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 汪汪队立大功4 锦标赛",
+    "game_id": "2139",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 轩辕剑",
+    "game_id": "1106",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 汪汪队立大功1 出发救援",
+    "game_id": "2136",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 汪汪队立大功2 拯救冒险湾",
+    "game_id": "2137",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 汪汪队立大功5 世界",
+    "game_id": "2140",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 主播女孩重度依赖",
+    "game_id": "1421",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 星际火狐",
+    "game_id": "2423",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 创之轨迹",
+    "game_id": "1121",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 鬼灭之刃",
+    "game_id": "1389",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马车8 【国行专用】",
+    "game_id": "1087",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 鬼泣5 恶魔猎人",
+    "game_id": "2472",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 热血物语SP",
+    "game_id": "1551",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 暗影火炬城",
+    "game_id": "1393",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 鬼灭之刃 最强队士",
+    "game_id": "1611",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 关于我转生变成史莱姆这档事 坦派斯特开拓谭",
+    "game_id": "2161",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马里奥3D 全明星合集",
+    "game_id": "1404",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 时尚造梦",
+    "game_id": "1633",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 奥日1",
+    "game_id": "1259",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 魔鬼恋人",
+    "game_id": "2050",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 百日战记",
+    "game_id": "2058",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 优米雅",
+    "game_id": "1547",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 钓鱼明星",
+    "game_id": "1355",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS SHINOBI 忍 反攻的斩击",
+    "game_id": "1207",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 我的世界 地下城2",
+    "game_id": "2531",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 死亡之屋2",
+    "game_id": "2173",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 我的世界 传奇版",
+    "game_id": "1165",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 魔法气泡2",
+    "game_id": "1670",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 拓麻歌子",
+    "game_id": "1163",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 双截龙再临 中文",
+    "game_id": "1946",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 三国志8重制版 with 威力加强版",
+    "game_id": "2258",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 NBA2K27",
+    "game_id": "2544",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS NBA2K19",
+    "game_id": "1320",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 进击的巨人2 最终战",
+    "game_id": "2115",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "【送】NS游戏兑换码+随机游戏实物特典",
+    "game_id": "2450",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 007 初露锋芒（订购）",
+    "game_id": "2209",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 索尼克夏特",
+    "game_id": "1661",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 永恒蔚蓝 流光",
+    "game_id": "1619",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 二人一起 猫咪大战争 大作战 中文 二手",
+    "game_id": "1959",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 共生丘比特",
+    "game_id": "1568",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 啦嗒铛 Ratatan",
+    "game_id": "2358",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 魔女之",
+    "game_id": "1441",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 终远的威尔修FD",
+    "game_id": "1941",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 东方夜雀食堂 Mystia's Izakaya",
+    "game_id": "2149",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 咚奇刚 国度归来",
+    "game_id": "1590",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马里奥 希望之星",
+    "game_id": "1459",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 龙珠斗士Z",
+    "game_id": "1101",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 有氧拳击1",
+    "game_id": "1313",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 鼠探 私家侦探",
+    "game_id": "2361",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 妖精的尾巴",
+    "game_id": "1156",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 恶魔城 贝尔蒙特的诅咒",
+    "game_id": "2530",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 终天教团 小高和刚",
+    "game_id": "1900",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 战场女武神4",
+    "game_id": "1153",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 密特罗德 究极4",
+    "game_id": "2084",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 皮克敏1+2",
+    "game_id": "1289",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 大富翁",
+    "game_id": "1395",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 终远的威尔修",
+    "game_id": "1368",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 食人鲨",
+    "game_id": "1424",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 热血三国志 乱斗风云",
+    "game_id": "1607",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 皮克敏3",
+    "game_id": "1160",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 晃晃人生",
+    "game_id": "1951",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 完蛋！我被美女包围了！合集",
+    "game_id": "2289",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 施莱德的复仇",
+    "game_id": "1063",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 凯蒂猫 岛屿冒险 Hello Kitty",
+    "game_id": "2167",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 末日生存",
+    "game_id": "1445",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 无人深空",
+    "game_id": "1371",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 轩辕剑7",
+    "game_id": "1391",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 哆啦A梦 自然王国与",
+    "game_id": "1402",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 女神异闻录4 P4U 无敌究极后桥背摔",
+    "game_id": "2181",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS IGS经典街机合集",
+    "game_id": "1286",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 胡闹搬家1",
+    "game_id": "1118",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 第一次的游戏程序",
+    "game_id": "1390",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 幻想水浒传 I+II",
+    "game_id": "1070",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 数码宝贝物语 时空异客",
+    "game_id": "2381",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 世界树的迷宫",
+    "game_id": "1425",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 桃太郎电铁 昭和平成令和也是定番",
+    "game_id": "1452",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 最终幻想10/10-2",
+    "game_id": "2494",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 索尼克\u0026times;夏特",
+    "game_id": "1344",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 如龙 极（特）",
+    "game_id": "2113",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 如龙极3 外传（特）",
+    "game_id": "2237",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 闪乱神乐 忍纾压",
+    "game_id": "1074",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 忍者神龟 施莱德 终极版",
+    "game_id": "1626",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 华彩煌煌 吾之一族 华族 幻灯时代 中文 乙女二手",
+    "game_id": "1924",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 卡普空经典动作街机合集",
+    "game_id": "1157",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 百密一疏少女心 乙女",
+    "game_id": "2057",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS AI 梦境档案2",
+    "game_id": "1621",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 全民高尔夫",
+    "game_id": "1152",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 失忆症",
+    "game_id": "1338",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 舞力全开19 ",
+    "game_id": "1992",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 深海迷航 冰点零度之下",
+    "game_id": "1736",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 间谍过家家",
+    "game_id": "1227",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级炸弹人R2",
+    "game_id": "1135",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 命运石之门",
+    "game_id": "1167",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 前线任务3 重制版 front mission 3 ",
+    "game_id": "2076",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 天外世界",
+    "game_id": "1209",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 哆啦A梦 大雄的牧场物语",
+    "game_id": "1730",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 大航海时代4威力加强版",
+    "game_id": "1618",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 拓麻歌子",
+    "game_id": "1665",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 AI 梦境档案",
+    "game_id": "1660",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 狙击精英V2",
+    "game_id": "1976",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 初音未来39s",
+    "game_id": "1479",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS NBA2K24",
+    "game_id": "1275",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 三位一体4",
+    "game_id": "1298",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 阿加莎克里斯蒂",
+    "game_id": "1475",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 真女神转生3 HD",
+    "game_id": "1284",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS WRC8",
+    "game_id": "1147",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 匹诺曹的谎言",
+    "game_id": "2480",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 幻想大陆战纪",
+    "game_id": "1457",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 高达机动战士",
+    "game_id": "1620",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 布鲁伊 电子游戏",
+    "game_id": "2570",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "任天堂Switch马里奥花花 闲聊花花 NS惊奇花发声花 全新正版 现货",
+    "game_id": "2334",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超人怪兽农场",
+    "game_id": "1397",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 海贼无双4",
+    "game_id": "1427",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 最终幻想战略版",
+    "game_id": "1993",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 蓝精灵毒叶大作战",
+    "game_id": "1502",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "任天堂Switch二手蕾斯莱莉娅娜NS红色的炼金术士和白色的守护者",
+    "game_id": "2148",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 百英雄传",
+    "game_id": "1148",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 偶像进行曲 乙女游戏 中文 二手 现货",
+    "game_id": "1965",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马里奥+疯狂兔子 疯兔 王国之战",
+    "game_id": "2020",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 雪地奔驰",
+    "game_id": "2422",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS NBA 2K20 020",
+    "game_id": "1339",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 索尼克超级巨星",
+    "game_id": "1723",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 忍者神龟 施莱德的复仇",
+    "game_id": "1516",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 极乐迪斯科",
+    "game_id": "1336",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 雪人兄弟",
+    "game_id": "1083",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 莱莎的炼金工房1",
+    "game_id": "1107",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS NBA23 球2023",
+    "game_id": "1376",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 月姬",
+    "game_id": "1396",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 亡灵诡计 来世",
+    "game_id": "1419",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 魔界战记6",
+    "game_id": "1084",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 格兰蒂亚1+2",
+    "game_id": "1630",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 凯瑟琳",
+    "game_id": "1438",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 狂野之心",
+    "game_id": "1466",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 旧书店街的桥姬",
+    "game_id": "1586",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 索尼克赛车 交叉世界 中文",
+    "game_id": "2122",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 最终幻想 共鸣（订购2026.10.22）",
+    "game_id": "2540",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 如龙极2（特）",
+    "game_id": "2114",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 怪物猎人物语1",
+    "game_id": "1363",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 屁屁侦探",
+    "game_id": "1544",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 蓝精灵 梦境 The Smurfs Dreams",
+    "game_id": "2285",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 猎天使魔女起源",
+    "game_id": "1131",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "押金退回",
+    "game_id": "2240",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 索尼克 未知边境",
+    "game_id": "1364",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 刀剑神域 彼岸游境",
+    "game_id": "1629",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 皇家骑士团2 重生",
+    "game_id": "1560",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 三国志13 威力加强版",
+    "game_id": "1329",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 巴拉特罗 小丑牌 Balatro",
+    "game_id": "2194",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 卧龙 苍天陨落 完全版",
+    "game_id": "2473",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 异度之刃2",
+    "game_id": "2463",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 圣恩传说",
+    "game_id": "1704",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 失忆症FD  ",
+    "game_id": "1901",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 杰克珍妮",
+    "game_id": "1953",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 无双大蛇3",
+    "game_id": "1104",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 雪人兄弟2 Special 2",
+    "game_id": "2170",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 模拟山羊3",
+    "game_id": "1447",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 闪电十一人 英雄们的胜利之路",
+    "game_id": "2485",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 修道院2",
+    "game_id": "1278",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 拳皇13",
+    "game_id": "1615",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS SD高达G世纪 火线纵横 标准版",
+    "game_id": "2152",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS A列车",
+    "game_id": "1635",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS SD高达G世纪 火线纵横 白金版",
+    "game_id": "2153",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 璃梦泡影之世外浮城 泡沫 中文乙女二手",
+    "game_id": "1938",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 俄罗斯方块S",
+    "game_id": "1507",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 双点学校",
+    "game_id": "1270",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 大金刚 森喜刚",
+    "game_id": "1545",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 汪汪队立大功6 冠军赛",
+    "game_id": "2418",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 永久与神树的祈愿者",
+    "game_id": "1155",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 漫威 宇宙入侵",
+    "game_id": "2304",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 暗黑地牢 祖灵年度版",
+    "game_id": "2151",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 泰拉瑞",
+    "game_id": "1162",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 项圈X恶意FD",
+    "game_id": "2037",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 街霸 30周年合集",
+    "game_id": "1321",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 暗黑地牢 祖灵标准版",
+    "game_id": "2150",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马里奥高尔夫",
+    "game_id": "1416",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级炸弹人R",
+    "game_id": "1728",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 FC27",
+    "game_id": "2547",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS labo01 02 03 04  驾驶套装",
+    "game_id": "1326",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 圣杯战争",
+    "game_id": "1333",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 狙击精英3",
+    "game_id": "2351",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 美妙美丽新世界",
+    "game_id": "1372",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 忍者龙剑传123",
+    "game_id": "1632",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 华彩煌煌 吾之一族 摩登时代 华族 中文 乙女二手",
+    "game_id": "1925",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 舞力全开2023【数字版兑换码】",
+    "game_id": "2255",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 薄樱鬼 真改 风华传 ",
+    "game_id": "2046",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 动物井",
+    "game_id": "2331",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 京都幻都 樱花幻舞",
+    "game_id": "2534",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS fc24",
+    "game_id": "1076",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 魔法少女的魔女审判",
+    "game_id": "2503",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 共生丘比特FD 乙女",
+    "game_id": "1920",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 波西亚时光",
+    "game_id": "1280",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 暗黑血统 创世纪",
+    "game_id": "1299",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 浪漫沙加2",
+    "game_id": "1062",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 最终幻想12",
+    "game_id": "1331",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS NS 勇者斗恶龙123 合集",
+    "game_id": "1384",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 真三国无双2 with 猛将传",
+    "game_id": "2461",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 伊苏8",
+    "game_id": "1295",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 双点医院",
+    "game_id": "1092",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 双影奇境 （钥匙卡）",
+    "game_id": "2631",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 绝影战士",
+    "game_id": "1440",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 忍者 忍龙外传",
+    "game_id": "2129",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 月光岭物语",
+    "game_id": "2406",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 奥林匹亚的晚宴",
+    "game_id": "1420",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 剑为君舞",
+    "game_id": "1585",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 全员恶人 ",
+    "game_id": "1939",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 口袋妖怪 口袋铁拳 锦标赛DX",
+    "game_id": "2229",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "补差价专用，差价多少就下单多少个",
+    "game_id": "2239",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 流星洛克人 完美合集",
+    "game_id": "2353",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 项圈X恶意",
+    "game_id": "1128",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 热血少女合集",
+    "game_id": "1972",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 小魔女诺贝塔",
+    "game_id": "1464",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 血污",
+    "game_id": "1731",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 谎言与真实",
+    "game_id": "1603",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 海商王4",
+    "game_id": "1126",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 热血西游记 天竺奇谭",
+    "game_id": "2441",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 机战T",
+    "game_id": "1733",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 侍魂晓",
+    "game_id": "1224",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 初音未来miku 有氧拳击",
+    "game_id": "1225",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 勇敢者的游戏",
+    "game_id": "1580",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级忍 反攻的斩击",
+    "game_id": "2437",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 天国降临 救赎 皇家版",
+    "game_id": "2256",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 薄樱鬼SSL",
+    "game_id": "2048",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 高达破坏者4",
+    "game_id": "1297",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "电子时之笛（订购）",
+    "game_id": "2592",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS NBA2K18",
+    "game_id": "1311",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 幻裂奇境【数字版兑换码】",
+    "game_id": "2599",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 乐高漫威英雄2",
+    "game_id": "1073",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 魔法使之夜",
+    "game_id": "1230",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 真人快打11",
+    "game_id": "2341",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级忍 反攻的斩击【数字版兑换码】",
+    "game_id": "2600",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 暗黑破坏神 憎恨时代【数字版兑换码】",
+    "game_id": "2604",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 星之海洋2",
+    "game_id": "1349",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超力兵团奇",
+    "game_id": "1241",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 蔷薇与椿",
+    "game_id": "2327",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 水浒传1+2",
+    "game_id": "1625",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 幻奏咖啡厅 幻想 Enchante 中文 乙女二手",
+    "game_id": "1929",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 符文工房3",
+    "game_id": "1521",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 漫威 宇宙入侵",
+    "game_id": "2305",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 闪之轨迹4",
+    "game_id": "1555",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 孤岛危机2 重制版",
+    "game_id": "2333",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS FIFA2018",
+    "game_id": "1205",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 乐高小城",
+    "game_id": "1732",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 全职猎人",
+    "game_id": "1251",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 孤岛危机3 重制版",
+    "game_id": "2335",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 以撒的结合 胎衣+ ISAAC+ ",
+    "game_id": "1319",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS WRC10",
+    "game_id": "1613",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 黏黏世界 2 World of Goo 2 中文 二手",
+    "game_id": "1957",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 蔚蓝",
+    "game_id": "1243",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 国王的恩赐2",
+    "game_id": "1530",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 异形战机2",
+    "game_id": "1559",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 海绵宝宝 宇宙摇摆",
+    "game_id": "1574",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 小小梦魇2 强化版",
+    "game_id": "2385",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 咩咩启示录",
+    "game_id": "1200",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 信长之野望 新生 威力加强版 with",
+    "game_id": "2252",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 黎之轨迹2",
+    "game_id": "1318",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 战国无双5",
+    "game_id": "1193",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 星空列车与白的旅行",
+    "game_id": "1966",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 海绵宝宝 比基尼岛冒险",
+    "game_id": "1220",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 渡神纪",
+    "game_id": "1244",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 狂战传说重制版 绯夜传奇",
+    "game_id": "2325",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "Switch游戏卡带 NS 任天堂世界锦标赛 FC红白机世界大会 中文二手",
+    "game_id": "2162",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS NBA2K21",
+    "game_id": "1436",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 旋转轮胎 泥泞奔驰",
+    "game_id": "1351",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 地产大亨1+疯乐",
+    "game_id": "1617",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 复活邪神 吟游诗人之歌",
+    "game_id": "1180",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 毘卢遮那战姬",
+    "game_id": "1458",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "任天堂Switch游戏 NS Honey Vibes 甜蜜感觉 兽耳乙女 中文 二手",
+    "game_id": "2271",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 圣剑传说3 玛娜的试炼 MANA",
+    "game_id": "2021",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 小魔女 MAJESTIC MAJOLICAL 中文 乙女",
+    "game_id": "1940",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 地铁归来 2033曙光",
+    "game_id": "1474",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 魂斗罗 流氓军团 RC联盟",
+    "game_id": "1986",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 暗喻幻想（订购）",
+    "game_id": "2539",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 海贼无双3",
+    "game_id": "1261",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 雾都吸血鬼",
+    "game_id": "1362",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 骇客时空",
+    "game_id": "1408",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 无尽传说 复刻版 中文",
+    "game_id": "1943",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "任天堂Switch2卡比的驭天飞行者Amiibo互动手办卡比/头巾瓦豆鲁迪",
+    "game_id": "2200",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 龙之信条",
+    "game_id": "1727",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 房产达人",
+    "game_id": "1242",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马里奥奥德赛【国行】",
+    "game_id": "1143",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 料理巨星",
+    "game_id": "1477",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 魔界战记4",
+    "game_id": "1518",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超侦探",
+    "game_id": "1361",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 足球小将",
+    "game_id": "1285",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 奥日2",
+    "game_id": "1105",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 咩咩启示录 最终版",
+    "game_id": "2389",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 热血硬派物语",
+    "game_id": "1370",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 猫咪斗恶龙3 Cat Quest III",
+    "game_id": "2190",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 生化奇兵123合集",
+    "game_id": "1472",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 二之国 白色圣灰的女王",
+    "game_id": "1491",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 方舟",
+    "game_id": "1272",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 刺客信条3 高清重制版",
+    "game_id": "2356",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 毛线耀西【国行专用】",
+    "game_id": "1190",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 漫威英雄3 终极复仇者联盟3",
+    "game_id": "2051",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 零 月蚀的假面",
+    "game_id": "1291",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 海绵宝宝 派大星游戏",
+    "game_id": "2203",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 符文工坊4",
+    "game_id": "1451",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 吃豆人2 吃遍世界2",
+    "game_id": "1909",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 太阁立志传V",
+    "game_id": "1398",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 纯爱声放送",
+    "game_id": "1919",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 寻宝探险团 DQ",
+    "game_id": "1460",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 我的世界 基岩版（订购）",
+    "game_id": "2598",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 火影忍者 究极风暴三部曲",
+    "game_id": "2343",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 王国之心 记忆旋律",
+    "game_id": "1354",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS FIFA19",
+    "game_id": "1238",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 闪乱神乐 桃色弹珠台",
+    "game_id": "1533",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 深夜回",
+    "game_id": "1328",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 风火轮释放2 涡轮增压",
+    "game_id": "2397",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 阿玛拉王国",
+    "game_id": "1422",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 恶梦狂人 ",
+    "game_id": "2212",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 牧场物语 希望之光",
+    "game_id": "1455",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 失忆症世界",
+    "game_id": "1973",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 虔诚之花的晚钟 Episodio 1926",
+    "game_id": "1983",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS NBA 2K游乐场",
+    "game_id": "1511",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 益智泡泡龙",
+    "game_id": "1514",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 剑星 完全版（订购）",
+    "game_id": "2594",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 苍蓝雷霆 强袭合集",
+    "game_id": "1316",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 忍者泡泡堂",
+    "game_id": "1435",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 英雄传说 零之轨迹 改",
+    "game_id": "2245",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 宝可梦 随乐拍",
+    "game_id": "1498",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 克苏鲁的呼唤",
+    "game_id": "1273",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 永恒传说 复刻版",
+    "game_id": "2610",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 奇遇派对 【国行专用】",
+    "game_id": "1340",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 侦探俱乐部笑脸男 Famicom EMIO",
+    "game_id": "2168",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 机战少女 爱丽丝",
+    "game_id": "1468",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 洛克人EXE合集 ROCKMAN",
+    "game_id": "2300",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 薄樱鬼真改月影之抄 ",
+    "game_id": "2047",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 赛马娘",
+    "game_id": "1303",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 渎神2 神之亵渎2 blasphemous2",
+    "game_id": "2197",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 龙珠2",
+    "game_id": "1194",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 刀剑神域 虚空幻界 豪华版DX 中文 二手",
+    "game_id": "1971",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 数码宝贝物语 网络侦探 骇客追忆",
+    "game_id": "2344",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 圣骑士之战 20周年",
+    "game_id": "1415",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 流星幻想曲 B PROJECT ",
+    "game_id": "1978",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 高达G世纪起源",
+    "game_id": "1485",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 宝可梦 救援队",
+    "game_id": "1523",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 黄昏中魔女如是说FD连缀之时的拂晓",
+    "game_id": "2049",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 追逐战",
+    "game_id": "1290",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 以撒的结合 忏悔",
+    "game_id": "1294",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 三国志14威力加强版",
+    "game_id": "1566",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS FC27",
+    "game_id": "2614",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 苏菲的炼金工房2",
+    "game_id": "1433",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 暗斗迷宫",
+    "game_id": "1182",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 地球计划",
+    "game_id": "1735",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 煮糊了",
+    "game_id": "1257",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 迷雾侦探",
+    "game_id": "1550",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 使命召唤23【数字版兑换码、不支持代售】（订购）",
+    "game_id": "2578",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS2 怪物猎人 荒野（订购）",
+    "game_id": "2601",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 洛克人11",
+    "game_id": "1327",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 波斯王子之重生者 Rogue",
+    "game_id": "2362",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 圣剑同盟 光辉同盟 合集 中文",
+    "game_id": "2169",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 魔界战记5",
+    "game_id": "1177",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 空洞骑士（订购2026.11.27）",
+    "game_id": "2466",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 雷曼传奇",
+    "game_id": "1196",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 最终幻想10/10-2",
+    "game_id": "1217",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 月风魔传",
+    "game_id": "1584",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 暗黑血统2",
+    "game_id": "1108",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 热血少女2",
+    "game_id": "1524",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 闪之轨迹1",
+    "game_id": "1543",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS AI 梦境档案",
+    "game_id": "1546",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 怒之铁拳4 周年版",
+    "game_id": "1159",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 魔法气泡2 噗哟噗哟 俄罗斯方块2",
+    "game_id": "2291",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 秋之回忆8 无垢少女",
+    "game_id": "1274",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 料理妈妈",
+    "game_id": "1571",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 暗黑血统3",
+    "game_id": "1103",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 美国逃犯",
+    "game_id": "1369",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 空洞骑士 丝之歌（订购2026.11.27）",
+    "game_id": "2468",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 封闭的梦魇",
+    "game_id": "1256",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 冷然之天秤帝都幻惑绮谭 乙女 中文二手",
+    "game_id": "1935",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 塞尔达海拉鲁全明星",
+    "game_id": "1236",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 合金装备 潜龙谍影大师合集Vol.2",
+    "game_id": "2572",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 闪之轨迹3",
+    "game_id": "1314",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 伊苏 起源",
+    "game_id": "1325",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 妖怪手表4 我们仰望同一片天空",
+    "game_id": "1582",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 薄暮传说 宵星传说HD",
+    "game_id": "2354",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "任天堂Switch2 NS2 塞尔达传说 时之笛限定NS2主机收纳包 订购",
+    "game_id": "2615",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 修道院1",
+    "game_id": "1175",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 雷曼 传奇再叙（订购2026.12.03）",
+    "game_id": "2477",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 梦幻模拟战1+2 战略",
+    "game_id": "2044",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 妖怪手表4++ 完全版",
+    "game_id": "2377",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级马里奥派对 【国行专用】",
+    "game_id": "1401",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 幻影异闻录",
+    "game_id": "1413",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS FIFA2020",
+    "game_id": "1186",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 苍蓝雷霆3",
+    "game_id": "1515",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NSNS 夜迴3",
+    "game_id": "1305",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 无双大蛇3 终极版",
+    "game_id": "2355",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 哈克小镇",
+    "game_id": "1595",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 宝可梦传说 Z-a+超次元爆涌 同捆版（订购2026.10.29）",
+    "game_id": "2624",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 机战X",
+    "game_id": "1345",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 关键奇异鸟",
+    "game_id": "1379",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 毁灭全人类",
+    "game_id": "2403",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 运动派对",
+    "game_id": "1640",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 如果这个世界有神明大人存在的话",
+    "game_id": "1898",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 双截龙外传 双龙出海",
+    "game_id": "2246",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 僵尸军团三部曲",
+    "game_id": "1254",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级机器人大战V",
+    "game_id": "2350",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 潜水员戴夫",
+    "game_id": "2608",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 点心世界 黄金版 日文",
+    "game_id": "1589",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 伊苏9",
+    "game_id": "1334",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 疯狂出租车",
+    "game_id": "1606",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超时空要塞",
+    "game_id": "2123",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 信长之野望 新生",
+    "game_id": "1623",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 月光岭物语",
+    "game_id": "2405",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "任天堂Switch游戏卡带 NS LAPIN 勇敢兔兔探险队 中文 二手 现货",
+    "game_id": "2160",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 沙石镇时光 My Time at Sandrock",
+    "game_id": "2171",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 罗德斯岛战记",
+    "game_id": "1542",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 石河伦吾和他的朋友们+逮捕石佛 合集",
+    "game_id": "2321",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级街霸2",
+    "game_id": "1308",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 合金装备 大师合集",
+    "game_id": "1347",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 暗之眷属 乙女",
+    "game_id": "1918",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 浴血黑帮",
+    "game_id": "1527",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 节奏健身",
+    "game_id": "1279",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 皮克敏4+大家來挑戰!（订购）",
+    "game_id": "2593",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 花之灵",
+    "game_id": "1578",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 烈焰同盟",
+    "game_id": "1158",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 怒之铁拳4",
+    "game_id": "1169",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 不可思议炼金术士三部曲DX",
+    "game_id": "2228",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 风火轮竞速赛车",
+    "game_id": "1484",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 大神 绝景版",
+    "game_id": "1247",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 风之少年克罗诺亚1+2",
+    "game_id": "1269",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 刀剑乱舞无双",
+    "game_id": "2556",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 热血格斗 国夫君+双截龙 合集",
+    "game_id": "1059",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 最终幻想世界加强版",
+    "game_id": "1579",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 泰坦之旅",
+    "game_id": "1591",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 战斗公主玛德琳",
+    "game_id": "1594",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS  WRC11",
+    "game_id": "1359",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 漩涡迷雾",
+    "game_id": "1366",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 米斯托尼亞的翅望 乙女恋爱",
+    "game_id": "1902",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 模拟狩猎2",
+    "game_id": "1406",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "任天堂Switch游戏卡带 NS 合金弹头 战略版 METAL SLUG 中文二手",
+    "game_id": "2482",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 鬼族武者",
+    "game_id": "1461",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 火焰之纹章无双",
+    "game_id": "1726",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 网球世界巡回赛",
+    "game_id": "1215",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 武士少女",
+    "game_id": "1252",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 深渊狂猎",
+    "game_id": "1315",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 彩京精选合集Vol.1",
+    "game_id": "2145",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 体感嘉年华",
+    "game_id": "1894",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 时空勇士",
+    "game_id": "1426",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 恶魔装甲X",
+    "game_id": "1443",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 风来之国 Eastward",
+    "game_id": "1473",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "Ns 英雄不再3",
+    "game_id": "1264",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 重返德军总部2 新巨像",
+    "game_id": "2342",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 女神异闻录5",
+    "game_id": "1343",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 勇者斗恶龙11S 追寻逝去的时光",
+    "game_id": "2628",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS Another Co",
+    "game_id": "1374",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 彩京精选合集Vol.2",
+    "game_id": "2146",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 彩京精选合集Vol.3",
+    "game_id": "2147",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 废墟图书馆",
+    "game_id": "1170",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 小骨英雄杀手",
+    "game_id": "1428",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 乐高世界 LEGO Worlds",
+    "game_id": "2213",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 终焉之莉莉",
+    "game_id": "1456",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 小龙咖啡厅 咖啡馆",
+    "game_id": "2227",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超次次元游戏战机少女重生1 中文 二手",
+    "game_id": "1975",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 蒸汽监狱",
+    "game_id": "1476",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 刀剑神域 夺命凶弹",
+    "game_id": "1276",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 古惑狼赛车",
+    "game_id": "1282",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 那由多之轨迹",
+    "game_id": "1292",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 猫咪斗恶龙1+2 喵咪Cat Quest",
+    "game_id": "2319",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 蓝精灵2 绿石之囚 The Smurfs 2",
+    "game_id": "2192",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 鬼灭之刃2（订购）",
+    "game_id": "2538",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 网球世界巡回赛2",
+    "game_id": "1531",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 漫威VS卡普空 格斗合集 经典街机",
+    "game_id": "2301",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 足球小将2",
+    "game_id": "2582",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 秋之回忆8 FD for Dear",
+    "game_id": "1317",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 噬神者3",
+    "game_id": "2348",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 水晶传奇",
+    "game_id": "1360",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 侍道外传 刀神",
+    "game_id": "1636",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 魔界战记7",
+    "game_id": "1173",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 96号公路",
+    "game_id": "1434",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 终极复仇",
+    "game_id": "1203",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 远征 泥泞奔驰",
+    "game_id": "2488",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 暗黑血统1",
+    "game_id": "1239",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 雨中冒险2",
+    "game_id": "1525",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 命运石之门 RE:BOOTPS",
+    "game_id": "2576",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 交响传奇",
+    "game_id": "1561",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级歌声2021",
+    "game_id": "1605",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 鬼武者",
+    "game_id": "1350",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 乐高 超人总动员",
+    "game_id": "1639",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 雪人兄弟 仙境奇幻乐园",
+    "game_id": "2411",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 绚烂传说 马戏团  中文乙女",
+    "game_id": "1903",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 魔剑物语",
+    "game_id": "1430",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 终天教团",
+    "game_id": "2458",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 我的英雄学院",
+    "game_id": "1189",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级街道赛",
+    "game_id": "1506",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 锡之心",
+    "game_id": "1512",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 太鼓达人 二合一",
+    "game_id": "1268",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 赛车总动员3 汽车总动员3",
+    "game_id": "2040",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 秋之回忆 在星天之下",
+    "game_id": "1534",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 盟军敢死队3",
+    "game_id": "1552",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 奈尔克 新大地的工作室",
+    "game_id": "1312",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 乐高哈利波特合集",
+    "game_id": "2611",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 吾家健身趣",
+    "game_id": "1381",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 幸运之杖Ｒ",
+    "game_id": "1893",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 暗影诗章",
+    "game_id": "1400",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 罪恶帝国",
+    "game_id": "1446",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 胡闹停车 胡闹泊车",
+    "game_id": "2216",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 波与月夜之青莲",
+    "game_id": "2241",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 魔女之泉3 Re:Fine 人形玩偶与艾露迪",
+    "game_id": "2243",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 英雄传说 碧之轨迹 改",
+    "game_id": "2244",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 与魔共舞 我的颂歌",
+    "game_id": "1529",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 极速俱乐部 无限2",
+    "game_id": "1277",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 名侦探皮卡丘",
+    "game_id": "1306",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 假面骑士 英雄寻忆",
+    "game_id": "1587",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 三国志14 with 威力加强传承版（订购11月中旬）",
+    "game_id": "2618",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 蓝色反射 帝",
+    "game_id": "1598",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 索尼克赛车",
+    "game_id": "1600",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 狂野泊车",
+    "game_id": "2371",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS WRC9",
+    "game_id": "1604",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 少女与战车",
+    "game_id": "1638",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 毒枭卡特尔集团崛起",
+    "game_id": "1130",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超回转寿司强袭者",
+    "game_id": "1386",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 乐高星球大战 天行者",
+    "game_id": "1642",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 符文工房5",
+    "game_id": "1132",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 海王星机战少女",
+    "game_id": "1388",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 乐高派对",
+    "game_id": "2435",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 索尼克力量",
+    "game_id": "1161",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 古惑狼 三部曲",
+    "game_id": "1166",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 杀戮尖塔 尖塔奇兵 Slay",
+    "game_id": "2196",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 勇者斗恶龙 创世小玩家1",
+    "game_id": "2205",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 特技摩托 崛起",
+    "game_id": "1450",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 异度之刃3（订购）",
+    "game_id": "2475",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 小猪佩奇 世界大冒险",
+    "game_id": "1454",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 舞力全开【国行专用】",
+    "game_id": "1488",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 越野英雄",
+    "game_id": "1504",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 无主之地 合集",
+    "game_id": "1249",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 海贼王无尽世界R",
+    "game_id": "1508",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 有氧拳击2 【国行专用】",
+    "game_id": "1520",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 鬼泣1 恶魔猎人",
+    "game_id": "2038",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 进击的巨人3（订购）",
+    "game_id": "2553",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 失落领域",
+    "game_id": "1288",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 静谧田园",
+    "game_id": "2575",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 我的舞蹈教室",
+    "game_id": "2322",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 创世的公主 姬君",
+    "game_id": "1557",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 黎之轨迹",
+    "game_id": "1558",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 圣灵家族",
+    "game_id": "2326",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 速降王者 山地车极限运动 下坡竞速",
+    "game_id": "1562",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 胧村正怪奇谭（订购）",
+    "game_id": "2597",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 舞力全开2018",
+    "game_id": "2352",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 波斯王子之重生者 Rogue",
+    "game_id": "2363",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 露露亚的工作室 亚兰德的炼金术师4",
+    "game_id": "1602",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 高高兴兴动物园",
+    "game_id": "1091",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 通灵战士 幽灵舰队与消失的英雄",
+    "game_id": "2372",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "Ns 僵尸部队死亡战争4",
+    "game_id": "1352",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 挂姬恶魔",
+    "game_id": "2407",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 幽浮2",
+    "game_id": "1412",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 索斯机械兽 机兽战记 王者狂野爆发 ZOIDS",
+    "game_id": "2182",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 喵喵大战死剩种 喵喵大战邪物 中文二手",
+    "game_id": "1930",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 模拟老大爷 就死了吧",
+    "game_id": "2490",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "任天堂Switch游戏 NS 神领编年史 The DioField Chronic 中文二手",
+    "game_id": "2493",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 命运之夜",
+    "game_id": "1218",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 模拟农场",
+    "game_id": "2498",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 火爆狂飙 天堂",
+    "game_id": "1219",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 光明之子+英勇之心 合集",
+    "game_id": "2253",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 我的英雄学院2",
+    "game_id": "1250",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 二之国2 王子版",
+    "game_id": "1513",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 丰收之",
+    "game_id": "1265",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 深夏时光！二十世纪的暑假 ",
+    "game_id": "2294",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 真人快打1",
+    "game_id": "2561",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 静谧田园",
+    "game_id": "2574",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 创世的公主",
+    "game_id": "1554",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS THE体感运动套装",
+    "game_id": "1592",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 烬土行者 生存之旅",
+    "game_id": "2396",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 家庭训练机",
+    "game_id": "1136",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 复活邪神2",
+    "game_id": "1178",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 食用系少女2",
+    "game_id": "1188",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 说谎公主与盲眼王子",
+    "game_id": "1201",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 新命运之夜",
+    "game_id": "1213",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 卡车司机 Truck Driver 模拟货车",
+    "game_id": "2242",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 祖先的遗产",
+    "game_id": "1231",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 薄樱鬼 真改 黎明录 中文 乙女二手现货",
+    "game_id": "2004",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 龙之死印",
+    "game_id": "1538",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 幽影行者1",
+    "game_id": "1563",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 鬼哭邦",
+    "game_id": "1573",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "任天堂Switch2 NS2 塞尔达传说 时之笛PRO手柄 限定 订购",
+    "game_id": "2616",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 刃之异邦人",
+    "game_id": "1341",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 宝可梦Pokémon Pokopia+扩充票（订购2026.10.29）",
+    "game_id": "2622",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 圣骑士之战 奋战",
+    "game_id": "2370",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 迪士尼音乐游行 安可版",
+    "game_id": "2373",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 病态 愤怒之王",
+    "game_id": "2374",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 舞力全开2026【数字版兑换码】",
+    "game_id": "2376",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 乐高侏罗纪世界",
+    "game_id": "2378",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 闪之轨迹改2",
+    "game_id": "1612",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 被诅咒的小护",
+    "game_id": "2127",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 遗迹 灰烬重生",
+    "game_id": "2394",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 与魔共舞",
+    "game_id": "1382",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 去度假",
+    "game_id": "1644",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 极速俱乐部2",
+    "game_id": "1409",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 街头力量足球",
+    "game_id": "2434",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 北斗神拳  你已经瘦了",
+    "game_id": "2195",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 战斗赛车",
+    "game_id": "1172",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 忍者宝盒 忍者沙盒",
+    "game_id": "2214",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 数码宝贝 绝境求生",
+    "game_id": "1448",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 岛屿生存者",
+    "game_id": "1478",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 古惑狼4",
+    "game_id": "1481",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 方根胶卷 Root Film",
+    "game_id": "2254",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 方块方舟",
+    "game_id": "1237",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 马里奥疯兔【国行专用】",
+    "game_id": "1526",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 硬核机甲 战士版",
+    "game_id": "1528",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 双人成行",
+    "game_id": "2571",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 谎月香格里拉",
+    "game_id": "1296",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 自由战争 重制版 FREEDOM WARS",
+    "game_id": "2320",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 命运石之门 RE:BOOTPS",
+    "game_id": "2577",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 这是我的战争",
+    "game_id": "1564",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 舞力全开2017",
+    "game_id": "1309",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 卡普空格斗合集",
+    "game_id": "1567",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 夏目友人帐 叶月之记",
+    "game_id": "2336",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级歌声2022",
+    "game_id": "2339",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 胧村正怪奇谭（订购）",
+    "game_id": "2595",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 哆啦A梦 牧场物语 【国行专用】",
+    "game_id": "1577",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 大厦管理者 管理员",
+    "game_id": "2347",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "任天堂Switch2塞尔达传说 40周年限定版主机Pro手柄NS2时之笛港版",
+    "game_id": "2612",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 坦克战记重生",
+    "game_id": "1342",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 恶果之地",
+    "game_id": "2369",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 英雄不再1",
+    "game_id": "1373",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 君於雪中希冀",
+    "game_id": "1377",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 异星探险家",
+    "game_id": "1387",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 进击的巨人2",
+    "game_id": "1392",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 丰收之月",
+    "game_id": "1407",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 时光之帽",
+    "game_id": "1181",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 哆啦A梦 大雄的新恐龙",
+    "game_id": "1192",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 致命躯壳",
+    "game_id": "2487",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 地心护核",
+    "game_id": "1724",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 新次元游",
+    "game_id": "1522",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 无法成眠的伊达键 AI 梦境档案 中文",
+    "game_id": "2295",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 变形金刚 地球火种 远征",
+    "game_id": "2559",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 在远方 追云者编年史",
+    "game_id": "2560",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 夏空的独白 初回特别版",
+    "game_id": "2080",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 模拟山羊1",
+    "game_id": "2340",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 维加斯派对",
+    "game_id": "2349",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 公主是守财奴",
+    "game_id": "1337",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 口袋妖怪 尼可梦灭绝",
+    "game_id": "1593",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超级枪弹辩驳2×2（订购2026.1.14）",
+    "game_id": "2621",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 公鸡神探",
+    "game_id": "1599",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 超级枪弹辩驳2×2（订购2026.1.14）",
+    "game_id": "2623",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "NS 死亡游行",
+    "game_id": "1353",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS2 勇者斗恶龙 怪物仙境4（订购2026.12.03）",
+    "game_id": "2633",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 我的世界 地下城2（订购2026.12.03）",
+    "game_id": "2634",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 魔法奇遇 有苦衷的少女魔法学校留学（订购2026.12.04）",
+    "game_id": "2635",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 大秽（订购2026.12.04）",
+    "game_id": "2636",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "Swtich2二手游戏 NS2 密特罗德 绝境嗜生 银河战士 Ravenous 订购",
+    "game_id": "2638",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 形状与节奏",
+    "game_id": "2388",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 来自深渊",
+    "game_id": "1367",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 夕鬼",
+    "game_id": "1624",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 热血少女1",
+    "game_id": "1627",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 战国无双 真田丸",
+    "game_id": "2395",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 巅峰乱斗 假面骑士",
+    "game_id": "1643",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 小歌与林中的妖怪之家plus合集",
+    "game_id": "2425",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 机兽新世纪",
+    "game_id": "1151",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 建造者PLUS",
+    "game_id": "1418",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 超酷节拍 音速",
+    "game_id": "1191",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 再见狂野之心",
+    "game_id": "1720",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 闪回 25周年收藏版",
+    "game_id": "1226",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 驯龙高手",
+    "game_id": "1486",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 趣味摩托",
+    "game_id": "1494",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 小小伙伴",
+    "game_id": "1500",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 索尼克狂热+赛车音速小子合集",
+    "game_id": "1255",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 索尼克 缤纷色彩",
+    "game_id": "1263",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 洛克人x+x2",
+    "game_id": "1519",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS GOR",
+    "game_id": "1267",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "NS 提米拉纳国的好运公主与衰运骑士团",
+    "game_id": "2045",
+    "platform": "Nintendo Switch"
+  }
+]

@@ -1,5 +1,5 @@
-// Package merchant defines the abstraction over the four storefronts: each
-// merchant knows how to fetch one game's recycle price and, for the list
+// Package merchant defines the abstraction over the supported storefronts:
+// each merchant knows how to fetch one game's recycle price and, for the list
 // command, how to page through its full product catalog.
 package merchant
 
@@ -69,7 +69,7 @@ var nonNSRe = regexp.MustCompile(`(?i)(ps\d|xbox|x360|psv|playstation|nds|3ds|st
 // IsNS reports whether a catalog item is a Nintendo Switch / Switch 2
 // cartridge. When the API provides an authoritative platform field it wins;
 // otherwise rows whose names carry a non-NS marker (PS/Xbox/PC/周边/邮费…)
-// are rejected and the rest are kept, since the four catalogs label
+// are rejected and the rest are kept, since most catalogs label
 // cross-platform titles in the name but leave NS titles bare.
 func IsNS(it CatalogItem) bool {
 	if it.Platform != "" {
@@ -95,6 +95,8 @@ func NewRegistry(c *httpx.Client) Registry {
 		newHuoqiangshou(c),
 		newBuerjia(c),
 		newHangzhouXizi(c),
+		newHailuo(c),
+		newMogushijian(c),
 	} {
 		r[m.Key()] = m
 	}
@@ -188,10 +190,10 @@ func firstRows(payload any, paths ...string) []any {
 	return nil
 }
 
-// catalogPageInterval paces catalog pagination. All four merchant list APIs
+// catalogPageInterval paces catalog pagination. All merchant list APIs
 // throttle rapid requests by returning empty 2xx bodies, so every page waits
 // before being fetched.
-const catalogPageInterval = time.Second
+const catalogPageInterval = 500 * time.Millisecond
 
 // waitCatalogPage blocks for the catalog page interval or until ctx is done.
 func waitCatalogPage(ctx context.Context) error {

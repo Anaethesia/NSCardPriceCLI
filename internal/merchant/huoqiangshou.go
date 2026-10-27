@@ -12,9 +12,9 @@ import (
 )
 
 const (
-	huoqiangshouDetailURL  = "https://api.huoqiangshou.cn/seller/sellerProduct/getProductDetail"
-	huoqiangshouApprizeURL = "https://api.huoqiangshou.cn/seller/sellerProduct/getProductApprizeQuestion"
-	huoqiangshouListURL    = "https://api.huoqiangshou.cn/seller/category/getProductInfoPage"
+	huoqiangshouDetailURL  = "https://api.xiamenhuoqiangshou.com/seller/sellerProduct/getProductDetail"
+	huoqiangshouApprizeURL = "https://api.xiamenhuoqiangshou.com/seller/sellerProduct/getProductApprizeQuestion"
+	huoqiangshouListURL    = "https://api.xiamenhuoqiangshou.com/seller/category/getProductInfoPage"
 )
 
 type huoqiangshou struct {
