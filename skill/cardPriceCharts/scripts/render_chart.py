@@ -26,10 +26,10 @@ from pathlib import Path
 # Fixed column order: (merchant key, display name).
 MERCHANTS = [
     ("laolieren", "老猎人"),
-    ("huoqiangshou", "火枪手"),
+    ("hailuo", "海螺"),
     ("buerjia", "不二家"),
     ("hangzhouxizi", "杭州西子"),
-    ("hailuo", "海螺"),
+    ("huoqiangshou", "火枪手"),
     ("mogushijian", "蘑菇时间"),
 ]
 

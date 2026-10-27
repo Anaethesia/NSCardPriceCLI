@@ -24,10 +24,10 @@ description: 把 data/custom.json 的卡带生成「卡带 × 6 家回收商」�
 | 列 | 商家 key | 表头 |
 |---|---|---|
 | 1 | laolieren | 老猎人 |
-| 2 | huoqiangshou | 火枪手 |
+| 2 | hailuo | 海螺 |
 | 3 | buerjia | 不二家 |
 | 4 | hangzhouxizi | 杭州西子 |
-| 5 | hailuo | 海螺 |
+| 5 | huoqiangshou | 火枪手 |
 | 6 | mogushijian | 蘑菇时间 |
 
 - 价格用 `recycle_price`（回收价），**不要**用 `sell_price`（售价）。
@@ -128,7 +128,7 @@ python3 skill/cardPriceCharts/scripts/render_chart.py --input-json /tmp/query.js
 
 - [ ] PNG 宽度 3360px（2x），高度足够，最后一行完整、底部无截断、无多余说明文字。
 - [ ] 行数 = N，列数 = 7；行顺序与 custom.json 一致。
-- [ ] 表头 6 家名称和顺序正确（老猎人 / 火枪手 / 不二家 / 杭州西子 / 海螺 / 蘑菇时间）。
+- [ ] 表头 6 家名称和顺序正确（老猎人 / 海螺 / 不二家 / 杭州西子 / 火枪手 / 蘑菇时间）。
 - [ ] 每条有正价格的行恰好高亮一个或多个橘格，且橘格数值 = 该行最大 `recycle_price`。
 - [ ] 橘格是整格填充、白字，没有只高亮数字或加边框。
 - [ ] 失败语义正确：`error`/`skipped`/`unavailable` 显示为「错误/未收录/不收」，没有出现假 `0`。
