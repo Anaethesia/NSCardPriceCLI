@@ -9,6 +9,23 @@ description: 把 data/custom.json 的卡带生成「卡带 × 6 家回收商」�
 
 **优先自己按本文风格规范生成图**；需要稳定复现或对结果没把握时，用 `scripts/render_chart.py` 兜底。两条路径输出必须一致。
 
+## 前置：安装 CLI
+
+`nscardprice` 未安装时（`command -v nscardprice` 为空，或 `nscardprice merchants` 不是 6 家），先从 GitHub 安装：
+
+```bash
+git clone https://github.com/Anaethesia/NSCardPriceCLI.git ~/NSCardPriceCLI
+cd ~/NSCardPriceCLI
+go install ./cmd/nscardprice
+export PATH="$(go env GOPATH)/bin:$PATH"   # ~/go/bin 不在 PATH 时需要
+nscardprice merchants                      # 应输出 6 家商家
+```
+
+- 已在仓库内则跳过 clone，直接 `go install ./cmd/nscardprice`。
+- Go 版本以 `go.mod` 为准（1.26+），低版本会自动下载对应 toolchain。
+- 下文示例都假定当前目录是仓库根目录；不在仓库内时用 `NSCARD_HOME` 指向仓库（脚本依次查找 `NSCARD_HOME` → `~/NSCardPriceCLI` → 脚本/当前目录的上级），或用 `--custom-file` 指到 `data/custom.json`。
+- 更新：`cd <repo> && git pull && go install ./cmd/nscardprice`。
+
 ## 输出约定
 
 - 只交付 **PNG**。HTML 只是渲染中间产物，放在临时目录，不要当交付物。
@@ -35,7 +52,7 @@ description: 把 data/custom.json 的卡带生成「卡带 × 6 家回收商」�
 
 ## 取数
 
-先截取前 N 条到临时文件，再查，避免跑全量 278 条：
+先截取前 N 条到临时文件，再查，避免跑全量 278 条（不在仓库内时先 `cd "$NSCARD_HOME"`）：
 
 ```bash
 python3 - <<'PY'

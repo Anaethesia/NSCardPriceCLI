@@ -59,8 +59,21 @@ CHROME_CANDIDATES = [
 
 
 def repo_root():
-    # skill/cardPriceCharts/scripts/render_chart.py -> repo root
-    return Path(__file__).resolve().parents[3]
+    # Inside the repo the script lives in skill/cardPriceCharts/scripts.
+    # Installed skills live outside it, so also honor NSCARD_HOME, the default
+    # clone location, and walk up from the script/cwd looking for data/custom.json.
+    here = Path(__file__).resolve()
+    candidates = []
+    env = os.environ.get("NSCARD_HOME")
+    if env:
+        candidates.append(Path(env).expanduser())
+    candidates.append(Path.home() / "NSCardPriceCLI")
+    candidates.extend(here.parents)
+    candidates.extend([Path.cwd(), *Path.cwd().parents])
+    for candidate in candidates:
+        if (candidate / "data" / "custom.json").is_file():
+            return candidate.resolve()
+    return here.parents[3]
 
 
 def load_games(custom_file, limit):
@@ -81,8 +94,8 @@ def resolve_cli(explicit):
     if found:
         return found
     raise SystemExit(
-        "找不到 nscardprice：请先 `go build -o bin/nscardprice ./cmd/nscardprice`，"
-        "或用 --cli 指定可执行文件路径"
+        "找不到 nscardprice：请按 skill 的「安装 CLI」执行 "
+        "`go install ./cmd/nscardprice`，或用 --cli 指定可执行文件路径"
     )
 
 

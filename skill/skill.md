@@ -7,6 +7,23 @@ description: "使用 nscardprice CLI 查询任天堂 Switch 卡带回收价/售�
 
 本 skill 教 agent 如何调用 `nscardprice` CLI 查询任天堂 Switch 卡带价格。程序读取 `data/games.json` 中的游戏与商家商品 ID，并发查询**六家**回收商：**laolieren（老猎人）、huoqiangshou（火枪手）、buerjia（不二家）、hangzhouxizi（杭州西子）、hailuo（海螺）、mogushijian（蘑菇时间）**。
 
+## 前置：安装 CLI
+
+`nscardprice` 未安装时（`command -v nscardprice` 为空，或 `nscardprice merchants` 不是 6 家），先从 GitHub 安装：
+
+```bash
+git clone https://github.com/Anaethesia/NSCardPriceCLI.git ~/NSCardPriceCLI
+cd ~/NSCardPriceCLI
+go install ./cmd/nscardprice
+export PATH="$(go env GOPATH)/bin:$PATH"   # ~/go/bin 不在 PATH 时需要
+nscardprice merchants                      # 应输出 6 家商家
+```
+
+- 已在仓库内则跳过 clone，直接 `go install ./cmd/nscardprice`。
+- Go 版本以 `go.mod` 为准（1.26+），低版本会自动下载对应 toolchain。
+- 下文示例都假定当前目录是仓库根目录；不在仓库时先 `cd ~/NSCardPriceCLI`，或用 `--games` / `--custom-file` 指到 clone 后的数据文件。
+- 更新：`cd ~/NSCardPriceCLI && git pull && go install ./cmd/nscardprice`。
+
 ## 核心规则（必须遵守）
 
 1. **游戏匹配**：`query` 参数按中文名/关键词模糊匹配（大小写不敏感），常用简称与别名自动识别；需要唯一结果时用 `--slug` 精确匹配。
