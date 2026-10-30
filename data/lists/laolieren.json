@@ -5,9 +5,24 @@
     "platform": "ns2"
   },
   {
+    "name": "NS2 宝可梦 Pokopia（钥匙卡）",
+    "game_id": "3723",
+    "platform": "ns2"
+  },
+  {
     "name": "NS 马里奥奥德赛",
     "game_id": "192",
     "platform": "switch"
+  },
+  {
+    "name": "NS2 Sports Resort",
+    "game_id": "3815",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 最终幻想 共鸣（钥匙卡）",
+    "game_id": "3848",
+    "platform": "ns2"
   },
   {
     "name": "NS2 大金刚 蕉力全开",
@@ -15,14 +30,9 @@
     "platform": "ns2"
   },
   {
-    "name": "NS2 宝可梦 Pokopia（钥匙卡）",
-    "game_id": "3723",
+    "name": "NS2 喷射战士 涂击队",
+    "game_id": "3769",
     "platform": "ns2"
-  },
-  {
-    "name": "NS 双人成行 ",
-    "game_id": "3252",
-    "platform": "switch"
   },
   {
     "name": "NS2 塞尔达传说 荒野之息",
@@ -35,9 +45,9 @@
     "platform": "switch"
   },
   {
-    "name": "NS2 塞尔达传说2 王国之泪",
-    "game_id": "3590",
-    "platform": "ns2"
+    "name": "NS 动物实验会",
+    "game_id": "3160",
+    "platform": "switch"
   },
   {
     "name": "NS2 马里奥赛车世界",
@@ -45,48 +55,8 @@
     "platform": "ns2"
   },
   {
-    "name": "NS 塞尔达传说2 王国之泪",
-    "game_id": "3282",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 喷射战士 涂击队",
-    "game_id": "3769",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS 路易鬼屋3",
-    "game_id": "477",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 宝可梦 紫",
-    "game_id": "3321",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 马里奥赛车8",
-    "game_id": "153",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 塞尔达传说 时之笛",
-    "game_id": "3856",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 轨道双子星",
-    "game_id": "3816",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS 塞尔达传说扩充票 荒野之息+DLC ",
-    "game_id": "3132",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 喷射战士3",
-    "game_id": "3009",
+    "name": "NS 双人成行 ",
+    "game_id": "3252",
     "platform": "switch"
   },
   {
@@ -95,43 +65,28 @@
     "platform": "ns2"
   },
   {
-    "name": "NS2 龙之信条2（钥匙卡）",
-    "game_id": "3871",
+    "name": "NS2 塞尔达传说2 王国之泪",
+    "game_id": "3590",
     "platform": "ns2"
   },
   {
-    "name": "NS2 宝可梦传说 Z-A",
-    "game_id": "3635",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 鬼武者 剑之道（钥匙卡）",
-    "game_id": "3804",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS sports",
-    "game_id": "3189",
+    "name": "NS 塞尔达传说扩充票 荒野之息+DLC ",
+    "game_id": "3132",
     "platform": "switch"
   },
   {
-    "name": "NS 巫师3狂猎 年度版带全dlc",
-    "game_id": "471",
+    "name": "NS 塞尔达传说2 王国之泪",
+    "game_id": "3282",
     "platform": "switch"
   },
   {
-    "name": "NS 星之卡比探索发现",
-    "game_id": "3174",
+    "name": "NS 宝可梦 紫",
+    "game_id": "3321",
     "platform": "switch"
   },
   {
-    "name": "NS 马里奥派对",
-    "game_id": "333",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 宝可梦传说 阿尔宙斯",
-    "game_id": "3066",
+    "name": "NS 路易鬼屋3",
+    "game_id": "477",
     "platform": "switch"
   },
   {
@@ -140,38 +95,28 @@
     "platform": "switch"
   },
   {
+    "name": "NS sports",
+    "game_id": "3189",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 鬼武者 剑之道（钥匙卡）",
+    "game_id": "3804",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 塞尔达传说 时之笛",
+    "game_id": "3856",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS 马里奥赛车8",
+    "game_id": "153",
+    "platform": "switch"
+  },
+  {
     "name": "NS 节奏天国",
     "game_id": "3760",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 超级马里奥兄弟惊奇 ",
-    "game_id": "3312",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 幻裂奇境（钥匙卡）",
-    "game_id": "3617",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 星之卡比 探索发现+星耀世界",
-    "game_id": "3640",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS 朋友收集 梦想生活",
-    "game_id": "3740",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 艾尔登法环（钥匙卡）",
-    "game_id": "3793",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS 贝尔蒙特的诅咒",
-    "game_id": "3853",
     "platform": "switch"
   },
   {
@@ -180,29 +125,19 @@
     "platform": "ns2"
   },
   {
-    "name": "NS 任天堂全明星大乱斗",
-    "game_id": "358",
+    "name": "NS 喷射战士3",
+    "game_id": "3009",
     "platform": "switch"
   },
   {
-    "name": "NS 动物实验会",
-    "game_id": "3160",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 马里奥兄弟惊奇",
-    "game_id": "3739",
+    "name": "NS2 幻裂奇境（钥匙卡）",
+    "game_id": "3617",
     "platform": "ns2"
   },
   {
-    "name": "NS 宝可梦 剑",
-    "game_id": "691",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 煮糊了 吃到饱1+2+DLC",
-    "game_id": "2806",
-    "platform": "switch"
+    "name": "NS2 轨道双子星",
+    "game_id": "3816",
+    "platform": "ns2"
   },
   {
     "name": "NS 女神异闻录5皇家版 P5R ",
@@ -210,53 +145,18 @@
     "platform": "switch"
   },
   {
-    "name": "NS 宝可梦 朱",
-    "game_id": "3255",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 星露谷物语",
-    "game_id": "1723",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 有氧拳击3 健身拳击3 ",
-    "game_id": "3548",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 哈迪斯2",
-    "game_id": "3703",
+    "name": "NS2 星之卡比 探索发现+星耀世界",
+    "game_id": "3640",
     "platform": "ns2"
   },
   {
-    "name": "NS2 动物实验会",
-    "game_id": "3714",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS 暗黑破坏神3",
-    "game_id": "387",
+    "name": "NS 宝可梦传说 阿尔宙斯",
+    "game_id": "3066",
     "platform": "switch"
   },
   {
-    "name": "NS 塞尔达无双 灾厄启示录",
-    "game_id": "2649",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 舞力全开2022",
-    "game_id": "3082",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 宝可梦传说 Z-A",
-    "game_id": "3637",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 塞尔达无双 封印战记",
-    "game_id": "3695",
+    "name": "NS2 宝可梦传说 Z-A",
+    "game_id": "3635",
     "platform": "ns2"
   },
   {
@@ -265,9 +165,34 @@
     "platform": "ns2"
   },
   {
-    "name": "NS2 异度之刃2",
-    "game_id": "3811",
+    "name": "NS2 艾尔登法环（钥匙卡）",
+    "game_id": "3793",
     "platform": "ns2"
+  },
+  {
+    "name": "NS 最终幻想 共鸣",
+    "game_id": "3849",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 任天堂全明星大乱斗",
+    "game_id": "358",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 动物实验会",
+    "game_id": "3714",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 龙之信条2（钥匙卡）",
+    "game_id": "3871",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS 马里奥派对",
+    "game_id": "333",
+    "platform": "switch"
   },
   {
     "name": "NS 火焰纹章 风花雪月",
@@ -275,8 +200,68 @@
     "platform": "switch"
   },
   {
-    "name": "NS 宝可梦 盾",
-    "game_id": "3329",
+    "name": "NS 煮糊了 吃到饱1+2+DLC",
+    "game_id": "2806",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 宝可梦 朱",
+    "game_id": "3255",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 马里奥兄弟惊奇",
+    "game_id": "3739",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 耀西与不可思议的图鉴",
+    "game_id": "3750",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS 巫师3狂猎 年度版带全dlc",
+    "game_id": "471",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 舞力全开2022",
+    "game_id": "3082",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 星之卡比探索发现",
+    "game_id": "3174",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 塞尔达无双 封印战记",
+    "game_id": "3695",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS 朋友收集 梦想生活",
+    "game_id": "3740",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 双人成行（钥匙卡）",
+    "game_id": "3842",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS 猎天使魔女2",
+    "game_id": "233",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 星露谷物语",
+    "game_id": "1723",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 超级马里奥兄弟惊奇 ",
+    "game_id": "3312",
     "platform": "switch"
   },
   {
@@ -290,33 +275,23 @@
     "platform": "switch"
   },
   {
-    "name": "NS2 怪物物语3（钥匙卡）",
-    "game_id": "3732",
+    "name": "NS2 哈迪斯2",
+    "game_id": "3703",
     "platform": "ns2"
   },
   {
-    "name": "NS2 耀西与不可思议的图鉴",
-    "game_id": "3750",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS 塞尔达传说 织梦岛",
-    "game_id": "449",
+    "name": "NS 异度之刃2",
+    "game_id": "213",
     "platform": "switch"
   },
   {
-    "name": "NS 宝可梦 晶璨钻石",
-    "game_id": "3011",
+    "name": "NS 宝可梦 剑",
+    "game_id": "691",
     "platform": "switch"
   },
   {
-    "name": "NS 八方旅人2",
-    "game_id": "3280",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 宝可梦 皮卡丘",
-    "game_id": "3331",
+    "name": "NS 火焰纹章Engage",
+    "game_id": "3279",
     "platform": "switch"
   },
   {
@@ -330,19 +305,29 @@
     "platform": "switch"
   },
   {
-    "name": "NS 空之轨迹 1st",
-    "game_id": "3619",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 空之轨迹 the 2nd",
-    "game_id": "3766",
+    "name": "NS2 如龙0 导演剪辑版（钥匙卡）",
+    "game_id": "3600",
     "platform": "ns2"
   },
   {
-    "name": "NS 异度之刃2",
-    "game_id": "213",
-    "platform": "switch"
+    "name": "NS2 密特罗德 究极4",
+    "game_id": "3697",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 勇者斗恶龙7（钥匙卡）",
+    "game_id": "3721",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 虚实万象 识质存在（钥匙卡）",
+    "game_id": "3748",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 有氧拳击3 健身拳击3",
+    "game_id": "3775",
+    "platform": "ns2"
   },
   {
     "name": "NS 健身环大冒险",
@@ -350,8 +335,8 @@
     "platform": "switch"
   },
   {
-    "name": "NS  怪物猎人 崛起 rise",
-    "game_id": "2808",
+    "name": "NS 银河战士 密特罗德生存恐惧 ",
+    "game_id": "3111",
     "platform": "switch"
   },
   {
@@ -360,23 +345,138 @@
     "platform": "switch"
   },
   {
-    "name": "NS2 虚实万象 识质存在（钥匙卡）",
-    "game_id": "3748",
+    "name": "NS 有氧拳击3 健身拳击3 ",
+    "game_id": "3548",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 卡普空大作9 安魂曲（钥匙卡）",
+    "game_id": "3712",
     "platform": "ns2"
   },
   {
-    "name": "NS2 Sports Resort",
-    "game_id": "3815",
+    "name": "NS 我的世界 基岩版",
+    "game_id": "279",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 暗黑破坏神3",
+    "game_id": "387",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 塞尔达传说 织梦岛",
+    "game_id": "449",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 世界游戏大全51 合集",
+    "game_id": "637",
+    "platform": "switch"
+  },
+  {
+    "name": "NS  怪物猎人 崛起 rise",
+    "game_id": "2808",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 疯狂兔子 奇遇派对",
+    "game_id": "3219",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 猎天使魔女3 ",
+    "game_id": "3231",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 异度之刃2",
+    "game_id": "3811",
     "platform": "ns2"
   },
   {
-    "name": "NS2 最终幻想 共鸣（钥匙卡）",
-    "game_id": "3848",
+    "name": "NS 逆转裁判123合集",
+    "game_id": "400",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 宝可梦 晶璨钻石",
+    "game_id": "3011",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 卡比重返梦幻岛",
+    "game_id": "3287",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 超级舞动 新瓦里奥制造",
+    "game_id": "3373",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 牧场物语繁华市集",
+    "game_id": "3633",
     "platform": "ns2"
   },
   {
-    "name": "NS 宝可梦 伊布",
-    "game_id": "692",
+    "name": "NS 宝可梦传说 Z-A",
+    "game_id": "3637",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 怪物物语3（钥匙卡）",
+    "game_id": "3732",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 生灵重塑（钥匙卡）",
+    "game_id": "3734",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 碧蓝幻想 无尽黄昏（钥匙卡）",
+    "game_id": "3770",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 破晓传奇 黎明新程（钥匙卡）",
+    "game_id": "3783",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 匹诺曹的谎言",
+    "game_id": "3823",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 潜水员戴夫 ",
+    "game_id": "3870",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS 怪物猎人GU中文",
+    "game_id": "164",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 星之卡比",
+    "game_id": "243",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 异度之刃2 黄金之国",
+    "game_id": "323",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 马里奥兄弟U DX豪华版",
+    "game_id": "369",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 舞力全开2020",
+    "game_id": "488",
     "platform": "switch"
   },
   {
@@ -400,143 +500,8 @@
     "platform": "switch"
   },
   {
-    "name": "NS 疯狂兔子 奇遇派对",
-    "game_id": "3219",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 火焰纹章Engage",
-    "game_id": "3279",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 荒野大镖客1 ",
-    "game_id": "3365",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 小新煤炭镇的小白",
-    "game_id": "3458",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 马力欧与路易吉RPG 兄弟齐航",
-    "game_id": "3480",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 如龙0 导演剪辑版（钥匙卡）",
-    "game_id": "3600",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 刺客信条影 暗影者（钥匙卡）",
-    "game_id": "3716",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 实况足球Kick-Off! （钥匙卡）",
-    "game_id": "3764",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 我的世界 地下城2（钥匙卡）",
-    "game_id": "3826",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 双人成行（钥匙卡）",
-    "game_id": "3842",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS 指挥家",
-    "game_id": "3894",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 我的世界 基岩版",
-    "game_id": "279",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 逆转裁判123合集",
-    "game_id": "400",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 世界游戏大全51 合集",
-    "game_id": "637",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 卡比重返梦幻岛",
-    "game_id": "3287",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 超级舞动 新瓦里奥制造",
-    "game_id": "3373",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 双点博物馆（钥匙卡）",
-    "game_id": "3706",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 卡普空大作9 安魂曲（钥匙卡）",
-    "game_id": "3712",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 勇者斗恶龙7（钥匙卡）",
-    "game_id": "3721",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 匹诺曹的谎言",
-    "game_id": "3823",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 战锤40K 行商浪人",
-    "game_id": "3877",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS 龙珠 超宇宙2 欧美日版",
-    "game_id": "169",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 猎天使魔女2",
-    "game_id": "233",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 真三国无双7 猛将传DX",
-    "game_id": "366",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 勇者斗恶龙11S",
-    "game_id": "465",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 银河战士 密特罗德生存恐惧 ",
-    "game_id": "3111",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 尼尔机械纪元 ",
-    "game_id": "3230",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 猎天使魔女3 ",
-    "game_id": "3231",
+    "name": "NS 茶杯头 ",
+    "game_id": "3268",
     "platform": "switch"
   },
   {
@@ -545,8 +510,13 @@
     "platform": "switch"
   },
   {
-    "name": "NS 给他爱三部曲",
-    "game_id": "3418",
+    "name": "NS 宝可梦 盾",
+    "game_id": "3329",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 荒野大镖客1 ",
+    "game_id": "3365",
     "platform": "switch"
   },
   {
@@ -555,13 +525,33 @@
     "platform": "switch"
   },
   {
-    "name": "NS2 街霸6 快打旋风（钥匙卡）",
-    "game_id": "3606",
+    "name": "NS 小新煤炭镇的小白",
+    "game_id": "3458",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 空之轨迹 1st",
+    "game_id": "3619",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 女神异闻录3重置版（钥匙卡）",
+    "game_id": "3675",
     "platform": "ns2"
   },
   {
-    "name": "NS2 牧场物语繁华市集",
-    "game_id": "3633",
+    "name": "NS2 EA FC26（钥匙卡）",
+    "game_id": "3684",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 最终幻想7重制版（钥匙卡）",
+    "game_id": "3705",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 刺客信条影 暗影者（钥匙卡）",
+    "game_id": "3716",
     "platform": "ns2"
   },
   {
@@ -570,13 +560,13 @@
     "platform": "ns2"
   },
   {
-    "name": "NS2 动物迷城（钥匙卡）",
-    "game_id": "3749",
+    "name": "NS2 冒险家艾略特的千年奇谭（钥匙卡）",
+    "game_id": "3762",
     "platform": "ns2"
   },
   {
-    "name": "NS2 碧蓝幻想 无尽黄昏（钥匙卡）",
-    "game_id": "3770",
+    "name": "NS2 空之轨迹 the 2nd",
+    "game_id": "3766",
     "platform": "ns2"
   },
   {
@@ -585,8 +575,133 @@
     "platform": "ns2"
   },
   {
-    "name": "NS2 有氧拳击3 健身拳击3",
-    "game_id": "3775",
+    "name": "NS2 猛将传2（钥匙卡）",
+    "game_id": "3801",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 我的世界 地下城2（钥匙卡）",
+    "game_id": "3826",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 悠然生活之庭 静谧田园（钥匙卡）",
+    "game_id": "3830",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 我的世界 基岩版（钥匙卡）",
+    "game_id": "3843",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS 煮糊了2",
+    "game_id": "300",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 舞力全开2019",
+    "game_id": "340",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 耀西的手工世界",
+    "game_id": "406",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 狙击精英4",
+    "game_id": "2644",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 马里奥派对 超级巨星",
+    "game_id": "3130",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 灵活脑学校 一起伸展大脑",
+    "game_id": "3147",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 八方旅人2",
+    "game_id": "3280",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 宝可梦 皮卡丘",
+    "game_id": "3331",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 霍格沃兹遗产",
+    "game_id": "3378",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 街霸6 快打旋风（钥匙卡）",
+    "game_id": "3606",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 符文工房 龙之天地",
+    "game_id": "3618",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 小小梦魇3（钥匙卡）",
+    "game_id": "3645",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS 八方旅人1+2合集",
+    "game_id": "3655",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 人中之龙 极（钥匙卡）",
+    "game_id": "3663",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 八方旅人0（钥匙卡）",
+    "game_id": "3666",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 NBA2K26（钥匙卡）",
+    "game_id": "3682",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS 超级马里奥银河1+2合集",
+    "game_id": "3694",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 双点博物馆（钥匙卡）",
+    "game_id": "3706",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 数码宝贝物语 时空异客（钥匙卡）",
+    "game_id": "3758",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 实况足球Kick-Off! （钥匙卡）",
+    "game_id": "3764",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 乐高蝙蝠侠（钥匙卡）",
+    "game_id": "3813",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2  鬼泣5（钥匙卡）",
+    "game_id": "3814",
     "platform": "ns2"
   },
   {
@@ -595,9 +710,29 @@
     "platform": "ns2"
   },
   {
-    "name": "NS2 潜水员戴夫 ",
-    "game_id": "3870",
+    "name": "NS2 命运石之门 重启",
+    "game_id": "3839",
     "platform": "ns2"
+  },
+  {
+    "name": "NS 贝尔蒙特的诅咒",
+    "game_id": "3853",
+    "platform": "switch"
+  },
+  {
+    "name": "NS FC27",
+    "game_id": "3879",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 剪纸人 加强版",
+    "game_id": "211",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 马里奥网球 ACE",
+    "game_id": "277",
+    "platform": "switch"
   },
   {
     "name": "NS 八方旅人",
@@ -605,13 +740,23 @@
     "platform": "switch"
   },
   {
-    "name": "NS 死亡细胞 deadcells",
-    "game_id": "299",
+    "name": "NS 龙珠斗士Z",
+    "game_id": "324",
     "platform": "switch"
   },
   {
-    "name": "NS 耀西的手工世界",
-    "game_id": "406",
+    "name": "NS 文明帝国6 文明6",
+    "game_id": "350",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 真三国无双7 猛将传DX",
+    "game_id": "366",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 刺客信条3 高清重制版",
+    "game_id": "425",
     "platform": "switch"
   },
   {
@@ -625,8 +770,18 @@
     "platform": "switch"
   },
   {
-    "name": "NS 舞力全开2020",
-    "game_id": "488",
+    "name": "NS 勇者斗恶龙11S",
+    "game_id": "465",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 牧场物语 矿石镇",
+    "game_id": "472",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 异度之刃1 决定版",
+    "game_id": "641",
     "platform": "switch"
   },
   {
@@ -635,18 +790,33 @@
     "platform": "switch"
   },
   {
+    "name": "NS 有氧拳击2",
+    "game_id": "2672",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 三国志14 威力加强版",
+    "game_id": "2692",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 小小梦魇2",
+    "game_id": "2747",
+    "platform": "switch"
+  },
+  {
     "name": "NS 双点医院 年度版带DLC",
     "game_id": "2798",
     "platform": "switch"
   },
   {
-    "name": "NS 植物大战僵尸 花园战争3",
-    "game_id": "2805",
+    "name": "NS 毛线小精灵2",
+    "game_id": "2992",
     "platform": "switch"
   },
   {
-    "name": "NS 马里奥派对 超级巨星",
-    "game_id": "3130",
+    "name": "NS 奥日1+2合集",
+    "game_id": "3148",
     "platform": "switch"
   },
   {
@@ -655,8 +825,38 @@
     "platform": "switch"
   },
   {
-    "name": "NS 三角战略",
-    "game_id": "3159",
+    "name": "NS我的世界 地下城终极版",
+    "game_id": "3176",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 火焰纹章 风花雪月无双",
+    "game_id": "3210",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 猎天使魔女1 ",
+    "game_id": "3249",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 超级马里奥制造2",
+    "game_id": "3384",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 马车8+扩充票",
+    "game_id": "3400",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 波斯王子",
+    "game_id": "3402",
+    "platform": "switch"
+  },
+  {
+    "name": " NS 死亡细胞 重返恶魔城",
+    "game_id": "3423",
     "platform": "switch"
   },
   {
@@ -670,263 +870,8 @@
     "platform": "switch"
   },
   {
-    "name": "NS 东方夜雀食堂 ",
-    "game_id": "3484",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 月姬 表线 重制版 ",
-    "game_id": "3487",
-    "platform": "switch"
-  },
-  {
     "name": "NS 异度之刃X",
     "game_id": "3569",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 霍格沃茨遗产（钥匙卡）",
-    "game_id": "3611",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS 牧场物语繁华市集",
-    "game_id": "3641",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 小小梦魇3（钥匙卡）",
-    "game_id": "3645",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 人中之龙 极（钥匙卡）",
-    "game_id": "3663",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 最终幻想7重制版（钥匙卡）",
-    "game_id": "3705",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 夺宝奇兵 ",
-    "game_id": "3746",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 啦嗒铛Ratatan",
-    "game_id": "3752",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 数码宝贝物语 时空异客（钥匙卡）",
-    "game_id": "3758",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 最终幻想7 重生（钥匙卡）",
-    "game_id": "3761",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 猛将传2（钥匙卡）",
-    "game_id": "3801",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 乐高蝙蝠侠（钥匙卡）",
-    "game_id": "3813",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 EA FC27（钥匙卡）",
-    "game_id": "3836",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 八方旅人1+2合集（钥匙卡）",
-    "game_id": "3875",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS 怪物猎人GU中文",
-    "game_id": "164",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 上古卷轴5 完整版",
-    "game_id": "203",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 星之卡比",
-    "game_id": "243",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 马里奥网球 ACE",
-    "game_id": "277",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 蘑菇队长",
-    "game_id": "289",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 太鼓达人",
-    "game_id": "291",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 煮糊了2",
-    "game_id": "300",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 异度之刃2 黄金之国",
-    "game_id": "323",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 舞力全开2019",
-    "game_id": "340",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 马里奥兄弟U DX豪华版",
-    "game_id": "369",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 龙之信条",
-    "game_id": "416",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 血污 夜之仪式",
-    "game_id": "428",
-    "platform": "switch"
-  },
-  {
-    "name": "NS AI 梦境档案",
-    "game_id": "464",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 马里奥与索尼克 东京奥运会",
-    "game_id": "487",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 海贼无双4",
-    "game_id": "570",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 异度之刃1 决定版",
-    "game_id": "641",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 纸片马里奥",
-    "game_id": "670",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 虔诚之花的晚钟",
-    "game_id": "1364",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 马里奥3D 全明星合集",
-    "game_id": "1480",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 人类一败涂地",
-    "game_id": "1725",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 狙击精英4",
-    "game_id": "2644",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 有氧拳击2",
-    "game_id": "2672",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 毛线小精灵2",
-    "game_id": "2992",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 瓦里奥制造 分享同乐",
-    "game_id": "3100",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 灵活脑学校 一起伸展大脑",
-    "game_id": "3147",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 奥日1+2合集",
-    "game_id": "3148",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 太鼓达人 咚咚雷音祭 ",
-    "game_id": "3248",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 茶杯头 ",
-    "game_id": "3268",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 胡闹搬家2 Moving Out2\r\n",
-    "game_id": "3315",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 宝可梦 明亮珍珠",
-    "game_id": "3330",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 喷射战士2 英文",
-    "game_id": "3332",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 霍格沃兹遗产",
-    "game_id": "3378",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 超级马里奥制造2",
-    "game_id": "3384",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 波斯王子",
-    "game_id": "3402",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 逆转检察官1+2 御剑精选集",
-    "game_id": "3478",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 喷射战士3 扩充票 ",
-    "game_id": "3486",
     "platform": "switch"
   },
   {
@@ -935,53 +880,23 @@
     "platform": "switch"
   },
   {
-    "name": "NS 机战Y",
-    "game_id": "3604",
+    "name": "NS2 幻想生活 转圈圈的龙",
+    "game_id": "3652",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS 鬼灭之刃2",
+    "game_id": "3669",
     "platform": "switch"
   },
   {
-    "name": "NS 啪嗒砰1+2合集",
-    "game_id": "3610",
+    "name": "NS 密特罗德 究极4",
+    "game_id": "3696",
     "platform": "switch"
-  },
-  {
-    "name": "NS2 人中之龙 极2（钥匙卡）",
-    "game_id": "3664",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 八方旅人0（钥匙卡）",
-    "game_id": "3666",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 女神异闻录3重置版（钥匙卡）",
-    "game_id": "3675",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 卡比的驭天飞行者",
-    "game_id": "3679",
-    "platform": "ns2"
   },
   {
     "name": "NS2 海绵宝宝 潮汐巨神(钥匙卡)",
     "game_id": "3730",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 生灵重塑（钥匙卡）",
-    "game_id": "3734",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 卡普空大作7黄金版（钥匙卡）",
-    "game_id": "3741",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 卡普空大作8村庄（钥匙卡）",
-    "game_id": "3742",
     "platform": "ns2"
   },
   {
@@ -990,68 +905,53 @@
     "platform": "ns2"
   },
   {
-    "name": "NS2 冒险家艾略特的千年奇谭（钥匙卡）",
-    "game_id": "3762",
+    "name": "NS2 动物迷城（钥匙卡）",
+    "game_id": "3749",
     "platform": "ns2"
   },
   {
-    "name": "NS 最终幻想 战略版",
-    "game_id": "3792",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 悠然生活之庭 静谧田园（钥匙卡）",
-    "game_id": "3830",
+    "name": "NS2 EA FC27（钥匙卡）",
+    "game_id": "3836",
     "platform": "ns2"
   },
   {
-    "name": "NS2 NBA2K27（钥匙卡）",
-    "game_id": "3832",
+    "name": "NS 悠然生活之庭 静谧田园",
+    "game_id": "3845",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 八方旅人1+2合集（钥匙卡）",
+    "game_id": "3875",
     "platform": "ns2"
   },
   {
-    "name": "NS2 命运石之门 重启",
-    "game_id": "3839",
+    "name": "NS2 战锤40K 行商浪人",
+    "game_id": "3877",
     "platform": "ns2"
   },
   {
-    "name": "NS2 海贼王 海洋盛宴（钥匙卡）",
-    "game_id": "3841",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 勇者斗恶龙11S （钥匙卡）",
-    "game_id": "3872",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS ARMS 强力拳击",
-    "game_id": "145",
+    "name": "NS 喷射战士2 日文",
+    "game_id": "144",
     "platform": "switch"
   },
   {
-    "name": "NS 马里奥疯兔",
-    "game_id": "167",
+    "name": "NS 1-2 Switch 1+2",
+    "game_id": "150",
     "platform": "switch"
   },
   {
-    "name": "NS 口袋铁拳",
-    "game_id": "175",
+    "name": "NS 火焰纹章无双 火纹无双",
+    "game_id": "179",
     "platform": "switch"
   },
   {
-    "name": "NS 剪纸人 加强版",
-    "game_id": "211",
+    "name": "NS 上古卷轴5 完整版",
+    "game_id": "203",
     "platform": "switch"
   },
   {
-    "name": "NS 火影究极风暴 123合集",
-    "game_id": "259",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 龙珠斗士Z",
-    "game_id": "324",
+    "name": "NS 死亡细胞 deadcells",
+    "game_id": "299",
     "platform": "switch"
   },
   {
@@ -1060,33 +960,8 @@
     "platform": "switch"
   },
   {
-    "name": "NS 我的英雄学院1",
-    "game_id": "342",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 文明帝国6 文明6",
-    "game_id": "350",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 方舟 生存进化 Ark",
-    "game_id": "355",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 卡普空经典动作街机合集",
-    "game_id": "367",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 最终幻想12",
-    "game_id": "422",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 刺客信条3 高清重制版",
-    "game_id": "425",
+    "name": "NS 血污 夜之仪式",
+    "game_id": "428",
     "platform": "switch"
   },
   {
@@ -1100,8 +975,8 @@
     "platform": "switch"
   },
   {
-    "name": "NS 煮糊了1+2合集",
-    "game_id": "500",
+    "name": "NS 马里奥与索尼克 东京奥运会",
+    "game_id": "487",
     "platform": "switch"
   },
   {
@@ -1110,13 +985,8 @@
     "platform": "switch"
   },
   {
-    "name": "NS 双点医院 普通版",
-    "game_id": "556",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 马里奥 奥德赛【国行专用】",
-    "game_id": "587",
+    "name": "NS 杀戮尖塔 ",
+    "game_id": "584",
     "platform": "switch"
   },
   {
@@ -1130,13 +1000,33 @@
     "platform": "switch"
   },
   {
-    "name": "NS 足球小将 队长小翼",
-    "game_id": "681",
+    "name": "NS 纸片马里奥",
+    "game_id": "670",
     "platform": "switch"
   },
   {
-    "name": "NS 钓鱼之星 世界之旅",
-    "game_id": "1507",
+    "name": "NS 怒之铁拳4",
+    "game_id": "674",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 宝可梦 伊布",
+    "game_id": "692",
+    "platform": "switch"
+  },
+  {
+    "name": "NS SD高达G世纪 火线纵横",
+    "game_id": "1355",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 尊巴健身",
+    "game_id": "1358",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 虔诚之花的晚钟",
+    "game_id": "1364",
     "platform": "switch"
   },
   {
@@ -1150,23 +1040,13 @@
     "platform": "switch"
   },
   {
-    "name": "NS 皮克敏3 豪华版",
-    "game_id": "1732",
+    "name": "NS 舞力全开2021",
+    "game_id": "2619",
     "platform": "switch"
   },
   {
-    "name": "NS 天穗的稻田姬",
-    "game_id": "2608",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 宝可梦 剑 扩充版",
-    "game_id": "2609",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 极品飞车14",
-    "game_id": "2638",
+    "name": "NS 塞尔达无双 灾厄启示录",
+    "game_id": "2649",
     "platform": "switch"
   },
   {
@@ -1175,28 +1055,28 @@
     "platform": "switch"
   },
   {
-    "name": "NS 芬尼克斯 渡神纪",
-    "game_id": "2674",
+    "name": "NS 奥日2 精灵与萤火意志",
+    "game_id": "2690",
     "platform": "switch"
   },
   {
-    "name": "NS 三国志14 威力加强版",
-    "game_id": "2692",
+    "name": "NS 舞力全开2021【国行专用】",
+    "game_id": "2749",
     "platform": "switch"
   },
   {
-    "name": "NS 幻奏咖啡厅",
-    "game_id": "2728",
+    "name": "NS 牧场物语 橄榄镇与希望大地",
+    "game_id": "2765",
     "platform": "switch"
   },
   {
-    "name": "NS 小小梦魇2",
-    "game_id": "2747",
+    "name": "NS SD高达G 火线纵横 白金版",
+    "game_id": "2834",
     "platform": "switch"
   },
   {
-    "name": "NS 精灵宝可梦 随乐拍",
-    "game_id": "2911",
+    "name": "NS 雪地奔驰 Snow Runner",
+    "game_id": "2957",
     "platform": "switch"
   },
   {
@@ -1210,28 +1090,23 @@
     "platform": "switch"
   },
   {
-    "name": "NS 塞尔达传说 天空之剑",
-    "game_id": "3008",
+    "name": "NS 英雄传说 创之轨迹",
+    "game_id": "3012",
     "platform": "switch"
   },
   {
-    "name": "NS 弹丸论破三部曲 合集",
-    "game_id": "3143",
+    "name": "NS 瓦里奥制造 分享同乐",
+    "game_id": "3100",
     "platform": "switch"
   },
   {
-    "name": "NS FIFA2022 足球",
-    "game_id": "3149",
+    "name": "NS 零 濡鸦之巫女",
+    "game_id": "3142",
     "platform": "switch"
   },
   {
-    "name": "NS 极乐迪斯科",
-    "game_id": "3161",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 真‧三国无双 8 Empires",
-    "game_id": "3163",
+    "name": "NS 三角战略",
+    "game_id": "3159",
     "platform": "switch"
   },
   {
@@ -1240,8 +1115,8 @@
     "platform": "switch"
   },
   {
-    "name": "NS 孤岛危机1 ",
-    "game_id": "3166",
+    "name": "NS 雪人兄弟 特别版 SNOWBROS",
+    "game_id": "3187",
     "platform": "switch"
   },
   {
@@ -1250,13 +1125,13 @@
     "platform": "switch"
   },
   {
-    "name": "NS 中文 寄生 丘比特Cupid Parasite",
-    "game_id": "3192",
+    "name": "NS 鬼灭之刃 火神血风谭",
+    "game_id": "3206",
     "platform": "switch"
   },
   {
-    "name": "NS 火焰纹章 风花雪月无双",
-    "game_id": "3210",
+    "name": "NS 中文 毘卢遮那战姬 源平飞花梦想",
+    "game_id": "3213",
     "platform": "switch"
   },
   {
@@ -1265,13 +1140,18 @@
     "platform": "switch"
   },
   {
+    "name": "NS 尼尔机械纪元 ",
+    "game_id": "3230",
+    "platform": "switch"
+  },
+  {
     "name": "NS 忍者神龟 施莱德的复仇",
     "game_id": "3232",
     "platform": "switch"
   },
   {
-    "name": "NS NBA2K23 篮球2023",
-    "game_id": "3237",
+    "name": "NS SD高达 激斗同盟  ",
+    "game_id": "3233",
     "platform": "switch"
   },
   {
@@ -1280,18 +1160,13 @@
     "platform": "switch"
   },
   {
-    "name": "NS 猎天使魔女1 ",
-    "game_id": "3249",
+    "name": "NS 太鼓达人 咚咚雷音祭 ",
+    "game_id": "3248",
     "platform": "switch"
   },
   {
-    "name": "NS 师父  SIFU ",
-    "game_id": "3258",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 皇家骑士团",
-    "game_id": "3265",
+    "name": "NS 暗影火炬城 ",
+    "game_id": "3251",
     "platform": "switch"
   },
   {
@@ -1300,58 +1175,48 @@
     "platform": "switch"
   },
   {
+    "name": "NS 自然王国与和乐家人",
+    "game_id": "3270",
+    "platform": "switch"
+  },
+  {
     "name": "NS  FF7 核心危机 ",
     "game_id": "3272",
     "platform": "switch"
   },
   {
-    "name": "NS 魔法使之夜 ",
-    "game_id": "3286",
+    "name": "NS 大家一起 1-2 Switch ",
+    "game_id": "3311",
     "platform": "switch"
   },
   {
-    "name": "NS 密特罗德究极  Metroid Prime ",
-    "game_id": "3294",
+    "name": "NS 胡闹搬家2 Moving Out2\r\n",
+    "game_id": "3315",
     "platform": "switch"
   },
   {
-    "name": "NS 超侦探事件簿 雾雨谜宫",
-    "game_id": "3309",
+    "name": "NS 三位一体5 ",
+    "game_id": "3325",
     "platform": "switch"
   },
   {
-    "name": "NS 幽灵诡计",
-    "game_id": "3310",
+    "name": "NS 宝可梦 明亮珍珠",
+    "game_id": "3330",
     "platform": "switch"
   },
   {
-    "name": "NS FC24 足球",
-    "game_id": "3323",
+    "name": "NS 喷射战士2 英文",
+    "game_id": "3332",
     "platform": "switch"
   },
   {
-    "name": "NS 伊苏8 港版中文",
-    "game_id": "3342",
+    "name": "NS 宝可梦 盾 扩充版",
+    "game_id": "3337",
     "platform": "switch"
   },
   {
-    "name": "NS 第六妖守 港版中文",
-    "game_id": "3347",
-    "platform": "switch"
-  },
-  {
-    "name": " NS 无主之地3终极版",
-    "game_id": "3377",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 女神异闻录5 战略版 P5T ",
-    "game_id": "3380",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 火影忍者 究极风暴羁绊 \r\n",
-    "game_id": "3381",
+    "name": "NS SD高达G世纪 创世 港版",
+    "game_id": "3339",
     "platform": "switch"
   },
   {
@@ -1360,28 +1225,48 @@
     "platform": "switch"
   },
   {
-    "name": " NS 死亡细胞 重返恶魔城",
-    "game_id": "3423",
+    "name": "NS 马里奥VS大金刚 ",
+    "game_id": "3417",
     "platform": "switch"
   },
   {
-    "name": "NS 间谍过家家 日记大作战",
-    "game_id": "3479",
+    "name": "NS 给他爱三部曲",
+    "game_id": "3418",
     "platform": "switch"
   },
   {
-    "name": "NS 三国志8重置版 ",
-    "game_id": "3488",
+    "name": "NS 碧姬公主 ",
+    "game_id": "3438",
     "platform": "switch"
   },
   {
-    "name": "NS EA FC25",
-    "game_id": "3494",
+    "name": "NS 真女神转生5复仇",
+    "game_id": "3447",
     "platform": "switch"
   },
   {
-    "name": "NS JOJO的奇妙冒险 群星之战",
-    "game_id": "3501",
+    "name": "NS 百英雄传 \r\n",
+    "game_id": "3459",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 逆转检察官1+2 御剑精选集",
+    "game_id": "3478",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 东方夜雀食堂 ",
+    "game_id": "3484",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 喷射战士3 扩充票 ",
+    "game_id": "3486",
+    "platform": "switch"
+  },
+  {
+    "name": "NS NBA 2K25",
+    "game_id": "3492",
     "platform": "switch"
   },
   {
@@ -1390,23 +1275,38 @@
     "platform": "switch"
   },
   {
-    "name": "NS 小丑牌",
-    "game_id": "3527",
-    "platform": "switch"
-  },
-  {
     "name": "NS 文明帝国7",
     "game_id": "3550",
     "platform": "switch"
   },
   {
-    "name": "NS2 符文工房 龙之天地",
-    "game_id": "3618",
-    "platform": "ns2"
+    "name": "NS 迷途猫",
+    "game_id": "3554",
+    "platform": "switch"
   },
   {
-    "name": "NS 凯蒂猫岛屿冒险",
-    "game_id": "3625",
+    "name": "NS 优米雅的炼金工房",
+    "game_id": "3581",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 机战Y",
+    "game_id": "3604",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 啪嗒砰1+2合集",
+    "game_id": "3610",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 萌猫公园1+2合集",
+    "game_id": "3613",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 大头盔英雄",
+    "game_id": "3622",
     "platform": "switch"
   },
   {
@@ -1415,34 +1315,19 @@
     "platform": "ns2"
   },
   {
-    "name": "NS2 梦境档案 无法成眠的伊达键（钥匙卡）",
-    "game_id": "3628",
+    "name": "NS2 杀手合集（钥匙卡）",
+    "game_id": "3631",
     "platform": "ns2"
   },
   {
-    "name": "NS2 幻想水浒传1+2（钥匙卡）",
-    "game_id": "3632",
+    "name": "NS 牧场物语繁华市集",
+    "game_id": "3641",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 人中之龙 极2（钥匙卡）",
+    "game_id": "3664",
     "platform": "ns2"
-  },
-  {
-    "name": "NS 符文工房 龙之天地",
-    "game_id": "3638",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 幻想水浒传1+2",
-    "game_id": "3643",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 幻想生活 转圈圈的龙",
-    "game_id": "3652",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS 八方旅人1+2合集",
-    "game_id": "3655",
-    "platform": "switch"
   },
   {
     "name": "NS2 伊苏10 诺曼荣光（钥匙卡）",
@@ -1450,23 +1335,18 @@
     "platform": "ns2"
   },
   {
-    "name": "NS2 勇者斗恶龙 1\u00262（钥匙卡）",
-    "game_id": "3671",
+    "name": "NS2 七龙珠 电光炸裂（钥匙卡）",
+    "game_id": "3674",
     "platform": "ns2"
   },
   {
-    "name": "NS NBA2K26\r\n",
-    "game_id": "3681",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 EA FC26（钥匙卡）",
-    "game_id": "3684",
+    "name": "NS2 星战亡命之徒（钥匙卡）",
+    "game_id": "3676",
     "platform": "ns2"
   },
   {
-    "name": "NS2 时间旅者（钥匙卡）",
-    "game_id": "3689",
+    "name": "NS2 卡比的驭天飞行者",
+    "game_id": "3679",
     "platform": "ns2"
   },
   {
@@ -1480,38 +1360,28 @@
     "platform": "ns2"
   },
   {
-    "name": "NS 超级马里奥银河1+2合集",
-    "game_id": "3694",
+    "name": "NS 勇者斗恶龙7",
+    "game_id": "3722",
     "platform": "switch"
   },
   {
-    "name": "NS2 密特罗德 究极4",
-    "game_id": "3697",
+    "name": "NS2 卡普空大作7黄金版（钥匙卡）",
+    "game_id": "3741",
     "platform": "ns2"
   },
   {
-    "name": "NS 终天教团",
-    "game_id": "3700",
-    "platform": "switch"
+    "name": "NS2 卡普空大作8村庄（钥匙卡）",
+    "game_id": "3742",
+    "platform": "ns2"
   },
   {
-    "name": "NS 百日战记",
-    "game_id": "3701",
-    "platform": "switch"
+    "name": "NS2 夺宝奇兵 ",
+    "game_id": "3746",
+    "platform": "ns2"
   },
   {
-    "name": "NS 八方旅人0 ",
-    "game_id": "3715",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 动物井",
-    "game_id": "3726",
-    "platform": "switch"
-  },
-  {
-    "name": "NS2 人中之龙 极3（钥匙卡）",
-    "game_id": "3737",
+    "name": "NS2 啦嗒铛Ratatan",
+    "game_id": "3752",
     "platform": "ns2"
   },
   {
@@ -1525,23 +1395,23 @@
     "platform": "switch"
   },
   {
+    "name": "NS2 最终幻想7 重生（钥匙卡）",
+    "game_id": "3761",
+    "platform": "ns2"
+  },
+  {
     "name": "NS2 闪电十一人",
     "game_id": "3768",
     "platform": "ns2"
   },
   {
-    "name": "NS2 破晓传奇 黎明新程（钥匙卡）",
-    "game_id": "3783",
-    "platform": "ns2"
+    "name": "NS 魔女审判",
+    "game_id": "3789",
+    "platform": "switch"
   },
   {
-    "name": "NS2 空洞骑士 丝之歌",
-    "game_id": "3809",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2  鬼泣5（钥匙卡）",
-    "game_id": "3814",
+    "name": "NS2 雪地奔驰（钥匙卡）",
+    "game_id": "3805",
     "platform": "ns2"
   },
   {
@@ -1550,18 +1420,23 @@
     "platform": "ns2"
   },
   {
-    "name": "NS2 暗喻幻想（钥匙卡）",
-    "game_id": "3834",
+    "name": "NS2 上古卷轴4",
+    "game_id": "3827",
     "platform": "ns2"
   },
   {
-    "name": "NS2 我的世界 基岩版（钥匙卡）",
-    "game_id": "3843",
+    "name": "NS2 NBA2K27（钥匙卡）",
+    "game_id": "3832",
     "platform": "ns2"
   },
   {
-    "name": "NS2 异度之刃3",
-    "game_id": "3859",
+    "name": "NS2 使命召唤23【注意：本产品无卡带，为数字兑换码，使用完无法回收】",
+    "game_id": "3852",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 星刃",
+    "game_id": "3858",
     "platform": "ns2"
   },
   {
@@ -1570,18 +1445,23 @@
     "platform": "ns2"
   },
   {
-    "name": "NS2 胧村正怪奇谭（钥匙卡）",
-    "game_id": "3876",
+    "name": "NS2 勇者斗恶龙11S （钥匙卡）",
+    "game_id": "3872",
     "platform": "ns2"
   },
   {
-    "name": "NS FC27",
-    "game_id": "3879",
-    "platform": "switch"
+    "name": "NS2 Pokopia+扩充票",
+    "game_id": "3880",
+    "platform": "ns2"
   },
   {
-    "name": "NS 喷射战士2 日文",
-    "game_id": "144",
+    "name": "NS2 宝可梦传说ZA+扩充票",
+    "game_id": "3881",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS ARMS 强力拳击",
+    "game_id": "145",
     "platform": "switch"
   },
   {
@@ -1602,11 +1482,6 @@
   {
     "name": "NS 舞力全开2017",
     "game_id": "149",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 1-2 Switch 1+2",
-    "game_id": "150",
     "platform": "switch"
   },
   {
@@ -1635,8 +1510,18 @@
     "platform": "switch"
   },
   {
+    "name": "NS 马里奥疯兔",
+    "game_id": "167",
+    "platform": "switch"
+  },
+  {
     "name": "NS 乐高世界",
     "game_id": "168",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 龙珠 超宇宙2 欧美日版",
+    "game_id": "169",
     "platform": "switch"
   },
   {
@@ -1645,8 +1530,8 @@
     "platform": "switch"
   },
   {
-    "name": "NS 火焰纹章无双 火纹无双",
-    "game_id": "179",
+    "name": "NS 口袋铁拳",
+    "game_id": "175",
     "platform": "switch"
   },
   {
@@ -1765,6 +1650,11 @@
     "platform": "switch"
   },
   {
+    "name": "NS 火影究极风暴 123合集",
+    "game_id": "259",
+    "platform": "switch"
+  },
+  {
     "name": "NS 新世界地图 1469",
     "game_id": "260",
     "platform": "switch"
@@ -1855,8 +1745,18 @@
     "platform": "switch"
   },
   {
+    "name": "NS 蘑菇队长",
+    "game_id": "289",
+    "platform": "switch"
+  },
+  {
     "name": "NS 伊苏8 日文英文",
     "game_id": "290",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 太鼓达人",
+    "game_id": "291",
     "platform": "switch"
   },
   {
@@ -1955,8 +1855,18 @@
     "platform": "switch"
   },
   {
+    "name": "NS 我的英雄学院1",
+    "game_id": "342",
+    "platform": "switch"
+  },
+  {
     "name": "NS 秋之回忆8 无垢少女",
     "game_id": "346",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 方舟 生存进化 Ark",
+    "game_id": "355",
     "platform": "switch"
   },
   {
@@ -1997,6 +1907,11 @@
   {
     "name": "NS 热血格斗 国夫君 双截龙合集",
     "game_id": "365",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 卡普空经典动作街机合集",
+    "game_id": "367",
     "platform": "switch"
   },
   {
@@ -2075,13 +1990,23 @@
     "platform": "switch"
   },
   {
-    "name": "NS 刀剑神域 虛空幻界 豪华版",
+    "name": "NS 龙之信条",
+    "game_id": "416",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 刀剑神域 虚空幻界 豪华版",
     "game_id": "418",
     "platform": "switch"
   },
   {
     "name": "NS 方根书简last answer最后的答案",
     "game_id": "421",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 最终幻想12",
+    "game_id": "422",
     "platform": "switch"
   },
   {
@@ -2170,6 +2095,11 @@
     "platform": "switch"
   },
   {
+    "name": "NS AI 梦境档案",
+    "game_id": "464",
+    "platform": "switch"
+  },
+  {
     "name": "NS 莱莎的炼金工房1",
     "game_id": "467",
     "platform": "switch"
@@ -2182,11 +2112,6 @@
   {
     "name": "NS 古惑狼赛车 英文",
     "game_id": "470",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 牧场物语 矿石镇",
-    "game_id": "472",
     "platform": "switch"
   },
   {
@@ -2237,6 +2162,11 @@
   {
     "name": "NS 音乐世界α 阿尔法",
     "game_id": "497",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 煮糊了1+2合集",
+    "game_id": "500",
     "platform": "switch"
   },
   {
@@ -2400,6 +2330,11 @@
     "platform": "switch"
   },
   {
+    "name": "NS 双点医院 普通版",
+    "game_id": "556",
+    "platform": "switch"
+  },
+  {
     "name": "NS 宝可梦 救援队DX",
     "game_id": "557",
     "platform": "switch"
@@ -2432,6 +2367,11 @@
   {
     "name": "NS 罪恶装备 20周年纪念版",
     "game_id": "568",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 海贼无双4",
+    "game_id": "570",
     "platform": "switch"
   },
   {
@@ -2480,13 +2420,13 @@
     "platform": "switch"
   },
   {
-    "name": "NS 杀戮尖塔 ",
-    "game_id": "584",
+    "name": "NS 千兆破坏者 GIGA",
+    "game_id": "586",
     "platform": "switch"
   },
   {
-    "name": "NS 千兆破坏者 GIGA",
-    "game_id": "586",
+    "name": "NS 马里奥 奥德赛【国行专用】",
+    "game_id": "587",
     "platform": "switch"
   },
   {
@@ -2675,11 +2615,6 @@
     "platform": "switch"
   },
   {
-    "name": "NS 怒之铁拳4",
-    "game_id": "674",
-    "platform": "switch"
-  },
-  {
     "name": "NS 方根胶卷",
     "game_id": "675",
     "platform": "switch"
@@ -2687,6 +2622,11 @@
   {
     "name": "NS 侍魂 合集 NEOGEO典藏辑",
     "game_id": "677",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 足球小将 队长小翼",
+    "game_id": "681",
     "platform": "switch"
   },
   {
@@ -2800,11 +2740,6 @@
     "platform": "switch"
   },
   {
-    "name": "NS SD高达G世纪 火线纵横",
-    "game_id": "1355",
-    "platform": "switch"
-  },
-  {
     "name": "NS 梦幻模拟战1+2",
     "game_id": "1356",
     "platform": "switch"
@@ -2812,11 +2747,6 @@
   {
     "name": "NS 二之国 白色圣灰的女王 日文",
     "game_id": "1357",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 尊巴健身",
-    "game_id": "1358",
     "platform": "switch"
   },
   {
@@ -3055,6 +2985,11 @@
     "platform": "switch"
   },
   {
+    "name": "NS 马里奥3D 全明星合集",
+    "game_id": "1480",
+    "platform": "switch"
+  },
+  {
     "name": "NS 网球世界巡回赛2 ",
     "game_id": "1487",
     "platform": "switch"
@@ -3137,6 +3072,11 @@
   {
     "name": "NS 铲子骑士",
     "game_id": "1506",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 钓鱼之星 世界之旅",
+    "game_id": "1507",
     "platform": "switch"
   },
   {
@@ -3710,6 +3650,11 @@
     "platform": "switch"
   },
   {
+    "name": "NS 人类一败涂地",
+    "game_id": "1725",
+    "platform": "switch"
+  },
+  {
     "name": "NS 狐狸在等我",
     "game_id": "1726",
     "platform": "switch"
@@ -3737,6 +3682,11 @@
   {
     "name": "NS 真女神转生3 HD重制版",
     "game_id": "1731",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 皮克敏3 豪华版",
+    "game_id": "1732",
     "platform": "switch"
   },
   {
@@ -3775,13 +3725,18 @@
     "platform": "switch"
   },
   {
-    "name": "NS 战国无双4 DX 完全版",
-    "game_id": "2610",
+    "name": "NS 天穗的稻田姬",
+    "game_id": "2608",
     "platform": "switch"
   },
   {
-    "name": "NS 舞力全开2021",
-    "game_id": "2619",
+    "name": "NS 宝可梦 剑 扩充版",
+    "game_id": "2609",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 战国无双4 DX 完全版",
+    "game_id": "2610",
     "platform": "switch"
   },
   {
@@ -3802,6 +3757,11 @@
   {
     "name": "NS 模拟山羊 Goat Simulator",
     "game_id": "2632",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 极品飞车14",
+    "game_id": "2638",
     "platform": "switch"
   },
   {
@@ -3870,6 +3830,11 @@
     "platform": "switch"
   },
   {
+    "name": "NS 芬尼克斯 渡神纪",
+    "game_id": "2674",
+    "platform": "switch"
+  },
+  {
     "name": "NS 莱莎的炼金工房2",
     "game_id": "2675",
     "platform": "switch"
@@ -3887,11 +3852,6 @@
   {
     "name": "NS 奥日1 精灵与黑暗森林",
     "game_id": "2686",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 奥日2 精灵与萤火意志",
-    "game_id": "2690",
     "platform": "switch"
   },
   {
@@ -3950,6 +3910,11 @@
     "platform": "switch"
   },
   {
+    "name": "NS 幻奏咖啡厅",
+    "game_id": "2728",
+    "platform": "switch"
+  },
+  {
     "name": "NS 魔女之泉3",
     "game_id": "2730",
     "platform": "switch"
@@ -3985,11 +3950,6 @@
     "platform": "switch"
   },
   {
-    "name": "NS 舞力全开2021【国行专用】",
-    "game_id": "2749",
-    "platform": "switch"
-  },
-  {
     "name": "NS 童话森林 药师梅露与森林的礼物",
     "game_id": "2750",
     "platform": "switch"
@@ -4022,11 +3982,6 @@
   {
     "name": "NS 少女射击 回归初心 ",
     "game_id": "2764",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 牧场物语 橄榄镇与希望大地",
-    "game_id": "2765",
     "platform": "switch"
   },
   {
@@ -4185,6 +4140,11 @@
     "platform": "switch"
   },
   {
+    "name": "NS 植物大战僵尸 花园战争3",
+    "game_id": "2805",
+    "platform": "switch"
+  },
+  {
     "name": "NS 诸神灰烬 救赎",
     "game_id": "2809",
     "platform": "switch"
@@ -4277,11 +4237,6 @@
   {
     "name": "NS 巴兰的异想幻境 仙境",
     "game_id": "2833",
-    "platform": "switch"
-  },
-  {
-    "name": "NS SD高达G 火线纵横 白金版",
-    "game_id": "2834",
     "platform": "switch"
   },
   {
@@ -4407,6 +4362,11 @@
   {
     "name": "NS 僵尸部队 三部曲",
     "game_id": "2906",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 精灵宝可梦 随乐拍",
+    "game_id": "2911",
     "platform": "switch"
   },
   {
@@ -4555,11 +4515,6 @@
     "platform": "switch"
   },
   {
-    "name": "NS 雪地奔驰 Snow Runner",
-    "game_id": "2957",
-    "platform": "switch"
-  },
-  {
     "name": "NS CLOCK ZERO 终焉之一秒",
     "game_id": "2958",
     "platform": "switch"
@@ -4705,13 +4660,13 @@
     "platform": "switch"
   },
   {
-    "name": "NS 战国无双5 Samurai",
-    "game_id": "3010",
+    "name": "NS 塞尔达传说 天空之剑",
+    "game_id": "3008",
     "platform": "switch"
   },
   {
-    "name": "NS 英雄传说 创之轨迹",
-    "game_id": "3012",
+    "name": "NS 战国无双5 Samurai",
+    "game_id": "3010",
     "platform": "switch"
   },
   {
@@ -4985,8 +4940,8 @@
     "platform": "switch"
   },
   {
-    "name": "NS 零 濡鸦之巫女",
-    "game_id": "3142",
+    "name": "NS 弹丸论破三部曲 合集",
+    "game_id": "3143",
     "platform": "switch"
   },
   {
@@ -5005,13 +4960,33 @@
     "platform": "switch"
   },
   {
+    "name": "NS FIFA2022 足球",
+    "game_id": "3149",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 极乐迪斯科",
+    "game_id": "3161",
+    "platform": "switch"
+  },
+  {
     "name": "NS 刀剑乱舞无双",
     "game_id": "3162",
     "platform": "switch"
   },
   {
+    "name": "NS 真‧三国无双 8 Empires",
+    "game_id": "3163",
+    "platform": "switch"
+  },
+  {
     "name": "NS 英雄传说 闪之轨迹4",
     "game_id": "3164",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 孤岛危机1 ",
+    "game_id": "3166",
     "platform": "switch"
   },
   {
@@ -5022,11 +4997,6 @@
   {
     "name": "NS 旧书店街的桥姬 ",
     "game_id": "3173",
-    "platform": "switch"
-  },
-  {
-    "name": "NS我的世界 地下城终极版",
-    "game_id": "3176",
     "platform": "switch"
   },
   {
@@ -5045,13 +5015,13 @@
     "platform": "switch"
   },
   {
-    "name": "NS 雪人兄弟 特别版 SNOWBROS",
-    "game_id": "3187",
+    "name": "NS 马里奥+疯狂兔子 王国之战【国行专用】",
+    "game_id": "3188",
     "platform": "switch"
   },
   {
-    "name": "NS 马里奥+疯狂兔子 王国之战【国行专用】",
-    "game_id": "3188",
+    "name": "NS 中文 寄生 丘比特Cupid Parasite",
+    "game_id": "3192",
     "platform": "switch"
   },
   {
@@ -5095,11 +5065,6 @@
     "platform": "switch"
   },
   {
-    "name": "NS 鬼灭之刃 火神血风谭",
-    "game_id": "3206",
-    "platform": "switch"
-  },
-  {
     "name": "NS 马里奥足球前锋 ",
     "game_id": "3207",
     "platform": "switch"
@@ -5112,11 +5077,6 @@
   {
     "name": "NS 狂野之心 ",
     "game_id": "3212",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 中文 毘卢遮那战姬 源平飞花梦想",
-    "game_id": "3213",
     "platform": "switch"
   },
   {
@@ -5150,8 +5110,8 @@
     "platform": "switch"
   },
   {
-    "name": "NS SD高达 激斗同盟  ",
-    "game_id": "3233",
+    "name": "NS NBA2K23 篮球2023",
+    "game_id": "3237",
     "platform": "switch"
   },
   {
@@ -5165,13 +5125,13 @@
     "platform": "switch"
   },
   {
-    "name": "NS 暗影火炬城 ",
-    "game_id": "3251",
+    "name": "NS 师父  SIFU ",
+    "game_id": "3258",
     "platform": "switch"
   },
   {
-    "name": "NS 自然王国与和乐家人",
-    "game_id": "3270",
+    "name": "NS 皇家骑士团",
+    "game_id": "3265",
     "platform": "switch"
   },
   {
@@ -5187,6 +5147,16 @@
   {
     "name": "NS 莱莎3秘密钥匙 ",
     "game_id": "3281",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 魔法使之夜 ",
+    "game_id": "3286",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 密特罗德究极  Metroid Prime ",
+    "game_id": "3294",
     "platform": "switch"
   },
   {
@@ -5210,8 +5180,13 @@
     "platform": "switch"
   },
   {
-    "name": "NS 大家一起 1-2 Switch ",
-    "game_id": "3311",
+    "name": "NS 超侦探事件簿 雾雨谜宫",
+    "game_id": "3309",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 幽灵诡计",
+    "game_id": "3310",
     "platform": "switch"
   },
   {
@@ -5225,8 +5200,8 @@
     "platform": "switch"
   },
   {
-    "name": "NS 三位一体5 ",
-    "game_id": "3325",
+    "name": "NS FC24 足球",
+    "game_id": "3323",
     "platform": "switch"
   },
   {
@@ -5245,18 +5220,8 @@
     "platform": "switch"
   },
   {
-    "name": "NS 宝可梦 盾 扩充版",
-    "game_id": "3337",
-    "platform": "switch"
-  },
-  {
     "name": "NS 大逆转逆转裁判1+2 英文",
     "game_id": "3338",
-    "platform": "switch"
-  },
-  {
-    "name": "NS SD高达G世纪 创世 港版",
-    "game_id": "3339",
     "platform": "switch"
   },
   {
@@ -5267,6 +5232,11 @@
   {
     "name": "NS Code Realize 白银的奇迹 美版英文",
     "game_id": "3341",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 伊苏8 港版中文",
+    "game_id": "3342",
     "platform": "switch"
   },
   {
@@ -5287,6 +5257,11 @@
   {
     "name": "NS 鬼哭邦 港版中文",
     "game_id": "3346",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 第六妖守 港版中文",
+    "game_id": "3347",
     "platform": "switch"
   },
   {
@@ -5375,8 +5350,23 @@
     "platform": "switch"
   },
   {
+    "name": " NS 无主之地3终极版",
+    "game_id": "3377",
+    "platform": "switch"
+  },
+  {
     "name": "NS 超级马里奥RPG",
     "game_id": "3379",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 女神异闻录5 战略版 P5T ",
+    "game_id": "3380",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 火影忍者 究极风暴羁绊 \r\n",
+    "game_id": "3381",
     "platform": "switch"
   },
   {
@@ -5400,33 +5390,8 @@
     "platform": "switch"
   },
   {
-    "name": "NS 马车8+扩充票",
-    "game_id": "3400",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 马里奥VS大金刚 ",
-    "game_id": "3417",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 碧姬公主 ",
-    "game_id": "3438",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 真女神转生5复仇",
-    "game_id": "3447",
-    "platform": "switch"
-  },
-  {
     "name": "NS 黎之轨迹 ",
     "game_id": "3454",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 百英雄传 \r\n",
-    "game_id": "3459",
     "platform": "switch"
   },
   {
@@ -5460,6 +5425,16 @@
     "platform": "switch"
   },
   {
+    "name": "NS 间谍过家家 日记大作战",
+    "game_id": "3479",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 马力欧与路易吉RPG 兄弟齐航",
+    "game_id": "3480",
+    "platform": "switch"
+  },
+  {
     "name": "NS 任天堂世界锦标赛：FC世界大会 ",
     "game_id": "3482",
     "platform": "switch"
@@ -5475,18 +5450,33 @@
     "platform": "switch"
   },
   {
+    "name": "NS 月姬 表线 重制版 ",
+    "game_id": "3487",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 三国志8重置版 ",
+    "game_id": "3488",
+    "platform": "switch"
+  },
+  {
     "name": "NS 黎之轨迹2 绯红原罪",
     "game_id": "3490",
     "platform": "switch"
   },
   {
-    "name": "NS NBA 2K25",
-    "game_id": "3492",
+    "name": "NS EA FC25",
+    "game_id": "3494",
     "platform": "switch"
   },
   {
     "name": "NS 超级炸弹人R2",
     "game_id": "3500",
+    "platform": "switch"
+  },
+  {
+    "name": "NS JOJO的奇妙冒险 群星之战",
+    "game_id": "3501",
     "platform": "switch"
   },
   {
@@ -5535,6 +5525,11 @@
     "platform": "switch"
   },
   {
+    "name": "NS 小丑牌",
+    "game_id": "3527",
+    "platform": "switch"
+  },
+  {
     "name": "NS 世界树的迷宫 ",
     "game_id": "3530",
     "platform": "switch"
@@ -5547,11 +5542,6 @@
   {
     "name": "NS 乐高地平线大冒险 ",
     "game_id": "3553",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 迷途猫",
-    "game_id": "3554",
     "platform": "switch"
   },
   {
@@ -5570,14 +5560,9 @@
     "platform": "switch"
   },
   {
-    "name": "NS 优米雅的炼金工房",
-    "game_id": "3581",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 萌猫公园1+2合集",
-    "game_id": "3613",
-    "platform": "switch"
+    "name": "NS2 霍格沃茨遗产（钥匙卡）",
+    "game_id": "3611",
+    "platform": "ns2"
   },
   {
     "name": "NS2 魔法气泡2S（钥匙卡）",
@@ -5585,19 +5570,29 @@
     "platform": "ns2"
   },
   {
-    "name": "NS 大头盔英雄",
-    "game_id": "3622",
+    "name": "NS 凯蒂猫岛屿冒险",
+    "game_id": "3625",
     "platform": "switch"
   },
   {
-    "name": "NS2 杀手合集（钥匙卡）",
-    "game_id": "3631",
+    "name": "NS2 梦境档案 无法成眠的伊达键（钥匙卡）",
+    "game_id": "3628",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 幻想水浒传1+2（钥匙卡）",
+    "game_id": "3632",
     "platform": "ns2"
   },
   {
     "name": "NS2 祇 女神之路（钥匙卡）",
     "game_id": "3636",
     "platform": "ns2"
+  },
+  {
+    "name": "NS 符文工房 龙之天地",
+    "game_id": "3638",
+    "platform": "switch"
   },
   {
     "name": "NS2 超力兵团奇谭（钥匙卡）",
@@ -5607,6 +5602,11 @@
   {
     "name": "NS 超力兵团奇谭",
     "game_id": "3642",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 幻想水浒传1+2",
+    "game_id": "3643",
     "platform": "switch"
   },
   {
@@ -5640,9 +5640,9 @@
     "platform": "ns2"
   },
   {
-    "name": "NS 鬼灭之刃2",
-    "game_id": "3669",
-    "platform": "switch"
+    "name": "NS2 勇者斗恶龙 1\u00262（钥匙卡）",
+    "game_id": "3671",
+    "platform": "ns2"
   },
   {
     "name": "NS 梦境档案 无法成眠的伊达键",
@@ -5650,19 +5650,9 @@
     "platform": "switch"
   },
   {
-    "name": "NS2 七龙珠 电光炸裂（钥匙卡）",
-    "game_id": "3674",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 星战亡命之徒（钥匙卡）",
-    "game_id": "3676",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 NBA2K26（钥匙卡）",
-    "game_id": "3682",
-    "platform": "ns2"
+    "name": "NS NBA2K26\r\n",
+    "game_id": "3681",
+    "platform": "switch"
   },
   {
     "name": "NS EA FC26",
@@ -5675,8 +5665,18 @@
     "platform": "switch"
   },
   {
-    "name": "NS 密特罗德 究极4",
-    "game_id": "3696",
+    "name": "NS2 时间旅者（钥匙卡）",
+    "game_id": "3689",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS 终天教团",
+    "game_id": "3700",
+    "platform": "switch"
+  },
+  {
+    "name": "NS 百日战记",
+    "game_id": "3701",
     "platform": "switch"
   },
   {
@@ -5690,14 +5690,14 @@
     "platform": "switch"
   },
   {
+    "name": "NS 八方旅人0 ",
+    "game_id": "3715",
+    "platform": "switch"
+  },
+  {
     "name": "NS2 零 红蝶（钥匙卡）",
     "game_id": "3718",
     "platform": "ns2"
-  },
-  {
-    "name": "NS 勇者斗恶龙7",
-    "game_id": "3722",
-    "platform": "switch"
   },
   {
     "name": "NS 无尽传说",
@@ -5705,9 +5705,19 @@
     "platform": "switch"
   },
   {
+    "name": "NS 动物井",
+    "game_id": "3726",
+    "platform": "switch"
+  },
+  {
     "name": "NS 拓麻歌子开心镇",
     "game_id": "3727",
     "platform": "switch"
+  },
+  {
+    "name": "NS2 人中之龙 极3（钥匙卡）",
+    "game_id": "3737",
+    "platform": "ns2"
   },
   {
     "name": "NS2 波斯王子重生者（钥匙卡）",
@@ -5720,13 +5730,13 @@
     "platform": "ns2"
   },
   {
-    "name": "NS 魔女审判",
-    "game_id": "3789",
+    "name": "NS 最终幻想 战略版",
+    "game_id": "3792",
     "platform": "switch"
   },
   {
-    "name": "NS2 雪地奔驰（钥匙卡）",
-    "game_id": "3805",
+    "name": "NS2 空洞骑士 丝之歌",
+    "game_id": "3809",
     "platform": "ns2"
   },
   {
@@ -5745,13 +5755,13 @@
     "platform": "ns2"
   },
   {
-    "name": "NS2 上古卷轴4",
-    "game_id": "3827",
+    "name": "NS2 最终幻想10/10-2（钥匙卡）",
+    "game_id": "3828",
     "platform": "ns2"
   },
   {
-    "name": "NS2 最终幻想10/10-2（钥匙卡）",
-    "game_id": "3828",
+    "name": "NS2 暗喻幻想（钥匙卡）",
+    "game_id": "3834",
     "platform": "ns2"
   },
   {
@@ -5770,14 +5780,9 @@
     "platform": "switch"
   },
   {
-    "name": "NS 悠然生活之庭 静谧田园",
-    "game_id": "3845",
-    "platform": "switch"
-  },
-  {
-    "name": "NS 最终幻想 共鸣",
-    "game_id": "3849",
-    "platform": "switch"
+    "name": "NS2 海贼王 海洋盛宴（钥匙卡）",
+    "game_id": "3841",
+    "platform": "ns2"
   },
   {
     "name": "NS 队长小翼2",
@@ -5785,18 +5790,13 @@
     "platform": "switch"
   },
   {
-    "name": "NS2 使命召唤23【注意：本产品无卡带，为数字兑换码，使用完无法回收】",
-    "game_id": "3852",
-    "platform": "ns2"
-  },
-  {
     "name": "NS2 皮克敏4+大家來挑戰!",
     "game_id": "3857",
     "platform": "ns2"
   },
   {
-    "name": "NS2 星刃",
-    "game_id": "3858",
+    "name": "NS2 异度之刃3",
+    "game_id": "3859",
     "platform": "ns2"
   },
   {
@@ -5815,13 +5815,8 @@
     "platform": "ns2"
   },
   {
-    "name": "NS2 Pokopia+扩充票",
-    "game_id": "3880",
-    "platform": "ns2"
-  },
-  {
-    "name": "NS2 宝可梦传说ZA+扩充票",
-    "game_id": "3881",
+    "name": "NS2 胧村正怪奇谭（钥匙卡）",
+    "game_id": "3876",
     "platform": "ns2"
   },
   {
@@ -5837,6 +5832,26 @@
   {
     "name": "NS 雷顿教授与蒸汽新世界 ",
     "game_id": "3889",
+    "platform": "switch"
+  },
+  {
+    "name": "NS2 卡普空大作2重制（钥匙卡）",
+    "game_id": "3891",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 卡普空大作3重制（钥匙卡）",
+    "game_id": "3892",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS2 卡普空大作4重制（钥匙卡）",
+    "game_id": "3893",
+    "platform": "ns2"
+  },
+  {
+    "name": "NS 指挥家",
+    "game_id": "3894",
     "platform": "switch"
   }
 ]

@@ -10,13 +10,13 @@
     "platform": "Nintendo Switch 2"
   },
   {
-    "name": "宝可梦 紫 + 零之秘宝 组合",
-    "game_id": "778",
+    "name": "宝可梦朱+零之秘宝组合",
+    "game_id": "2783",
     "platform": "Nintendo Switch"
   },
   {
-    "name": "宝可梦朱+零之秘宝组合",
-    "game_id": "2783",
+    "name": "宝可梦 紫 + 零之秘宝 组合",
+    "game_id": "778",
     "platform": "Nintendo Switch"
   },
   {
@@ -55,13 +55,18 @@
     "platform": "Nintendo Switch 2"
   },
   {
+    "name": "【NS2】宝可梦Pokopia",
+    "game_id": "2879",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "name": "【NS2】真三国无双：起源",
     "game_id": "2871",
     "platform": "Nintendo Switch 2"
   },
   {
-    "name": "【NS2】宝可梦Pokopia",
-    "game_id": "2879",
+    "name": "【NS2】塞尔达传说: 旷野之息 Switch2版",
+    "game_id": "2671",
     "platform": "Nintendo Switch 2"
   },
   {
@@ -72,11 +77,6 @@
   {
     "name": "【NS2】咚奇刚：蕉力全开",
     "game_id": "2787",
-    "platform": "Nintendo Switch 2"
-  },
-  {
-    "name": "【NS2】塞尔达传说: 旷野之息 Switch2版",
-    "game_id": "2671",
     "platform": "Nintendo Switch 2"
   },
   {
@@ -95,19 +95,14 @@
     "platform": "Nintendo Switch 2"
   },
   {
-    "name": "毘卢遮那战姬 ～源平飞花梦想～(中文)",
-    "game_id": "1075",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "幻奏咖啡厅（中文）",
-    "game_id": "2628",
-    "platform": "Nintendo Switch"
-  },
-  {
     "name": "【NS2】赛博朋克2077 终极版",
     "game_id": "2657",
     "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "毘卢遮那战姬 ～源平飞花梦想～(中文)",
+    "game_id": "1075",
+    "platform": "Nintendo Switch"
   },
   {
     "name": "蜡笔小新：煤炭镇的小白（中文）",
@@ -115,8 +110,8 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "梦幻模拟战1\u00262",
-    "game_id": "1994",
+    "name": "幻奏咖啡厅（中文）",
+    "game_id": "2628",
     "platform": "Nintendo Switch"
   },
   {
@@ -133,6 +128,11 @@
     "name": "【NS2】集合啦！动物森友会",
     "game_id": "2869",
     "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "梦幻模拟战1\u00262",
+    "game_id": "1994",
+    "platform": "Nintendo Switch"
   },
   {
     "name": "密特罗德 生存恐惧",
@@ -180,19 +180,9 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "NARUTO X BORUTO 火影忍者 终极风暴羁绊（中文）",
-    "game_id": "397",
-    "platform": "Nintendo Switch"
-  },
-  {
     "name": "火焰纹章 Engage",
     "game_id": "722",
     "platform": "Nintendo Switch"
-  },
-  {
-    "name": "【NS2】牧场物语 来吧！风之繁华集市",
-    "game_id": "2808",
-    "platform": "Nintendo Switch 2"
   },
   {
     "name": "【NS2】霍格沃茨之遗",
@@ -220,8 +210,23 @@
     "platform": "Nintendo Switch 2"
   },
   {
+    "name": "NARUTO X BORUTO 火影忍者 终极风暴羁绊（中文）",
+    "game_id": "397",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "【NS2】牧场物语 来吧！风之繁华集市",
+    "game_id": "2808",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "name": "鬼灭之刃 火之神血风谭（中文）",
     "game_id": "972",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "朋友收集：梦想生活",
+    "game_id": "2883",
     "platform": "Nintendo Switch"
   },
   {
@@ -235,38 +240,8 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "朋友收集：梦想生活",
-    "game_id": "2883",
-    "platform": "Nintendo Switch"
-  },
-  {
     "name": "耀西的手工世界",
     "game_id": "2006",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "【NS2】街头霸王 6",
-    "game_id": "2767",
-    "platform": "Nintendo Switch 2"
-  },
-  {
-    "name": "魂斗罗 加鲁加行动",
-    "game_id": "302",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "【NS2】刺客任务：暗杀世界 - 签名版",
-    "game_id": "2664",
-    "platform": "Nintendo Switch 2"
-  },
-  {
-    "name": "塞尔达传说：旷野之息",
-    "game_id": "2500",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "以撒的结合：胎衣+",
-    "game_id": "2461",
     "platform": "Nintendo Switch"
   },
   {
@@ -275,14 +250,44 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "塞尔达传说：旷野之息",
+    "game_id": "2500",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "【NS2】街头霸王 6",
+    "game_id": "2767",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "【NS2】刺客任务：暗杀世界 - 签名版",
+    "game_id": "2664",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "以撒的结合：胎衣+",
+    "game_id": "2461",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "【NS2】幻想水浒传：1+2 高清重制版 门之纹章与杜南统一战争",
     "game_id": "2670",
     "platform": "Nintendo Switch 2"
   },
   {
+    "name": "超级马里奥：奥德赛",
+    "game_id": "2437",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "【NS2】斯普拉遁 涂击队",
     "game_id": "2903",
     "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "魂斗罗 加鲁加行动",
+    "game_id": "302",
+    "platform": "Nintendo Switch"
   },
   {
     "name": "健身拳击 3",
@@ -300,6 +305,11 @@
     "platform": "Nintendo Switch 2"
   },
   {
+    "name": "斯普拉遁 3 喷射战士3",
+    "game_id": "884",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "【NS2】耀西与不可思议的图鉴",
     "game_id": "2887",
     "platform": "Nintendo Switch 2"
@@ -310,28 +320,8 @@
     "platform": "Nintendo Switch 2"
   },
   {
-    "name": "斯普拉遁 3 喷射战士3",
-    "game_id": "884",
-    "platform": "Nintendo Switch"
-  },
-  {
     "name": "路易吉洋馆3",
     "game_id": "1785",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "皮克敏 4",
-    "game_id": "554",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "【NS2】噗哟噗哟俄罗斯方块2S",
-    "game_id": "2668",
-    "platform": "Nintendo Switch 2"
-  },
-  {
-    "name": "三位一体 4：梦魇王子",
-    "game_id": "1821",
     "platform": "Nintendo Switch"
   },
   {
@@ -345,13 +335,23 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "超级马里奥：奥德赛",
-    "game_id": "2437",
+    "name": "马里奥赛车8 豪华版",
+    "game_id": "2482",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "皮克敏 4",
+    "game_id": "554",
     "platform": "Nintendo Switch"
   },
   {
     "name": "歧路旅人1+2 八方旅人1+2",
     "game_id": "2597",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "宝可梦 剑",
+    "game_id": "1770",
     "platform": "Nintendo Switch"
   },
   {
@@ -362,11 +362,6 @@
   {
     "name": "星露谷物语",
     "game_id": "2445",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "马里奥赛车8 豪华版",
-    "game_id": "2482",
     "platform": "Nintendo Switch"
   },
   {
@@ -385,14 +380,14 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "【NS2】双点博物馆",
-    "game_id": "2858",
-    "platform": "Nintendo Switch 2"
-  },
-  {
     "name": "【NS2】怪物猎人物语3 命运双龙",
     "game_id": "2881",
     "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "三位一体 4：梦魇王子",
+    "game_id": "1821",
+    "platform": "Nintendo Switch"
   },
   {
     "name": "星之卡比Wii 豪华版",
@@ -405,11 +400,6 @@
     "platform": "Nintendo Switch 2"
   },
   {
-    "name": "宝可梦 剑",
-    "game_id": "1770",
-    "platform": "Nintendo Switch"
-  },
-  {
     "name": "圣兽之王",
     "game_id": "303",
     "platform": "Nintendo Switch"
@@ -420,9 +410,19 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "新超级马里奥兄弟U 豪华版",
+    "game_id": "2080",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "勇者斗恶龙：创世小玩家2（中文）",
     "game_id": "2087",
     "platform": "Nintendo Switch"
+  },
+  {
+    "name": "【NS2】噗哟噗哟俄罗斯方块2S",
+    "game_id": "2668",
+    "platform": "Nintendo Switch 2"
   },
   {
     "name": "尼尔：机械纪元 年度版",
@@ -432,16 +432,6 @@
   {
     "name": "塞尔达无双 灾厄启示录",
     "game_id": "1585",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "Nintendo Switch 运动",
-    "game_id": "998",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "新超级马里奥兄弟U 豪华版",
-    "game_id": "2080",
     "platform": "Nintendo Switch"
   },
   {
@@ -460,6 +450,21 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "Nintendo Switch 运动",
+    "game_id": "998",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "宝可梦传说 阿尔宙斯",
+    "game_id": "1114",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "【NS2】宝可梦：Z-A",
+    "game_id": "2839",
+    "platform": "Nintendo Switch 2"
+  },
+  {
     "name": "宝可梦 Let‘s go! 皮卡丘",
     "game_id": "2140",
     "platform": "Nintendo Switch"
@@ -470,8 +475,8 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "宝可梦传说 阿尔宙斯",
-    "game_id": "1114",
+    "name": "超级马里奥兄弟 惊奇",
+    "game_id": "445",
     "platform": "Nintendo Switch"
   },
   {
@@ -483,16 +488,6 @@
     "name": "【NS2】卡比的驭天飞行者",
     "game_id": "2851",
     "platform": "Nintendo Switch 2"
-  },
-  {
-    "name": "星之卡比：新星同盟",
-    "game_id": "2349",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "超级马里奥兄弟 惊奇",
-    "game_id": "445",
-    "platform": "Nintendo Switch"
   },
   {
     "name": "塞尔达传说：智慧的再现",
@@ -510,16 +505,6 @@
     "platform": "Nintendo Switch 2"
   },
   {
-    "name": "宝可梦：Z-A",
-    "game_id": "2836",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "【NS2】宝可梦：Z-A",
-    "game_id": "2839",
-    "platform": "Nintendo Switch 2"
-  },
-  {
     "name": "太鼓达人咚咔！二合一大冒险",
     "game_id": "1579",
     "platform": "Nintendo Switch"
@@ -530,13 +515,18 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "蜡笔小新 我与博士的暑假 无尽的七日之旅（中文）",
-    "game_id": "2517",
+    "name": "超级马里奥3D世界+狂怒世界",
+    "game_id": "1524",
     "platform": "Nintendo Switch"
   },
   {
-    "name": "超级马里奥3D世界+狂怒世界",
-    "game_id": "1524",
+    "name": "【NS2】双点博物馆",
+    "game_id": "2858",
+    "platform": "Nintendo Switch 2"
+  },
+  {
+    "name": "宝可梦：Z-A",
+    "game_id": "2836",
     "platform": "Nintendo Switch"
   },
   {
@@ -545,18 +535,23 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "宝可梦 盾",
+    "game_id": "1771",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "超级舞动 瓦力欧制造",
     "game_id": "417",
     "platform": "Nintendo Switch"
   },
   {
-    "name": "虔诚之花的晚钟 -Episodio1926-（外文）",
-    "game_id": "1598",
+    "name": "蜡笔小新 我与博士的暑假 无尽的七日之旅（中文）",
+    "game_id": "2517",
     "platform": "Nintendo Switch"
   },
   {
-    "name": "宝可梦 盾",
-    "game_id": "1771",
+    "name": "星之卡比：新星同盟",
+    "game_id": "2349",
     "platform": "Nintendo Switch"
   },
   {
@@ -600,6 +595,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "虔诚之花的晚钟 -Episodio1926-（外文）",
+    "game_id": "1598",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "苏菲的炼金工房２ ～不可思议梦的炼金术士～",
     "game_id": "1068",
     "platform": "Nintendo Switch"
@@ -623,11 +623,6 @@
     "name": "【NS2】八方旅人0",
     "game_id": "2860",
     "platform": "Nintendo Switch 2"
-  },
-  {
-    "name": "我的世界 基岩版",
-    "game_id": "2295",
-    "platform": "Nintendo Switch"
   },
   {
     "name": "火影忍者疾风传 究极风暴4 博人传（中文）",
@@ -665,8 +660,8 @@
     "platform": "Nintendo Switch 2"
   },
   {
-    "name": "异界锁链",
-    "game_id": "1870",
+    "name": "我的世界 基岩版",
+    "game_id": "2295",
     "platform": "Nintendo Switch"
   },
   {
@@ -687,6 +682,11 @@
   {
     "name": "纸片马里奥：折纸国王",
     "game_id": "1146",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "异界锁链",
+    "game_id": "1870",
     "platform": "Nintendo Switch"
   },
   {
@@ -735,18 +735,8 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "宝可梦铁拳：锦标赛DX",
-    "game_id": "2452",
-    "platform": "Nintendo Switch"
-  },
-  {
     "name": "胡闹搬家 2",
     "game_id": "538",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "勇者斗恶龙11 S：寻觅逝去的时光 最终版（中文）",
-    "game_id": "1832",
     "platform": "Nintendo Switch"
   },
   {
@@ -760,6 +750,16 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "宝可梦铁拳：锦标赛DX",
+    "game_id": "2452",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "植物大战僵尸：和睦小镇保卫战 完整版",
+    "game_id": "1484",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "马里奥激战前锋 战斗联赛",
     "game_id": "971",
     "platform": "Nintendo Switch"
@@ -767,11 +767,6 @@
   {
     "name": "世界游戏大全51",
     "game_id": "1660",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "植物大战僵尸：和睦小镇保卫战 完整版",
-    "game_id": "1484",
     "platform": "Nintendo Switch"
   },
   {
@@ -795,19 +790,9 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "符文工房4 特别版（中文）",
-    "game_id": "1900",
-    "platform": "Nintendo Switch"
-  },
-  {
     "name": "【NS2】勇气默示录 HD 重置版",
     "game_id": "2660",
     "platform": "Nintendo Switch 2"
-  },
-  {
-    "name": "侠盗猎车手：三部曲 - 最终版",
-    "game_id": "1222",
-    "platform": "Nintendo Switch"
   },
   {
     "name": "幻想生活i 转圈圈的龙和偷取时间的少女",
@@ -835,6 +820,16 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "侠盗猎车手：三部曲 - 最终版",
+    "game_id": "1222",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "勇者斗恶龙11 S：寻觅逝去的时光 最终版（中文）",
+    "game_id": "1832",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "未命名的鹅游戏",
     "game_id": "1848",
     "platform": "Nintendo Switch"
@@ -847,16 +842,6 @@
   {
     "name": "宝可梦 晶灿钻石",
     "game_id": "1215",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "奥日2 精灵与萤火意志",
-    "game_id": "1074",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "啪嗒砰 1+2 Replay",
-    "game_id": "2780",
     "platform": "Nintendo Switch"
   },
   {
@@ -875,6 +860,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "符文工房4 特别版（中文）",
+    "game_id": "1900",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "告别回忆 秋之回忆 ：无垢少女 致最愛的你",
     "game_id": "2010",
     "platform": "Nintendo Switch"
@@ -887,6 +877,11 @@
   {
     "name": "孤岛危机 重制版",
     "game_id": "1140",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "双人成行",
+    "game_id": "798",
     "platform": "Nintendo Switch"
   },
   {
@@ -910,18 +905,18 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "命运石之门：精英",
-    "game_id": "2221",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "双人成行",
-    "game_id": "798",
+    "name": "啪嗒砰 1+2 Replay",
+    "game_id": "2780",
     "platform": "Nintendo Switch"
   },
   {
     "name": "哈迪斯 Hades",
     "game_id": "1067",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "疯狂兔子：奇遇派对",
+    "game_id": "947",
     "platform": "Nintendo Switch"
   },
   {
@@ -940,18 +935,13 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "奥日2 精灵与萤火意志",
+    "game_id": "1074",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "宝可梦 明亮珍珠",
     "game_id": "1214",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "七龙珠Z 卡卡洛特 + 新觉醒篇",
-    "game_id": "1304",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "疯狂兔子：奇遇派对",
-    "game_id": "947",
     "platform": "Nintendo Switch"
   },
   {
@@ -1010,6 +1000,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "七龙珠Z 卡卡洛特 + 新觉醒篇",
+    "game_id": "1304",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "马里奥网球Aces",
     "game_id": "2290",
     "platform": "Nintendo Switch"
@@ -1017,11 +1012,6 @@
   {
     "name": "异度神剑 3",
     "game_id": "920",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "牧场物语：重聚矿石镇（中文）",
-    "game_id": "1802",
     "platform": "Nintendo Switch"
   },
   {
@@ -1042,6 +1032,11 @@
   {
     "name": "德军总部 2：新巨像（中文）",
     "game_id": "2283",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "命运石之门：精英",
+    "game_id": "2221",
     "platform": "Nintendo Switch"
   },
   {
@@ -1075,8 +1070,8 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "地产大亨1+疯乐",
-    "game_id": "1184",
+    "name": "牧场物语：重聚矿石镇（中文）",
+    "game_id": "1802",
     "platform": "Nintendo Switch"
   },
   {
@@ -1100,6 +1095,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "地产大亨1+疯乐",
+    "game_id": "1184",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "异度神剑：终极版",
     "game_id": "1664",
     "platform": "Nintendo Switch"
@@ -1107,11 +1107,6 @@
   {
     "name": "超级马里奥RPG",
     "game_id": "394",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "无双大蛇3",
-    "game_id": "2210",
     "platform": "Nintendo Switch"
   },
   {
@@ -1147,6 +1142,11 @@
   {
     "name": "异度神剑 2：黄金之国伊拉",
     "game_id": "2215",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "无双大蛇3",
+    "game_id": "2210",
     "platform": "Nintendo Switch"
   },
   {
@@ -1190,11 +1190,6 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "海贼无双3 豪华版（中文）",
-    "game_id": "2388",
-    "platform": "Nintendo Switch"
-  },
-  {
     "name": "强力拳击",
     "game_id": "2477",
     "platform": "Nintendo Switch"
@@ -1225,6 +1220,16 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "舞力全开 2022",
+    "game_id": "1242",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "海贼无双3 豪华版（中文）",
+    "game_id": "2388",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "SD高达G世纪 火线纵横",
     "game_id": "1759",
     "platform": "Nintendo Switch"
@@ -1232,11 +1237,6 @@
   {
     "name": "马里奥 + 疯狂兔子：王国之战（英中版）",
     "game_id": "2467",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "舞力全开 2022",
-    "game_id": "1242",
     "platform": "Nintendo Switch"
   },
   {
@@ -1252,11 +1252,6 @@
   {
     "name": "暗影火炬城",
     "game_id": "940",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "刀剑神域 虚空幻界 豪华版",
-    "game_id": "1983",
     "platform": "Nintendo Switch"
   },
   {
@@ -1280,18 +1275,18 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "洛克人遗产合集",
-    "game_id": "2319",
+    "name": "刀剑神域 虚空幻界 豪华版",
+    "game_id": "1983",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "足球小将：新秀崛起",
+    "game_id": "1098",
     "platform": "Nintendo Switch"
   },
   {
     "name": "摇摇乐派对",
     "game_id": "527",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "胡闹厨房 分手厨房",
-    "game_id": "2473",
     "platform": "Nintendo Switch"
   },
   {
@@ -1305,13 +1300,13 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "高高兴兴动物乐园",
-    "game_id": "2270",
+    "name": "洛克人遗产合集",
+    "game_id": "2319",
     "platform": "Nintendo Switch"
   },
   {
-    "name": "足球小将：新秀崛起",
-    "game_id": "1098",
+    "name": "高高兴兴动物乐园",
+    "game_id": "2270",
     "platform": "Nintendo Switch"
   },
   {
@@ -1325,6 +1320,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "怪物猎人：崛起",
+    "game_id": "1474",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "牧场物语 橄榄镇与希望的大地（中文）",
     "game_id": "2550",
     "platform": "Nintendo Switch"
@@ -1332,11 +1332,6 @@
   {
     "name": "哆啦A梦 大雄的牧场物语（中文）",
     "game_id": "1943",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "怪物猎人：崛起",
-    "game_id": "1474",
     "platform": "Nintendo Switch"
   },
   {
@@ -1350,13 +1345,8 @@
     "platform": "Nintendo Switch"
   },
   {
-    "name": "健身拳击",
-    "game_id": "2091",
-    "platform": "Nintendo Switch"
-  },
-  {
-    "name": "阿历克斯小子奇幻世界大冒险",
-    "game_id": "1405",
+    "name": "胡闹厨房 分手厨房",
+    "game_id": "2473",
     "platform": "Nintendo Switch"
   },
   {
@@ -1380,6 +1370,11 @@
     "platform": "Nintendo Switch"
   },
   {
+    "name": "健身拳击",
+    "game_id": "2091",
+    "platform": "Nintendo Switch"
+  },
+  {
     "name": "龙珠斗士Z",
     "game_id": "2208",
     "platform": "Nintendo Switch"
@@ -1392,6 +1387,11 @@
   {
     "name": "乐高：超人总动员",
     "game_id": "2299",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "name": "阿历克斯小子奇幻世界大冒险",
+    "game_id": "1405",
     "platform": "Nintendo Switch"
   },
   {

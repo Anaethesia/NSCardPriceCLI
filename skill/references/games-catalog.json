@@ -497,6 +497,12 @@
     "platform": "Nintendo Switch 2"
   },
   {
+    "slug": "kirby-wii-deluxe",
+    "name": "NS 星之卡比 Wii 豪华版",
+    "platform": "Nintendo Switch",
+    "search_keyword": "重返梦幻岛"
+  },
+  {
     "slug": "lego-batman-legacy-of-the-dark-knight-ns2",
     "name": "NS2 乐高蝙蝠侠 黑暗骑士之遗",
     "platform": "Nintendo Switch 2"
@@ -560,6 +566,12 @@
     "slug": "luigis-mansion-3",
     "name": "路易吉鬼屋 3",
     "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "mario-kart-8-bundle",
+    "name": "马里奥赛车8 同捆",
+    "platform": "Nintendo Switch",
+    "search_keyword": "马车8同捆"
   },
   {
     "slug": "mario-kart-8-deluxe",
@@ -870,6 +882,12 @@
     "platform": "Nintendo Switch"
   },
   {
+    "slug": "pokemon-scarlet-dlc",
+    "name": "NS 宝可梦 朱+DLC同捆",
+    "platform": "Nintendo Switch",
+    "search_keyword": "朱DLC"
+  },
+  {
     "slug": "pokemon-sword",
     "name": "NS 宝可梦 剑",
     "platform": "Nintendo Switch"
@@ -923,7 +941,8 @@
   {
     "slug": "rhythm-heaven",
     "name": "NS 节奏天国",
-    "platform": "Nintendo Switch"
+    "platform": "Nintendo Switch",
+    "search_keyword": "节拍天国"
   },
   {
     "slug": "rune-factory-3",
@@ -999,6 +1018,11 @@
   {
     "slug": "splatoon-3",
     "name": "斯普拉遁 3",
+    "platform": "Nintendo Switch"
+  },
+  {
+    "slug": "splatoon-3-dlc",
+    "name": "斯普拉遁3+DLC同捆",
     "platform": "Nintendo Switch"
   },
   {

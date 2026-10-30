@@ -13,7 +13,9 @@ type MerchantEntry struct {
 	// UUID is required by Huozhou Xizi (杭州西子) and can fall back to a
 	// default value.
 	UUID string `json:"uuid,omitempty"`
-	// SkuID is used by Huozhou Xizi to resolve the exact spec (bianma).
+	// SkuID resolves the exact spec at merchants that expose multiple specs
+	// under one product id: Huozhou Xizi uses it as the guige bianma, Hailuo
+	// accepts the productValue key, numeric sku id, or suk string.
 	SkuID string `json:"sku_id,omitempty"`
 }
 

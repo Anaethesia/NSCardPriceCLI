@@ -891,7 +891,7 @@
     "enabled": true,
     "merchant_ids": {
       "laolieren": {
-        "game_id": "3432"
+        "game_id": ""
       },
       "huoqiangshou": {
         "game_id": "3017"
@@ -1802,12 +1802,15 @@
       "huoqiangshou": {
         "game_id": "1272"
       },
+      "buerjia": {
+        "game_id": "100"
+      },
       "hangzhouxizi": {
         "game_id": "109",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
       },
       "hailuo": {
-        "game_id": ""
+        "game_id": "1085"
       },
       "mogushijian": {
         "game_id": "1898"
@@ -2528,7 +2531,7 @@
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
       },
       "hailuo": {
-        "game_id": ""
+        "game_id": "1032"
       },
       "mogushijian": {
         "game_id": "1242"
@@ -3713,10 +3716,10 @@
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
       },
       "hailuo": {
-        "game_id": ""
+        "game_id": "1065"
       },
       "mogushijian": {
-        "game_id": ""
+        "game_id": "2080"
       }
     }
   },
@@ -4215,7 +4218,7 @@
         "game_id": "2450"
       },
       "buerjia": {
-        "game_id": ""
+        "game_id": "8"
       },
       "hangzhouxizi": {
         "game_id": "193",
@@ -4413,7 +4416,7 @@
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
       },
       "hailuo": {
-        "game_id": ""
+        "game_id": "1046"
       },
       "mogushijian": {
         "game_id": "1114"
@@ -4494,7 +4497,7 @@
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
       },
       "hailuo": {
-        "game_id": ""
+        "game_id": "1655"
       },
       "mogushijian": {
         "game_id": "2839"
@@ -4521,10 +4524,11 @@
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
       },
       "hailuo": {
-        "game_id": "2071"
+        "game_id": "2071",
+        "sku_id": "60517"
       },
       "mogushijian": {
-        "game_id": ""
+        "game_id": "2139"
       }
     }
   },
@@ -4548,10 +4552,11 @@
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
       },
       "hailuo": {
-        "game_id": "2070"
+        "game_id": "2070",
+        "sku_id": "60514"
       },
       "mogushijian": {
-        "game_id": ""
+        "game_id": "2140"
       }
     }
   },
@@ -4670,7 +4675,7 @@
     "enabled": true,
     "merchant_ids": {
       "laolieren": {
-        "game_id": ""
+        "game_id": "3375"
       },
       "huoqiangshou": {
         "game_id": "2981"
@@ -4682,7 +4687,8 @@
         "game_id": ""
       },
       "hailuo": {
-        "game_id": "2067"
+        "game_id": "2067",
+        "sku_id": "61719"
       },
       "mogushijian": {
         "game_id": "778"
@@ -4843,7 +4849,7 @@
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
       },
       "hailuo": {
-        "game_id": ""
+        "game_id": "1064"
       },
       "mogushijian": {
         "game_id": "947"
@@ -4899,7 +4905,7 @@
         "game_id": "1054"
       },
       "mogushijian": {
-        "game_id": ""
+        "game_id": "537"
       }
     }
   },
@@ -4928,7 +4934,8 @@
       "mogushijian": {
         "game_id": "2899"
       }
-    }
+    },
+    "search_keyword": "节拍天国"
   },
   {
     "slug": "rune-factory-3",
@@ -6085,7 +6092,8 @@
         "game_id": ""
       },
       "hailuo": {
-        "game_id": "1028"
+        "game_id": "1028",
+        "sku_id": "57825"
       },
       "mogushijian": {
         "game_id": "998"
@@ -6731,10 +6739,10 @@
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
       },
       "hailuo": {
-        "game_id": ""
+        "game_id": "1034"
       },
       "mogushijian": {
-        "game_id": ""
+        "game_id": "417"
       }
     }
   },
@@ -7375,10 +7383,13 @@
         "game_id": "19"
       },
       "hangzhouxizi": {
-        "game_id": ""
+        "game_id": "50",
+        "sku_id": "787",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
       },
       "hailuo": {
-        "game_id": "2061"
+        "game_id": "2061",
+        "sku_id": "61374"
       },
       "mogushijian": {
         "game_id": "2395"
@@ -7602,5 +7613,100 @@
         "game_id": "1769"
       }
     }
+  },
+  {
+    "slug": "pokemon-scarlet-dlc",
+    "name": "NS 宝可梦 朱+DLC同捆",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3374"
+      },
+      "huoqiangshou": {
+        "game_id": "2980"
+      },
+      "buerjia": {
+        "game_id": "448"
+      },
+      "hailuo": {
+        "game_id": "2066",
+        "sku_id": "61877"
+      },
+      "mogushijian": {
+        "game_id": "2783"
+      }
+    },
+    "search_keyword": "朱DLC"
+  },
+  {
+    "slug": "splatoon-3-dlc",
+    "name": "斯普拉遁3+DLC同捆",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "huoqiangshou": {
+        "game_id": "3030"
+      },
+      "buerjia": {
+        "game_id": "447"
+      },
+      "hailuo": {
+        "game_id": "2063",
+        "sku_id": "61886"
+      }
+    }
+  },
+  {
+    "slug": "kirby-wii-deluxe",
+    "name": "NS 星之卡比 Wii 豪华版",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3287"
+      },
+      "huoqiangshou": {
+        "game_id": "2493"
+      },
+      "buerjia": {
+        "game_id": "32"
+      },
+      "hangzhouxizi": {
+        "game_id": "72",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1045"
+      },
+      "mogushijian": {
+        "game_id": "695"
+      }
+    },
+    "search_keyword": "重返梦幻岛"
+  },
+  {
+    "slug": "mario-kart-8-bundle",
+    "name": "马里奥赛车8 同捆",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3400"
+      },
+      "huoqiangshou": {
+        "game_id": "3024"
+      },
+      "buerjia": {
+        "game_id": "1061"
+      },
+      "hailuo": {
+        "game_id": "1111"
+      },
+      "mogushijian": {
+        "game_id": "2637"
+      }
+    },
+    "search_keyword": "马车8同捆"
   }
 ]

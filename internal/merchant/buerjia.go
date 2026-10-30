@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"strings"
 
 	"nscardprice/internal/game"
 	"nscardprice/internal/httpx"
@@ -60,6 +61,12 @@ func (m *buerjia) Fetch(ctx context.Context, entry game.MerchantEntry) (Result, 
 		res.SellPrice = f64ptr(nobox)
 	}
 
+	if buerjiaUnavailable(stringify(data["name"])) {
+		res.Status = StatusUnavailable
+		res.Note = "buerjia 商品标注不收"
+		return res, nil
+	}
+
 	box, boxOK := parse.AsMoney(data["box"])
 	if !boxOK || box == 0 {
 		res.Status = StatusUnavailable
@@ -76,6 +83,13 @@ func (m *buerjia) Fetch(ctx context.Context, entry game.MerchantEntry) (Result, 
 	res.RecyclePrice = f64ptr(recycle)
 	res.Note = note
 	return res, nil
+}
+
+// buerjiaUnavailable reports whether the product name carries 不二家's explicit
+// "不收" annotation (e.g. "日版无中文，不收"). The API still returns a box price
+// for these rows, so the name is the only reliable signal.
+func buerjiaUnavailable(name string) bool {
+	return strings.Contains(name, "不收")
 }
 
 // Catalog pages through 不二家's full product list.

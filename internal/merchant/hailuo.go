@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/url"
+	"sort"
 	"strings"
 
 	"nscardprice/internal/game"
@@ -73,6 +74,18 @@ func (m *hailuo) Fetch(ctx context.Context, entry game.MerchantEntry) (Result, e
 	}
 
 	sell, sellOK := parse.AsMoney(store["price"])
+	sku, skuFound := hailuoPickSKU(parse.Get(payload, "data.productValue"), entry.SkuID)
+	if skuFound {
+		if !sku.Recyclable {
+			res.Status = StatusUnavailable
+			res.Note = "海螺 所选规格不支持回收"
+			if sellOK {
+				res.SellPrice = f64ptr(sell)
+			}
+			return res, nil
+		}
+		sell, sellOK = sku.Price, true
+	}
 	if sellOK {
 		res.SellPrice = f64ptr(sell)
 	}
@@ -104,6 +117,80 @@ func (m *hailuo) Fetch(ctx context.Context, entry game.MerchantEntry) (Result, e
 func hailuoRecyclePrice(sell, diff float64) (float64, bool) {
 	price := sell - diff
 	return price, price > 0
+}
+
+// hailuoSKU is one selectable spec of a 海螺 product. 海螺 publishes each
+// spec's sell price in data.productValue and marks the spec it actually
+// recycles with is_recycle=1. storeInfo.price is only the product default and
+// may be another spec's price or a placeholder (e.g. 9 for an accessory).
+type hailuoSKU struct {
+	Price      float64
+	Recyclable bool
+}
+
+// hailuoPickSKU picks the spec to price. preferred may be a data.productValue
+// key, the numeric sku id, or the suk string stored in games.json. Without a
+// preferred spec it uses the recyclable spec, preferring a used boxed one.
+func hailuoPickSKU(productValue any, preferred string) (hailuoSKU, bool) {
+	values, ok := productValue.(map[string]any)
+	if !ok || len(values) == 0 {
+		return hailuoSKU{}, false
+	}
+	keys := make([]string, 0, len(values))
+	for key := range values {
+		keys = append(keys, key)
+	}
+	sort.Strings(keys)
+
+	if preferred != "" {
+		for _, key := range keys {
+			v, ok := values[key].(map[string]any)
+			if !ok {
+				continue
+			}
+			if key != preferred && stringify(v["id"]) != preferred && stringify(v["suk"]) != preferred {
+				continue
+			}
+			price, ok := parse.AsMoney(v["price"])
+			if !ok {
+				continue
+			}
+			return hailuoSKU{Price: price, Recyclable: stringify(v["is_recycle"]) == "1"}, true
+		}
+	}
+
+	var fallback *hailuoSKU
+	hasRecycleFlag := false
+	for _, key := range keys {
+		v, ok := values[key].(map[string]any)
+		if !ok {
+			continue
+		}
+		if _, exists := v["is_recycle"]; exists {
+			hasRecycleFlag = true
+		}
+		if stringify(v["is_recycle"]) != "1" {
+			continue
+		}
+		price, ok := parse.AsMoney(v["price"])
+		if !ok {
+			continue
+		}
+		sku := hailuoSKU{Price: price, Recyclable: true}
+		if strings.Contains(key, "二手") && (strings.Contains(key, "盒") || strings.Contains(key, "带盒")) {
+			return sku, true
+		}
+		if fallback == nil {
+			fallback = &sku
+		}
+	}
+	if fallback != nil {
+		return *fallback, true
+	}
+	if hasRecycleFlag {
+		return hailuoSKU{Recyclable: false}, true
+	}
+	return hailuoSKU{}, false
 }
 
 // hailuoPlatform maps 海螺's category ids to platforms. 1 is Switch, 41 is
