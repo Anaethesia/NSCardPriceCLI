@@ -7,22 +7,44 @@ description: "使用 nscardprice CLI 查询任天堂 Switch 卡带回收价/售�
 
 本 skill 教 agent 如何调用 `nscardprice` CLI 查询任天堂 Switch 卡带价格。程序读取 `data/games.json` 中的游戏与商家商品 ID，并发查询**六家**回收商：**laolieren（老猎人）、huoqiangshou（火枪手）、buerjia（不二家）、hangzhouxizi（杭州西子）、hailuo（海螺）、mogushijian（蘑菇时间）**。
 
-## 前置：安装 CLI
+## 前置：定位 CLI（不要重复安装）
 
-`nscardprice` 未安装时（`command -v nscardprice` 为空，或 `nscardprice merchants` 不是 6 家），先从 GitHub 安装：
+每次对话先按下面顺序找**仓库和二进制**，命中即停；只有全都没有时才 clone：
 
 ```bash
-git clone https://github.com/Anaethesia/NSCardPriceCLI.git ~/NSCardPriceCLI
-cd ~/NSCardPriceCLI
-go install ./cmd/nscardprice
-export PATH="$(go env GOPATH)/bin:$PATH"   # ~/go/bin 不在 PATH 时需要
-nscardprice merchants                      # 应输出 6 家商家
+# 1) 找仓库：NSCARD_HOME → 当前目录 → 常见克隆位置
+REPO=""
+[ -n "$NSCARD_HOME" ] && [ -d "$NSCARD_HOME/cmd/nscardprice" ] && REPO="$NSCARD_HOME"
+for d in "$PWD" "$PWD/NSCardPriceCLI" "$HOME/NSCardPriceCLI"; do
+  [ -z "$REPO" ] && [ -d "$d/cmd/nscardprice" ] && REPO="$d"
+done
+
+# 2) 找二进制：仓库 bin/ → PATH → ~/go/bin
+BIN=""
+[ -n "$REPO" ] && [ -x "$REPO/bin/nscardprice" ] && BIN="$REPO/bin/nscardprice"
+[ -z "$BIN" ] && command -v nscardprice >/dev/null 2>&1 && BIN="$(command -v nscardprice)"
+[ -z "$BIN" ] && [ -x "$HOME/go/bin/nscardprice" ] && BIN="$HOME/go/bin/nscardprice"
+
+# 3) 仓库在但二进制不在：就地构建（有 Go build cache，约 2s）
+if [ -n "$REPO" ] && [ -z "$BIN" ]; then
+  (cd "$REPO" && go build -o bin/nscardprice ./cmd/nscardprice) && BIN="$REPO/bin/nscardprice"
+fi
+
+# 4) 仓库也没有：浅克隆后再构建
+if [ -z "$REPO" ]; then
+  git clone --depth 1 https://github.com/Anaethesia/NSCardPriceCLI.git "$HOME/NSCardPriceCLI" &&
+  REPO="$HOME/NSCardPriceCLI" &&
+  (cd "$REPO" && go build -o bin/nscardprice ./cmd/nscardprice) && BIN="$REPO/bin/nscardprice"
+fi
+
+[ -n "$REPO" ] && [ -x "$BIN" ] && cd "$REPO" && "$BIN" merchants   # 应输出 6 家商家
 ```
 
-- 已在仓库内则跳过 clone，直接 `go install ./cmd/nscardprice`。
+- **命中即停**：`bin/nscardprice` 存在且 `merchants` 输出 6 家时，不要再 clone 或 `go install`。
+- 优先用仓库内 `bin/nscardprice`（在工作区里，跨对话持久）；`~/go/bin` 只作兜底。
+- 只有需要最新代码时才 `git pull && go build`；日常查价不必每次更新。
 - Go 版本以 `go.mod` 为准（1.26+），低版本会自动下载对应 toolchain。
-- 下文示例都假定当前目录是仓库根目录；不在仓库时先 `cd ~/NSCardPriceCLI`，或用 `--games` / `--custom-file` 指到 clone 后的数据文件。
-- 更新：`cd ~/NSCardPriceCLI && git pull && go install ./cmd/nscardprice`。
+- 下文示例都假定当前目录是仓库根目录；不在仓库时先 `cd "$REPO"`，或用 `--games` / `--custom-file` 指向仓库数据文件。
 
 ## 核心规则（必须遵守）
 
