@@ -52,7 +52,8 @@ fi
 2. **批量查询优先 `--mul`**：一次要查多个游戏时，优先用 `nscardprice query --mul 词1 词2 词3`（最多 5 个）一次查完；若 `--mul` 退出码非 0（如关键词未命中），再逐个 `query` 分开查询。 
 3. **商家指定**：`-m/--merchant` 可重复或逗号分隔，接受 key 或中文名（如 `-m laolieren -m 不二家`、`-m 老猎人,不二家`）；不传 = 查询全部 6 家。
 4. **输出格式**：所有命令的正式输出是 JSON，写到 **stdout**；日志与错误信息写到 **stderr**。解析数据只看 stdout。
-5. **退出码**：`0` = 成功（含部分商家失败、unavailable/skipped 状态）；`1` = 所有商家均失败（没有任何可用结果）；`2` = 用法错误/未找到。默认 `非 0 即失败`；退出码 0 时仍要逐条读取 `status`，跳过 `error` 的商家。
+5. **退出码**：`0` = 成功（含部分商家失败、unavailable/unmapped 状态）；`1` = 所有商家均失败（没有任何可用结果）；`2` = 用法错误/未找到。默认 `非 0 即失败`；退出码 0 时仍要逐条读取 `status`，跳过 `error` 的商家。
+6. **数据源**：`query` 只读 `data/games.json`（默认）或 `data/custom.json`（`--custom`）；`data/lists/*.json` 是商家目录快照，**不参与查询**，只用于维护映射。
 
 
 ## 命令一览
@@ -110,7 +111,7 @@ fi
 }
 ```
 
-`status` 取值：`ok`（有回收价）、`unavailable`（商家当前不收）、`skipped`（该游戏此商家无 game_id）、`error`（请求/解析失败）。
+`status` 取值：`ok`（有回收价）、`unavailable`（商家当前不收）、`unmapped`（该游戏此商家没有配置 game_id，属数据缺口，不是商家不收）、`error`（请求/解析失败）。
 
 ## Few-shot 示例
 

@@ -423,7 +423,7 @@ func TestCLICustomQuery(t *testing.T) {
 		t.Errorf("slug = %q, want custom-kart", gr.Slug)
 	}
 	if len(gr.Results) != 6 {
-		t.Fatalf("got %d results, want 6 (buerjia + 5 skipped)", len(gr.Results))
+		t.Fatalf("got %d results, want 6 (buerjia + 5 unmapped)", len(gr.Results))
 	}
 	for _, r := range gr.Results {
 		if r.Merchant == "buerjia" && r.Status != merchant.StatusOK {

@@ -22,9 +22,11 @@ import (
 const (
 	StatusOK          = "ok"
 	StatusUnavailable = "unavailable"
-	StatusSkipped     = "skipped"
-	StatusError       = "error"
-	StatusReady       = "ready"
+	// StatusUnmapped means no game_id is configured for this merchant. It is a
+	// data-configuration gap, not a merchant refusing the game.
+	StatusUnmapped = "unmapped"
+	StatusError    = "error"
+	StatusReady    = "ready"
 )
 
 // miniUserAgent is the WeChat mini-program user-agent used by these

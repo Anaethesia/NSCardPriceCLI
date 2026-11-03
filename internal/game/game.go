@@ -7,8 +7,8 @@ import "sort"
 
 // MerchantEntry holds the identifiers a game uses at one merchant.
 type MerchantEntry struct {
-	// GameID is the merchant product id. Empty means the game is not tracked
-	// at that merchant (query is skipped).
+	// GameID is the merchant product id. Empty means no mapping is configured
+	// for that merchant; query reports the merchant as unmapped, not unavailable.
 	GameID string `json:"game_id"`
 	// UUID is required by Huozhou Xizi (杭州西子) and can fall back to a
 	// default value.

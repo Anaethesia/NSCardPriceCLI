@@ -103,10 +103,9 @@ func fetchOne(ctx context.Context, g game.Game, key string, reg merchant.Registr
 		return merchant.Result{
 			Merchant:     key,
 			MerchantName: m.Name(),
-			Status:       merchant.StatusSkipped,
+			Status:       merchant.StatusUnmapped,
 			Currency:     "CNY",
-			Note:         "missing game_id",
-			Error:        "missing game_id",
+			Note:         "missing game_id; merchant not queried",
 		}
 	}
 	if dryRun {

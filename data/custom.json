@@ -1543,6 +1543,9 @@
       },
       "hangzhouxizi": {
         "game_id": ""
+      },
+      "hailuo": {
+        "game_id": "2623"
       }
     }
   },
@@ -1850,6 +1853,9 @@
       "hangzhouxizi": {
         "game_id": "342",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "mogushijian": {
+        "game_id": "1304"
       }
     }
   },
@@ -1874,6 +1880,9 @@
       },
       "hailuo": {
         "game_id": "1323"
+      },
+      "mogushijian": {
+        "game_id": "1832"
       }
     }
   },
@@ -1935,6 +1944,12 @@
       "hangzhouxizi": {
         "game_id": "540",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1431"
+      },
+      "mogushijian": {
+        "game_id": "1268"
       }
     }
   },
@@ -1956,6 +1971,9 @@
       "hangzhouxizi": {
         "game_id": "504",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "mogushijian": {
+        "game_id": "2081"
       }
     }
   },
@@ -2130,6 +2148,9 @@
       "hangzhouxizi": {
         "game_id": "336",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1186"
       }
     }
   },
@@ -2171,6 +2192,9 @@
       },
       "hangzhouxizi": {
         "game_id": ""
+      },
+      "hailuo": {
+        "game_id": "2540"
       }
     }
   },
@@ -2334,8 +2358,7 @@
         "game_id": "99"
       },
       "hangzhouxizi": {
-        "game_id": "",
-        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+        "game_id": "111"
       }
     }
   },
@@ -2531,6 +2554,9 @@
       },
       "mogushijian": {
         "game_id": "2852"
+      },
+      "hailuo": {
+        "game_id": "2082"
       }
     }
   },
@@ -2599,6 +2625,9 @@
       },
       "hangzhouxizi": {
         "game_id": ""
+      },
+      "hailuo": {
+        "game_id": "2466"
       }
     }
   },
@@ -2619,6 +2648,9 @@
       },
       "hangzhouxizi": {
         "game_id": ""
+      },
+      "hailuo": {
+        "game_id": "2468"
       }
     }
   },
@@ -2719,6 +2751,9 @@
       "hangzhouxizi": {
         "game_id": "431",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1236"
       }
     }
   },
@@ -2932,6 +2967,12 @@
         "game_id": "849",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
         "sku_id": "1013"
+      },
+      "hailuo": {
+        "game_id": "2019"
+      },
+      "mogushijian": {
+        "game_id": "2851"
       }
     }
   },
@@ -3070,6 +3111,9 @@
       "hangzhouxizi": {
         "game_id": "629",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1642"
       }
     }
   },
@@ -3275,6 +3319,12 @@
         "game_id": "797",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
         "sku_id": "958"
+      },
+      "hailuo": {
+        "game_id": "1650"
+      },
+      "mogushijian": {
+        "game_id": "2658"
       }
     }
   },
@@ -3294,8 +3344,7 @@
         "game_id": "24"
       },
       "hangzhouxizi": {
-        "game_id": "",
-        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+        "game_id": "159"
       },
       "mogushijian": {
         "game_id": "1249"
@@ -3324,6 +3373,9 @@
       },
       "mogushijian": {
         "game_id": "2833"
+      },
+      "hailuo": {
+        "game_id": "2078"
       }
     }
   },
@@ -3345,6 +3397,12 @@
       "hangzhouxizi": {
         "game_id": "435",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1185"
+      },
+      "mogushijian": {
+        "game_id": "1783"
       }
     }
   },
@@ -3369,6 +3427,9 @@
       },
       "hailuo": {
         "game_id": "1066"
+      },
+      "mogushijian": {
+        "game_id": "2290"
       }
     }
   },
@@ -3453,6 +3514,9 @@
       "hangzhouxizi": {
         "game_id": "267",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "mogushijian": {
+        "game_id": "1278"
       }
     }
   },
@@ -3473,6 +3537,9 @@
       },
       "hangzhouxizi": {
         "game_id": ""
+      },
+      "hailuo": {
+        "game_id": "2638"
       }
     }
   },
@@ -3803,6 +3870,9 @@
       },
       "hailuo": {
         "game_id": "1493"
+      },
+      "mogushijian": {
+        "game_id": "1593"
       }
     }
   },
@@ -3870,6 +3940,12 @@
       },
       "hangzhouxizi": {
         "game_id": "516"
+      },
+      "hailuo": {
+        "game_id": "1056"
+      },
+      "mogushijian": {
+        "game_id": "2049"
       }
     }
   },
@@ -3894,6 +3970,9 @@
       },
       "hailuo": {
         "game_id": "1556"
+      },
+      "mogushijian": {
+        "game_id": "2277"
       }
     }
   },
@@ -3915,6 +3994,9 @@
       "hangzhouxizi": {
         "game_id": "852",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1928"
       }
     }
   },
@@ -4102,6 +4184,9 @@
       "hangzhouxizi": {
         "game_id": "300",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1119"
       }
     }
   },
@@ -4123,6 +4208,12 @@
       "hangzhouxizi": {
         "game_id": "251",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1036"
+      },
+      "mogushijian": {
+        "game_id": "1483"
       }
     }
   },
@@ -4147,6 +4238,9 @@
       },
       "hailuo": {
         "game_id": "1079"
+      },
+      "mogushijian": {
+        "game_id": "1146"
       }
     }
   },
@@ -4168,6 +4262,9 @@
       "hangzhouxizi": {
         "game_id": "736",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1634"
       }
     }
   },
@@ -4189,6 +4286,9 @@
       "hangzhouxizi": {
         "game_id": "884",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1698"
       }
     }
   },
@@ -4260,6 +4360,9 @@
       "hangzhouxizi": {
         "game_id": "686",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1289"
       }
     }
   },
@@ -4497,6 +4600,9 @@
       },
       "mogushijian": {
         "game_id": "779"
+      },
+      "hailuo": {
+        "game_id": "2064"
       }
     }
   },
@@ -4521,6 +4627,9 @@
       },
       "hailuo": {
         "game_id": "1356"
+      },
+      "mogushijian": {
+        "game_id": "347"
       }
     }
   },
@@ -4626,6 +4735,9 @@
       },
       "hangzhouxizi": {
         "game_id": ""
+      },
+      "hailuo": {
+        "game_id": "2477"
       }
     }
   },
@@ -4744,6 +4856,12 @@
         "game_id": "861",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
         "sku_id": "1029"
+      },
+      "hailuo": {
+        "game_id": "2157"
+      },
+      "mogushijian": {
+        "game_id": "2871"
       }
     },
     "search_keyword": "三国无双"
@@ -4972,6 +5090,9 @@
       "hangzhouxizi": {
         "game_id": "",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1263"
       }
     }
   },
@@ -5013,7 +5134,7 @@
         "game_id": "3769"
       },
       "huoqiangshou": {
-        "game_id": ""
+        "game_id": "3616"
       },
       "buerjia": {
         "game_id": "1101"
@@ -5024,6 +5145,9 @@
       },
       "hailuo": {
         "game_id": "2408"
+      },
+      "mogushijian": {
+        "game_id": "2903"
       }
     }
   },
@@ -5220,6 +5344,9 @@
       "hangzhouxizi": {
         "game_id": "637",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "mogushijian": {
+        "game_id": "2550"
       }
     }
   },
@@ -5404,6 +5531,12 @@
       "hangzhouxizi": {
         "game_id": "875",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "2297"
+      },
+      "mogushijian": {
+        "game_id": "2882"
       }
     }
   },
@@ -5474,6 +5607,9 @@
       "hangzhouxizi": {
         "game_id": "523",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "mogushijian": {
+        "game_id": "2016"
       }
     }
   },
@@ -5543,6 +5679,9 @@
       },
       "hailuo": {
         "game_id": "1044"
+      },
+      "mogushijian": {
+        "game_id": "2111"
       }
     }
   },
@@ -5567,6 +5706,9 @@
       },
       "hailuo": {
         "game_id": "1463"
+      },
+      "mogushijian": {
+        "game_id": "2613"
       }
     }
   },
@@ -5611,6 +5753,9 @@
       },
       "hangzhouxizi": {
         "game_id": ""
+      },
+      "hailuo": {
+        "game_id": "2439"
       }
     }
   },
@@ -5703,6 +5848,9 @@
       "hangzhouxizi": {
         "game_id": "518",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1121"
       }
     }
   },
@@ -5727,6 +5875,9 @@
       },
       "mogushijian": {
         "game_id": "1846"
+      },
+      "hailuo": {
+        "game_id": "1144"
       }
     }
   },
@@ -5747,6 +5898,9 @@
       },
       "hangzhouxizi": {
         "game_id": ""
+      },
+      "hailuo": {
+        "game_id": "2591"
       }
     }
   },
@@ -5816,6 +5970,9 @@
       },
       "mogushijian": {
         "game_id": "1022"
+      },
+      "hailuo": {
+        "game_id": "1075"
       }
     }
   },
@@ -5916,6 +6073,12 @@
       "hangzhouxizi": {
         "game_id": "658",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1092"
+      },
+      "mogushijian": {
+        "game_id": "1711"
       }
     }
   },
@@ -5937,6 +6100,12 @@
       "hangzhouxizi": {
         "game_id": "658",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1453"
+      },
+      "mogushijian": {
+        "game_id": "1358"
       }
     }
   },
@@ -6100,6 +6269,9 @@
       },
       "hangzhouxizi": {
         "game_id": ""
+      },
+      "hailuo": {
+        "game_id": "2503"
       }
     }
   },
@@ -6145,6 +6317,9 @@
       },
       "hailuo": {
         "game_id": "2342"
+      },
+      "mogushijian": {
+        "game_id": "2283"
       }
     }
   },
@@ -6230,6 +6405,12 @@
         "game_id": "299",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
         "sku_id": "383"
+      },
+      "hailuo": {
+        "game_id": "1432"
+      },
+      "mogushijian": {
+        "game_id": "1664"
       }
     }
   },
@@ -6324,6 +6505,9 @@
       "hangzhouxizi": {
         "game_id": "298",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1102"
       }
     }
   },
@@ -6349,6 +6533,9 @@
       },
       "mogushijian": {
         "game_id": "920"
+      },
+      "hailuo": {
+        "game_id": "1095"
       }
     }
   },
@@ -6393,6 +6580,9 @@
       "hangzhouxizi": {
         "game_id": "890",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "2248"
       }
     }
   },
@@ -6414,8 +6604,15 @@
       "hangzhouxizi": {
         "game_id": "895",
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "2316"
+      },
+      "mogushijian": {
+        "game_id": "2887"
       }
-    }
+    },
+    "search_keyword": "耀西与不可思议的图鉴 不可思议图鉴"
   },
   {
     "slug": "yoshis-crafted-world",
@@ -6653,6 +6850,9 @@
       },
       "hangzhouxizi": {
         "game_id": ""
+      },
+      "hailuo": {
+        "game_id": "1900"
       }
     }
   },

@@ -268,8 +268,10 @@ def cell_for(result):
         return "price", text, float(price)
     if status == "unavailable":
         return "na", "不收", None
-    if status == "skipped":
-        return "na", "未收录", None
+    if status in ("unmapped", "skipped"):
+        # No game_id configured: a data gap, not a merchant refusal. Keep
+        # "skipped" for older CLI binaries.
+        return "gap", "缺ID", None
     if status == "error":
         return "err", "错误", None
     return "na", "—", None
@@ -306,6 +308,7 @@ def build_rows(games, payload):
         top = max(positive) if positive else None
         rows.append(
             {
+                "slug": game.get("slug"),
                 "name": found.get("name") if found else game.get("name"),
                 "platform": found.get("platform") if found else game.get("platform"),
                 "cells": cells,
@@ -426,6 +429,7 @@ CSS = """
   }
   td.price { font-weight: 600; }
   td.na { color: #B3ADA0; font-size: 14px; font-weight: 400; }
+  td.gap { color: #B4513C; font-size: 14px; font-weight: 400; }
   td.err { color: #B4513C; font-size: 14px; font-weight: 400; }
   tbody tr.alt td.hi,
   tbody td.hi {
@@ -678,12 +682,32 @@ def main():
 
     statuses = {}
     highlighted = 0
+    data_gaps = []
     for row in rows:
         if row["top"] is not None:
             highlighted += 1
-        for kind, text, _value in row["cells"]:
-            label = {"price": "ok", "na": text, "err": "error"}[kind]
+        for (key, merchant_name), (kind, text, _value) in zip(MERCHANTS, row["cells"]):
+            label = {"price": "ok", "na": text, "err": "error", "gap": "缺ID"}[kind]
             statuses[label] = statuses.get(label, 0) + 1
+            if kind == "gap":
+                data_gaps.append(
+                    {
+                        "slug": row["slug"],
+                        "name": row["name"],
+                        "merchant": key,
+                        "merchant_name": merchant_name,
+                    }
+                )
+
+    if data_gaps:
+        preview = "、".join(
+            "%s/%s" % (gap["name"], gap["merchant_name"]) for gap in data_gaps[:10]
+        )
+        more = " 等" if len(data_gaps) > 10 else ""
+        sys.stderr.write(
+            "警告：%d 个单元格缺商家 ID（缺ID）：%s%s；请核对 data/lists 后修复 custom.json\n"
+            % (len(data_gaps), preview, more)
+        )
 
     summary = {
         "out": str(out_path),
@@ -691,6 +715,7 @@ def main():
         "merchants": len(MERCHANTS),
         "rows_highlighted": highlighted,
         "cells": statuses,
+        "data_gaps": data_gaps,
         "fetched_at": next((r["fetched_at"] for r in rows if r["fetched_at"]), None),
         "width": WIDTH * 2,
         "height": height * 2,

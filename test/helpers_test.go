@@ -51,10 +51,10 @@ func merchantByName(t *testing.T, key string) merchant.Merchant {
 func expectFetchStatus(t *testing.T, id string, res merchant.Result) {
 	t.Helper()
 	switch res.Status {
-	case merchant.StatusOK, merchant.StatusUnavailable, merchant.StatusSkipped:
+	case merchant.StatusOK, merchant.StatusUnavailable, merchant.StatusUnmapped:
 		// ok: a merchant may not currently buy this game.
 	default:
-		t.Errorf("unexpected status %q for game_id=%s (want ok/unavailable/skipped)", res.Status, id)
+		t.Errorf("unexpected status %q for game_id=%s (want ok/unavailable/unmapped)", res.Status, id)
 	}
 }
 

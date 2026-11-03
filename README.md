@@ -16,7 +16,7 @@ A Go CLI for querying Nintendo Switch cartridge recycle prices. It reads games a
 - Concurrent queries; a failure at one merchant does not affect the others
 - Built-in 0.2s request pacing to avoid triggering merchant rate limits
 - Pure JSON on stdout; logs and errors on stderr
-- Clear exit codes: 0 = success (including partial merchant failures or unavailable/skipped results), 1 = all merchants failed, 2 = usage error
+- Clear exit codes: 0 = success (including partial merchant failures or unavailable/unmapped results), 1 = all merchants failed, 2 = usage error
 
 ## Commands
 

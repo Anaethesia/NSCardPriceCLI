@@ -32,8 +32,8 @@ func TestQueryShouldExit(t *testing.T) {
 			want:    false,
 		},
 		{
-			name:    "unavailable and skipped are usable",
-			results: []collector.GameResult{result(merchant.StatusUnavailable, merchant.StatusSkipped)},
+			name:    "unavailable and unmapped are usable",
+			results: []collector.GameResult{result(merchant.StatusUnavailable, merchant.StatusUnmapped)},
 			want:    false,
 		},
 		{

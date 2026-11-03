@@ -16,7 +16,7 @@ Go 编写的 Nintendo Switch 卡带回收价查询 CLI。读取 `data/games.json
 - 并发查询，单家失败不影响其余商家
 - 内置 0.2s 请求间隔制动，防止高频查询触发商家风控
 - 纯 JSON 输出到 stdout，日志与错误走 stderr
-- 退出码语义清晰：0 成功（含部分商家失败、unavailable/skipped），1 所有商家均失败，2 用法错误
+- 退出码语义清晰：0 成功（含部分商家失败、unavailable/unmapped），1 所有商家均失败，2 用法错误
 
 ## 命令
 

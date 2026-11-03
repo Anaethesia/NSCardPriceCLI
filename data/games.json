@@ -2027,7 +2027,7 @@
         "game_id": "2448"
       },
       "mogushijian": {
-        "game_id": ""
+        "game_id": "2902"
       }
     }
   },
@@ -5353,7 +5353,7 @@
         "game_id": "3769"
       },
       "huoqiangshou": {
-        "game_id": ""
+        "game_id": "3616"
       },
       "buerjia": {
         "game_id": "1101"
@@ -5818,10 +5818,10 @@
         "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
       },
       "hailuo": {
-        "game_id": ""
+        "game_id": "2297"
       },
       "mogushijian": {
-        "game_id": ""
+        "game_id": "2882"
       }
     }
   },
@@ -7231,7 +7231,8 @@
       "mogushijian": {
         "game_id": "2887"
       }
-    }
+    },
+    "search_keyword": "耀西与不可思议的图鉴 不可思议图鉴"
   },
   {
     "slug": "yoshis-crafted-world",
