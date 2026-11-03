@@ -15,6 +15,33 @@ import (
 
 var stripRe = regexp.MustCompile(`[\s\-_/·:：,，。()（）\[\]【】+]+`)
 
+// ns2QueryMarkers are raw-query hints that the user wants the Switch 2
+// version. They are checked before normalization because Normalize removes
+// "ns2" as a noise word.
+var ns2QueryMarkers = []string{"ns2", "switch2", "二代卡", "二代版", "二代"}
+
+// "二代" is intentionally last: it also covers the shorter "二代卡" /
+// "二代版" spellings, while being specific enough for this catalog.
+
+// wantsNS2 reports whether a raw query explicitly asks for the Switch 2
+// version. Spaces and punctuation are ignored, so "NS 2", "Switch 2" and
+// "二代 卡" all count.
+func wantsNS2(q string) bool {
+	compact := stripRe.ReplaceAllString(strings.ToLower(strings.TrimSpace(q)), "")
+	for _, marker := range ns2QueryMarkers {
+		if strings.Contains(compact, marker) {
+			return true
+		}
+	}
+	return false
+}
+
+// isNS2Platform reports whether a game belongs to the Switch 2 catalog.
+func isNS2Platform(platform string) bool {
+	p := strings.ToLower(platform)
+	return strings.Contains(p, "switch 2") || strings.Contains(p, "switch2")
+}
+
 // Normalize lowercases, applies synonyms, strips punctuation and removes noise
 // words. It is exported so tests can assert on the expected normalization.
 func Normalize(s string) string {
@@ -39,10 +66,14 @@ func Query(games []game.Game, q string) []game.Game {
 		return nil
 	}
 	qn := Normalize(q)
+	wantNS2 := wantsNS2(q)
 
 	var out []game.Game
 	for _, g := range games {
 		if !g.Enabled {
+			continue
+		}
+		if wantNS2 && !isNS2Platform(g.Platform) {
 			continue
 		}
 		if matches(g, ql, qn) {
