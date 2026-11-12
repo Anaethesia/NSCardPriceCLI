@@ -39,10 +39,10 @@ if [ -z "$REPO" ]; then
   (cd "$REPO" && go build -o bin/nscardprice ./cmd/nscardprice) && BIN="$REPO/bin/nscardprice"
 fi
 
-[ -n "$REPO" ] && [ -x "$BIN" ] && cd "$REPO" && "$BIN" merchants   # 应输出 6 家商家
+[ -n "$REPO" ] && [ -x "$BIN" ] && cd "$REPO" && "$BIN" merchants   # 应输出 7 家商家
 ```
 
-- **命中即停**：`bin/nscardprice` 存在且 `merchants` 输出 6 家时，不要再 clone 或 `go install`。
+- **命中即停**：`bin/nscardprice` 存在且 `merchants` 输出 7 家时，不要再 clone 或 `go install`。
 - 优先用仓库内 `bin/nscardprice`（在工作区里，跨对话持久）；`~/go/bin` 只作兜底。
 - 图表脚本依次查找 `NSCARD_HOME` → `~/NSCardPriceCLI` → 脚本/当前目录的上级；找不到时用 `--custom-file` 指到 `data/custom.json`。
 - 只有需要最新代码时才 `git pull && go build`；日常出图不必每次更新。

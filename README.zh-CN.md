@@ -2,16 +2,18 @@
 
 # NSCardPriceCLI
 
-Go 编写的 Nintendo Switch 卡带回收价查询 CLI。读取 `data/games.json` 中的游戏与商家商品 ID，查询**老猎人、火枪手、不二家、杭州西子、海螺、蘑菇时间**六家回收商的回收价/售价，以 JSON 输出，方便终端使用或供 agent/脚本消费。
+Go 编写的 Nintendo Switch 卡带回收价查询 CLI。读取 `data/games.json` 中的游戏与商家商品 ID，查询**老猎人、火枪手、不二家、杭州西子、海螺、蘑菇时间、赛博电玩**七家回收商的回收价/售价，以 JSON 输出，方便终端使用或供 agent/脚本消费。
+
+> 说明：赛博电玩是淘宝店铺（`https://shop255640440.taobao.com`），无公开回收价 API；本仓库仅注册其商家 key 供参考，查询时固定返回 `unavailable`（见 `data/urls/saibo.md`）。
 
 ## 功能
 
-- 查询任天堂 Switch 卡带回收价/售价，覆盖六家回收商
+- 查询任天堂 Switch 卡带回收价/售价，覆盖七家回收商
 - 按游戏中文名/关键词模糊匹配，常用简称与别名自动识别
 - 支持按 slug 精确查询（`query --slug`，不区分大小写）
 - 多关键词同时查询（最多 5 个），一次拿到多个游戏的价格
 - 支持独立的自定义游戏库，与内置清单互不影响
-- 一条命令同步六家商家的 NS/NS2 卡带目录，自动过滤其他平台条目
+- 一条命令同步有公开目录的六家商家的 NS/NS2 卡带目录，自动过滤其他平台条目（赛博电玩无公开目录，自动跳过）
 - 差异化解析各家接口：回收价、售价、暂不收购（unavailable）状态
 - 并发查询，单家失败不影响其余商家
 - 内置 0.2s 请求间隔制动，防止高频查询触发商家风控
@@ -34,7 +36,7 @@ nscardprice list laolieren 10                # 列出老猎人卡带目录前 10
 nscardprice list buerjia --all --out data/lists   # 拉全量并落盘到 data/lists/
 nscardprice sync                             # 同步 6 家 NS/NS2 目录到 data/lists
 nscardprice sync -m huoqiangshou             # 只同步指定商家
-nscardprice merchants                        # 列出 6 家商家 key
+nscardprice merchants                        # 列出 7 家商家 key
 nscardprice --version                        # 版本号
 ```
 
@@ -75,7 +77,7 @@ internal/app/       依赖装配
 internal/config/    运行选项与默认值
 internal/game/      领域模型（零依赖）
 internal/gamesrepo/ 游戏清单仓库（JSON 实现）
-internal/merchant/  商家抽象 + 6 家实现
+internal/merchant/  商家抽象 + 7 家实现
 internal/httpx/     带重试/退避/TLS 的 HTTP 封装
 internal/parse/     JSON 解析工具
 internal/collector/ 并发编排与结果聚合

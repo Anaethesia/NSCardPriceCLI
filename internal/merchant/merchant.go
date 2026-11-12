@@ -97,6 +97,7 @@ func NewRegistry(c *httpx.Client) Registry {
 		newHangzhouXizi(c),
 		newHailuo(c),
 		newMogushijian(c),
+		newSaibo(c),
 	} {
 		r[m.Key()] = m
 	}

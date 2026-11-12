@@ -5,7 +5,7 @@ description: "使用 nscardprice CLI 查询任天堂 Switch 卡带回收价/售�
 
 # 功能说明
 
-本 skill 教 agent 如何调用 `nscardprice` CLI 查询任天堂 Switch 卡带价格。程序读取 `data/games.json` 中的游戏与商家商品 ID，并发查询**六家**回收商：**laolieren（老猎人）、huoqiangshou（火枪手）、buerjia（不二家）、hangzhouxizi（杭州西子）、hailuo（海螺）、mogushijian（蘑菇时间）**。
+本 skill 教 agent 如何调用 `nscardprice` CLI 查询任天堂 Switch 卡带价格。程序读取 `data/games.json` 中的游戏与商家商品 ID，并发查询**七家**回收商：**laolieren（老猎人）、huoqiangshou（火枪手）、buerjia（不二家）、hangzhouxizi（杭州西子）、hailuo（海螺）、mogushijian（蘑菇时间）、saibo（赛博电玩）**。其中 saibo（赛博电玩）是淘宝店铺、无公开回收价 API，查询时固定返回 `unavailable`，不参与比价。
 
 ## 前置：定位 CLI（不要重复安装）
 
@@ -37,10 +37,10 @@ if [ -z "$REPO" ]; then
   (cd "$REPO" && go build -o bin/nscardprice ./cmd/nscardprice) && BIN="$REPO/bin/nscardprice"
 fi
 
-[ -n "$REPO" ] && [ -x "$BIN" ] && cd "$REPO" && "$BIN" merchants   # 应输出 6 家商家
+[ -n "$REPO" ] && [ -x "$BIN" ] && cd "$REPO" && "$BIN" merchants   # 应输出 7 家商家
 ```
 
-- **命中即停**：`bin/nscardprice` 存在且 `merchants` 输出 6 家时，不要再 clone 或 `go install`。
+- **命中即停**：`bin/nscardprice` 存在且 `merchants` 输出 7 家时，不要再 clone 或 `go install`。
 - 优先用仓库内 `bin/nscardprice`（在工作区里，跨对话持久）；`~/go/bin` 只作兜底。
 - 只有需要最新代码时才 `git pull && go build`；日常查价不必每次更新。
 - Go 版本以 `go.mod` 为准（1.26+），低版本会自动下载对应 toolchain。
@@ -50,7 +50,7 @@ fi
 
 1. **游戏匹配**：`query` 参数按中文名/关键词模糊匹配（大小写不敏感），常用简称与别名自动识别；需要唯一结果时用 `--slug` 精确匹配。
 2. **批量查询优先 `--mul`**：一次要查多个游戏时，优先用 `nscardprice query --mul 词1 词2 词3`（最多 5 个）一次查完；若 `--mul` 退出码非 0（如关键词未命中），再逐个 `query` 分开查询。 
-3. **商家指定**：`-m/--merchant` 可重复或逗号分隔，接受 key 或中文名（如 `-m laolieren -m 不二家`、`-m 老猎人,不二家`）；不传 = 查询全部 6 家。
+3. **商家指定**：`-m/--merchant` 可重复或逗号分隔，接受 key 或中文名（如 `-m laolieren -m 不二家`、`-m 老猎人,不二家`）；不传 = 查询全部 7 家（saibo 固定 `unavailable`）。
 4. **输出格式**：所有命令的正式输出是 JSON，写到 **stdout**；日志与错误信息写到 **stderr**。解析数据只看 stdout。
 5. **退出码**：`0` = 成功（含部分商家失败、unavailable/skipped 状态）；`1` = 所有商家均失败（没有任何可用结果）；`2` = 用法错误/未找到。默认 `非 0 即失败`；退出码 0 时仍要逐条读取 `status`，跳过 `error` 的商家。
 
@@ -59,7 +59,7 @@ fi
 
 | 命令 | 功能 |
 |------|------|
-| `nscardprice query [关键词]` | 查一个游戏的回收价（默认 6 家全查） |
+| `nscardprice query [关键词]` | 查一个游戏的回收价（默认 7 家全查，saibo 固定 unavailable） |
 | `nscardprice query --slug <slug>` | 按 slug 精确查询（不区分大小写），返回唯一游戏；与 `--all/--mul` 互斥 |
 | `nscardprice query --mul 词1 词2 词3` | 查多个游戏的回收价（空格分隔，最多 5 个，结果按关键词顺序去重合并） |
 | `nscardprice query -c/--custom 关键词` | 只在 `data/custom.json` 自定义库中匹配查价 |
@@ -67,7 +67,7 @@ fi
 | `nscardprice query --all` | 全量查询 games.json 中所有启用游戏 |
 | `nscardprice list <merchant> [count]` | 拉取某商家卡带目录（name + game_id），默认 10 条 |
 | `nscardprice list <merchant> --all` | 拉取某商家全量目录 |
-| `nscardprice sync` | 同步 6 家商家全量目录并过滤出 NS/NS2 后覆盖到 `data/lists/`（可用 `-m` 指定商家） |
+| `nscardprice sync` | 同步有公开目录的 6 家商家全量目录并过滤出 NS/NS2 后覆盖到 `data/lists/`（可用 `-m` 指定商家；赛博电玩无目录自动跳过） |
 | `nscardprice merchants` | 列出支持的商家 key 和中文名 |
 | `nscardprice --version` | 输出版本号 |
 | `nscardprice --help` | 帮助 |
@@ -119,7 +119,7 @@ fi
 ```
 $ nscardprice query 塞尔达旷野
 ```
-→ 输出 1~2 个游戏（旷野之息 + 可能含同捆），每个含 6 家回收价。**注意**：`塞尔达` 会匹配多个游戏；若要唯一结果，用更精确的中文名（如 `双人成行`）。
+→ 输出 1~2 个游戏（旷野之息 + 可能含同捆），每个含 7 家回收价。**注意**：`塞尔达` 会匹配多个游戏；若要唯一结果，用更精确的中文名（如 `双人成行`）。
 
 ### 2. 只查自定义库
 
@@ -140,7 +140,7 @@ $ nscardprice query -m huoqiangshou 王国之泪
 ```
 $ nscardprice query --mul 旷野 马8 双人成行
 ```
-→ 返回 3 个游戏的回收价，每个含 6 家。**注意**：`query --mul` 会按关键词顺序去重合并，若关键词重复，结果会包含重复项。
+→ 返回 3 个游戏的回收价，每个含 7 家。**注意**：`query --mul` 会按关键词顺序去重合并，若关键词重复，结果会包含重复项。
 
 ### 5. 一个关键词对应多款拆分的场景
 
@@ -175,7 +175,7 @@ $ nscardprice query --all
 ```
 $ nscardprice list laolieren 10
 $ nscardprice list buerjia --all --out data/lists
-$ nscardprice sync         # 一条命令同步 6 家，仅保留 NS/NS2，覆盖 data/lists
+$ nscardprice sync         # 一条命令同步 6 家（赛博电玩无公开目录自动跳过），仅保留 NS/NS2，覆盖 data/lists
 ```
 → stdout 输出 `[{name, game_id}, ...]` JSON；同时写入 `data/lists/<merchant>.json`（默认目录），stderr 提示落盘路径。拉回的新 `game_id` 可用于补充 `data/games.json`。
 

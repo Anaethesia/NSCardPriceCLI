@@ -2,16 +2,18 @@ English | [简体中文](README.zh-CN.md)
 
 # NSCardPriceCLI
 
-A Go CLI for querying Nintendo Switch cartridge recycle prices. It reads games and merchant item IDs from `data/games.json`, queries **laolieren (老猎人), huoqiangshou (火枪手), buerjia (不二家), hangzhouxizi (杭州西子), hailuo (海螺), and mogushijian (蘑菇时间)** for recycle/sell prices, and outputs JSON that is easy to consume from a terminal, agent, or script.
+A Go CLI for querying Nintendo Switch cartridge recycle prices. It reads games and merchant item IDs from `data/games.json`, queries **laolieren (老猎人), huoqiangshou (火枪手), buerjia (不二家), hangzhouxizi (杭州西子), hailuo (海螺), mogushijian (蘑菇时间), and saibo (赛博电玩)** for recycle/sell prices, and outputs JSON that is easy to consume from a terminal, agent, or script.
+
+> Note: saibo (赛博电玩) is a Taobao storefront (`https://shop255640440.taobao.com`) with no public recycle-price API; it is registered as a merchant for reference and always reports `unavailable` (see `data/urls/saibo.md`).
 
 ## Features
 
-- Query Nintendo Switch cartridge recycle/sell prices across six recyclers
+- Query Nintendo Switch cartridge recycle/sell prices across seven recyclers
 - Fuzzy matching by Chinese game name/keyword; common abbreviations and aliases are recognized automatically
 - Exact slug lookup (`query --slug`, case-insensitive)
 - Query multiple keywords at once (up to 5) and get several games in one call
 - Independent custom game library that does not affect the built-in catalog
-- Sync the NS/NS2 cartridge catalogs of all six merchants with one command, filtering out other platforms
+- Sync the NS/NS2 cartridge catalogs of all merchants with a public catalog (six; saibo has none), filtering out other platforms
 - Per-merchant response parsing: recycle price, sell price, and unavailable status
 - Concurrent queries; a failure at one merchant does not affect the others
 - Built-in 0.2s request pacing to avoid triggering merchant rate limits
@@ -34,7 +36,7 @@ nscardprice list laolieren 10                # list the first 10 entries of the 
 nscardprice list buerjia --all --out data/lists   # fetch the full catalog and save it to data/lists/
 nscardprice sync                             # sync all six NS/NS2 catalogs to data/lists
 nscardprice sync -m huoqiangshou             # sync only the specified merchant
-nscardprice merchants                        # list the six merchant keys
+nscardprice merchants                        # list the seven merchant keys
 nscardprice --version                        # print the version
 ```
 
@@ -75,7 +77,7 @@ internal/app/       dependency wiring
 internal/config/    runtime options and defaults
 internal/game/      domain models (zero dependencies)
 internal/gamesrepo/ game catalog repository (JSON implementation)
-internal/merchant/  merchant abstraction + six implementations
+internal/merchant/  merchant abstraction + seven implementations
 internal/httpx/     HTTP wrapper with retry/backoff/TLS support
 internal/parse/     JSON parsing helpers
 internal/collector/ concurrent orchestration and result aggregation

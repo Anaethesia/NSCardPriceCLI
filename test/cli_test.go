@@ -60,6 +60,7 @@ func TestCLIMerchants(t *testing.T) {
 		"hangzhouxizi": "杭州西子",
 		"hailuo":       "海螺",
 		"mogushijian":  "蘑菇时间",
+		"saibo":        "赛博电玩",
 	}
 	if len(got) != len(want) {
 		t.Fatalf("got %d merchants, want %d", len(got), len(want))
@@ -107,8 +108,8 @@ func TestCLIQuerySlugAsKeyword(t *testing.T) {
 		if results[i].Slug != w {
 			t.Errorf("games[%d].slug = %q, want %q", i, results[i].Slug, w)
 		}
-		if len(results[i].Results) != 6 {
-			t.Errorf("games[%d] has %d merchant results, want 6", i, len(results[i].Results))
+		if len(results[i].Results) != 7 {
+			t.Errorf("games[%d] has %d merchant results, want 7", i, len(results[i].Results))
 		}
 	}
 }
@@ -128,8 +129,8 @@ func TestCLIQuerySlugExact(t *testing.T) {
 	if gr.Slug != "zelda-breath-of-the-wild" {
 		t.Errorf("slug = %q, want zelda-breath-of-the-wild", gr.Slug)
 	}
-	if len(gr.Results) != 6 {
-		t.Errorf("got %d merchant results, want 6", len(gr.Results))
+	if len(gr.Results) != 7 {
+		t.Errorf("got %d merchant results, want 7", len(gr.Results))
 	}
 }
 
@@ -422,8 +423,8 @@ func TestCLICustomQuery(t *testing.T) {
 	if gr.Slug != "custom-kart" {
 		t.Errorf("slug = %q, want custom-kart", gr.Slug)
 	}
-	if len(gr.Results) != 6 {
-		t.Fatalf("got %d results, want 6 (buerjia + 5 skipped)", len(gr.Results))
+	if len(gr.Results) != 7 {
+		t.Fatalf("got %d results, want 7 (buerjia + 6 skipped)", len(gr.Results))
 	}
 	for _, r := range gr.Results {
 		if r.Merchant == "buerjia" && r.Status != merchant.StatusOK {
