@@ -335,33 +335,6 @@
     "search_keyword": "马里奥 派对"
   },
   {
-    "slug": "nier-automata",
-    "name": "NS 尼尔机械纪元",
-    "platform": "Nintendo Switch",
-    "enabled": true,
-    "merchant_ids": {
-      "laolieren": {
-        "game_id": "3230"
-      },
-      "huoqiangshou": {
-        "game_id": "2427"
-      },
-      "buerjia": {
-        "game_id": "118"
-      },
-      "hangzhouxizi": {
-        "game_id": "264",
-        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
-      },
-      "hailuo": {
-        "game_id": "1138"
-      },
-      "mogushijian": {
-        "game_id": "844"
-      }
-    }
-  },
-  {
     "slug": "luigis-mansion-3",
     "name": "路易吉鬼屋 3",
     "platform": "Nintendo Switch",
@@ -795,6 +768,85 @@
       },
       "mogushijian": {
         "game_id": "2013"
+      }
+    }
+  },
+  {
+    "slug": "xenoblade2-ns2",
+    "name": "NS2 异度之刃2",
+    "platform": "Nintendo Switch 2",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3811"
+      },
+      "huoqiangshou": {
+        "game_id": ""
+      },
+      "buerjia": {
+        "game_id": "1146"
+      },
+      "hangzhouxizi": {
+        "game_id": "925",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "2463"
+      }
+    }
+  },
+  {
+    "slug": "super-mario-party-jamboree",
+    "name": "马里奥派对 空前盛会",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3481"
+      },
+      "huoqiangshou": {
+        "game_id": "3047"
+      },
+      "buerjia": {
+        "game_id": "23"
+      },
+      "hangzhouxizi": {
+        "game_id": "753",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
+        "sku_id": "902"
+      },
+      "hailuo": {
+        "game_id": "1025"
+      },
+      "mogushijian": {
+        "game_id": "106"
+      }
+    }
+  },
+  {
+    "slug": "nier-automata",
+    "name": "NS 尼尔机械纪元",
+    "platform": "Nintendo Switch",
+    "enabled": true,
+    "merchant_ids": {
+      "laolieren": {
+        "game_id": "3230"
+      },
+      "huoqiangshou": {
+        "game_id": "2427"
+      },
+      "buerjia": {
+        "game_id": "118"
+      },
+      "hangzhouxizi": {
+        "game_id": "264",
+        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
+      },
+      "hailuo": {
+        "game_id": "1138"
+      },
+      "mogushijian": {
+        "game_id": "844"
       }
     }
   },
@@ -5541,34 +5593,6 @@
     }
   },
   {
-    "slug": "super-mario-party-jamboree",
-    "name": "马里奥派对 空前盛会",
-    "platform": "Nintendo Switch",
-    "enabled": true,
-    "merchant_ids": {
-      "laolieren": {
-        "game_id": "3481"
-      },
-      "huoqiangshou": {
-        "game_id": "3047"
-      },
-      "buerjia": {
-        "game_id": "23"
-      },
-      "hangzhouxizi": {
-        "game_id": "753",
-        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b",
-        "sku_id": "902"
-      },
-      "hailuo": {
-        "game_id": "1025"
-      },
-      "mogushijian": {
-        "game_id": "106"
-      }
-    }
-  },
-  {
     "slug": "super-robot-wars-30",
     "name": "NS 超级机器人大战30",
     "platform": "Nintendo Switch",
@@ -6460,30 +6484,6 @@
       },
       "mogushijian": {
         "game_id": "2401"
-      }
-    }
-  },
-  {
-    "slug": "xenoblade2-ns2",
-    "name": "NS2 异度之刃2",
-    "platform": "Nintendo Switch 2",
-    "enabled": true,
-    "merchant_ids": {
-      "laolieren": {
-        "game_id": "3811"
-      },
-      "huoqiangshou": {
-        "game_id": ""
-      },
-      "buerjia": {
-        "game_id": "1146"
-      },
-      "hangzhouxizi": {
-        "game_id": "925",
-        "uuid": "6c99e77fba4f44f9ac46b767fd079f0b"
-      },
-      "hailuo": {
-        "game_id": "2463"
       }
     }
   },
